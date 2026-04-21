@@ -8,6 +8,7 @@ import StatsSection from "@/components/Main/Stats";
 import WhyChooseUs from "@/components/Home/WhyChooseUs";
 import Industries from "@/components/Main/Industries";
 import FAQ from "@/components/Home/FAQ";
+import CTA from "@/components/Home/ContactCta";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <StatsSection />
       <WhyChooseUs />
       <Industries />
+      <CTA />
       <FAQ />
     </div>
   );

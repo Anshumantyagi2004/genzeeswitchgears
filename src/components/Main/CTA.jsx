@@ -58,7 +58,7 @@ export default function CTASection() {
 
                     {/* Call Button */}
                     <motion.a
-                        href="tel:+919999999999" // 👉 replace number
+                        href="tel:+919136508089" // 👉 replace number
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         className="bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-200 transition"
