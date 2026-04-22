@@ -49,7 +49,7 @@ export default function CategoryRange() {
       initial="hidden"
       whileInView="show"
     //   viewport={{ once: true }}
-      className="w-full max-w-7xl mx-auto pt-10"
+      className="w-full pt-10 bg-gray-200"
     >
       {/* Heading Animation */}
       <motion.h2
@@ -74,7 +74,7 @@ export default function CategoryRange() {
           640: { slidesPerView: 2 },
           1024: { slidesPerView: 4 },
         }}
-        className="pb-10!"
+        className="pb-10! max-w-7xl mx-auto"
       >
         {products.map((item, index) => (
           <SwiperSlide key={index}>

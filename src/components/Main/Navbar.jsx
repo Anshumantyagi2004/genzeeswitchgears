@@ -53,7 +53,7 @@ export default function Navbar() {
                 </div>
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex items-center gap-5 text-gray-800 font-medium text-lg">
+                <div className="hidden lg:flex items-center gap-5 text-gray-800 font-medium text-lg">
                     <Link href="/" className={getLinkClass("/")}>
                         <FaHome /> Home
                     </Link>
@@ -82,7 +82,7 @@ export default function Navbar() {
                 </div>
 
                 {/* Mobile Menu Button */}
-                <div className="md:hidden text-2xl cursor-pointer bg-gray-800 text-white px-3 py-2 rounded-md">
+                <div className="lg:hidden text-2xl cursor-pointer bg-gray-800 text-white px-3 py-2 rounded-md">
                     {menuOpen ? (
                         <FiX onClick={() => setMenuOpen(false)} />
                     ) : (
@@ -92,7 +92,7 @@ export default function Navbar() {
             </div>
 
             {menuOpen && (
-                <div className="absolute top-full left-0 w-full bg-white shadow-lg z-50 p-5 flex flex-col gap-4 md:hidden">
+                <div className="absolute top-full left-0 w-full bg-white shadow-lg z-50 p-5 flex flex-col gap-4 lg:hidden">
                     <div className="flex items-center border border-gray-800 rounded-md px-3 py-2 text-gray-800">
                         <input
                             type="text"

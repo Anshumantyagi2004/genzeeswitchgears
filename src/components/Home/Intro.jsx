@@ -23,7 +23,7 @@ export default function Intro() {
     const scale = useTransform(scrollYProgress, [0, 1], [0.99, 1]);
 
     return (
-        <section ref={ref} className="h-[180vh] bg-gray-200">
+        <section ref={ref} className="h-[200vh] bg-white">
             <div className="sticky top-8 min-h-screen flex items-center justify-center px-4 md:px-6">
 
                 <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
