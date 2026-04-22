@@ -85,14 +85,14 @@ export default function CategoryRange() {
                 y: -5,
                 transition: { type: "spring", stiffness: 200 },
               }}
-              className="rounded-xl p-2 flex flex-col items-center justify-center h-48 bg-white shadow-md hover:shadow-xl transition"
+              className="rounded-xl p-2 flex flex-col items-center justify-center h-80 bg-white shadow-md hover:shadow-xl transition"
             >
               {/* Image zoom effect */}
               <div className="overflow-hidden rounded-lg w-full">
                 <motion.img
                   src={item.image}
                   alt={item.name}
-                  className="h-40 w-full object-cover"
+                  className="h-70 w-full object-cover"
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.4 }}
                 />
