@@ -22,7 +22,7 @@ export default function Hero() {
         slidesPerView={1}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         pagination={{ clickable: true }}
-        // navigation={true}
+        speed={800}
         loop={true}
         className="h-[70vh]"
       >

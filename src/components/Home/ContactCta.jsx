@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { FaPhoneAlt, FaFileAlt, FaEnvelope } from "react-icons/fa";
 
 export default function CTA() {
@@ -9,11 +10,11 @@ export default function CTA() {
       className="relative py-24 px-6 text-white bg-fixed bg-center bg-cover"
       style={{
         backgroundImage:
-          "url('/download.jpg')",
+          "url('/bg.jpg')",
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-slate-800/80"></div>
+      <div className="absolute inset-0 bg-slate-800/60"></div>
 
       <div className="relative max-w-5xl mx-auto text-center">
         {/* Animated Heading */}
@@ -33,7 +34,7 @@ export default function CTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.6 }}
-          className="mt-4 text-slate-300 max-w-3xl mx-auto"
+          className="mt-4 text-slate-200 max-w-3xl mx-auto"
         >
           Looking for a trusted Industrial Switchgear Manufacturer? Genzee
           Switchgears Private Limited delivers high-quality solutions including
@@ -51,31 +52,31 @@ export default function CTA() {
           className="mt-10 flex flex-col sm:flex-row gap-4 justify-center"
         >
           {/* Quote */}
-          <a
-            href="/quote"
+          <Link
+            href="/contact-us"
             className="flex items-center justify-center gap-2 px-6 py-3 bg-[#ED3A20] hover:bg-red-600 transition rounded-xl font-semibold shadow-lg"
           >
             <FaFileAlt />
             Get a Quote
-          </a>
+          </Link>
 
           {/* Contact */}
-          <a
-            href="/contact"
+          <Link
+            href="/contact-us"
             className="flex items-center justify-center gap-2 px-6 py-3 border border-white/30 hover:border-white transition rounded-xl font-semibold backdrop-blur-md bg-white/10"
           >
             <FaEnvelope />
             Contact Us Today
-          </a>
+          </Link>
 
           {/* Call */}
-          <a
-            href="tel:+91XXXXXXXXXX"
+          <Link
+            href="tel:+919136508089"
             className="flex items-center justify-center gap-2 px-6 py-3 bg-cyan-500 hover:bg-cyan-600 transition rounded-xl font-semibold shadow-lg"
           >
             <FaPhoneAlt />
             Request Callback
-          </a>
+          </Link>
         </motion.div>
       </div>
     </section>

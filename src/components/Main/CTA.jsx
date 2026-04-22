@@ -5,11 +5,9 @@ import { motion } from "framer-motion";
 export default function CTASection() {
     return (
         <section className="relative w-full py-20 flex items-center justify-center">
-
-            {/* BACKGROUND IMAGE */}
             <div className="absolute inset-0">
                 <img
-                    src="/bgBanner.webp" // 👉 replace with your image
+                    src="/banner.jpg" 
                     alt="CTA Background"
                     className="w-full h-full object-cover"
                 />
@@ -17,9 +15,7 @@ export default function CTASection() {
                 <div className="absolute inset-0 bg-black/60"></div>
             </div>
 
-            {/* CONTENT */}
             <div className="relative z-10 max-w-4xl text-center px-6">
-
                 <motion.h2
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -39,7 +35,6 @@ export default function CTASection() {
                     and Three Phase Power Distribution Box solutions.
                 </motion.p>
 
-                {/* BUTTONS */}
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -67,7 +62,6 @@ export default function CTASection() {
                     </motion.a>
 
                 </motion.div>
-
             </div>
         </section>
     );

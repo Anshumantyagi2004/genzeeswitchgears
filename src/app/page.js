@@ -9,6 +9,7 @@ import WhyChooseUs from "@/components/Home/WhyChooseUs";
 import Industries from "@/components/Main/Industries";
 import FAQ from "@/components/Home/FAQ";
 import CTA from "@/components/Home/ContactCta";
+import TestimonialSection from "@/components/Home/Testimonials";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <StatsSection />
       <WhyChooseUs />
       <Industries />
+      <TestimonialSection />
       <CTA />
       <FAQ />
     </div>
