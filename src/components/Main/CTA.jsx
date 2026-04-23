@@ -1,13 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
+import PopupForm from "./ContactPopup";
+import { useState } from "react";
 
 export default function CTASection() {
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <section className="relative w-full py-20 flex items-center justify-center">
             <div className="absolute inset-0">
                 <img
-                    src="/banner.jpg" 
+                    src="/banner.jpg"
                     alt="CTA Background"
                     className="w-full h-full object-cover"
                 />
@@ -43,7 +47,7 @@ export default function CTASection() {
                 >
 
                     {/* Enquire Button */}
-                    <motion.button
+                    <motion.button onClick={() => setIsOpen(true)}
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium transition"
@@ -63,6 +67,11 @@ export default function CTASection() {
 
                 </motion.div>
             </div>
+            <PopupForm
+                isOpen={isOpen}
+                setIsOpen={setIsOpen}
+                formType="contact"
+            />
         </section>
     );
 }

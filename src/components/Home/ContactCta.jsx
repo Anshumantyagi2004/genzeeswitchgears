@@ -3,8 +3,11 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaPhoneAlt, FaFileAlt, FaEnvelope } from "react-icons/fa";
+import PopupForm from "../Main/ContactPopup";
+import { useState } from "react";
 
 export default function CTA() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <section
       className="relative py-24 px-6 text-white bg-fixed bg-center bg-cover"
@@ -52,13 +55,13 @@ export default function CTA() {
           className="mt-10 flex flex-col sm:flex-row gap-4 justify-center"
         >
           {/* Quote */}
-          <Link
-            href="/contact-us"
+          <button
+            onClick={() => setIsOpen(true)}
             className="flex items-center justify-center gap-2 px-6 py-3 bg-[#ED3A20] hover:bg-red-600 transition rounded-xl font-semibold shadow-lg"
           >
             <FaFileAlt />
             Get a Quote
-          </Link>
+          </button>
 
           {/* Contact */}
           <Link
@@ -79,6 +82,12 @@ export default function CTA() {
           </Link>
         </motion.div>
       </div>
+
+      <PopupForm
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        formType="contact"
+      />
     </section>
   );
 }

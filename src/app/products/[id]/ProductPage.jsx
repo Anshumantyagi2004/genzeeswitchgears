@@ -4,7 +4,7 @@ import React, { useState } from "react"
 import { products } from "@/data/data"
 import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
-import { FaWhatsapp, FaFilePdf, FaEnvelope, FaTag } from "react-icons/fa"
+import { FaWhatsapp, FaFilePdf, FaEnvelope, FaTag, FaTags, FaArrowRight } from "react-icons/fa"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Autoplay, Thumbs, EffectFade } from "swiper/modules"
 import "swiper/css"
@@ -17,6 +17,7 @@ import { RxCross2 } from "react-icons/rx"
 export default function ProductPage() {
   const { id } = useParams()
   const product = products.find((p) => p.id === id)
+  const relProduct = products.filter((p) => p.catId === product.catId)
 
   const [thumbsSwiper, setThumbsSwiper] = useState(null)
   const [activeTab, setActiveTab] = useState("overview")
@@ -171,6 +172,54 @@ export default function ProductPage() {
           </AnimatePresence>
         </div>
       </div>
+
+      <section className="bg-gray-100 px-4 lg:px-15 py-10">
+        <h2 className="text-center text-3xl md:text-5xl text-gray-900 mb-6">Related Products</h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
+          {relProduct.filter(i => i.id != product.id).slice(0, 6).map((i, idx) => (
+            <motion.div
+              key={i.id}
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: idx * 0.1, duration: 0.4 }}
+              whileHover={{ scale: 1.05 }}
+              className="group"
+            >
+              <Link href={`/products/${i.id}`}>
+                <div className="bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer transition-all duration-300 group-hover:shadow-xl">
+                  <div className="overflow-hidden">
+                    <img
+                      src={i.image}
+                      alt={i.name}
+                      className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
+                  </div>
+
+                  <div className="px-5 py-2 flex flex-col gap-2">
+                    <h2 className="text-lg font-semibold text-gray-800 group-hover:text-black transition">
+                      {i.name}
+                    </h2>
+
+                    <div className='flex justify-between'>
+                      <div className="flex items-center text-sm text-gray-800 gap-2">
+                        <FaTags className="text-gray-600" />
+                        <span>{i.catName}</span>
+                      </div>
+
+                      <div className="flex items-center gap-2 text-blue-600 font-medium opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <span>View Product</span>
+                        <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+      </section>
 
       <AnimatePresence>
         {isOpen && (
