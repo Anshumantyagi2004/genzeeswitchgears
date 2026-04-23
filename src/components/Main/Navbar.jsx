@@ -25,7 +25,7 @@ export default function Navbar() {
         `flex items-center gap-2 cursor-pointer px-3 py-1.5 rounded-md transition-all
      ${pathname === path
             ? "bg-gray-800 text-white"
-            : "bg-gray-100 text-gray-700 hover:text-blue-600"
+            : "bg-gray-200 text-gray-800 hover:text-blue-600"
         }`;
 
     return (

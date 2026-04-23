@@ -52,12 +52,15 @@ export default function Footer() {
 
                 {/* Products */}
                 <div>
-                    <h3 className="text-white font-semibold mb-3">Products</h3>
+                    <h3 className="text-white font-semibold mb-3">Categories</h3>
                     <ul className="space-y-2 text-base">
-                        <li><Link href="/products" className="hover:text-blue-500">MCB Box</Link></li>
-                        <li><Link href="/products" className="hover:text-blue-500">Busbar Chamber</Link></li>
-                        <li><Link href="/products" className="hover:text-blue-500">Switchgear</Link></li>
-                        <li><Link href="/products" className="hover:text-blue-500">Distribution Box</Link></li>
+                        <li><Link href="/categories/mcb-box" className="hover:text-blue-500">MCB Box</Link></li>
+                        <li><Link href="/categories/busbar-chamber" className="hover:text-blue-500">Busbar Chamber</Link></li>
+                        <li><Link href="/categories/changeover-switch" className="hover:text-blue-500">Changeover Switch</Link></li>
+                        <li><Link href="/categories/electrical-main-switch-box" className="hover:text-blue-500">Electrical Main Switch Box</Link></li>
+                        <li><Link href="/categories/distribution-box" className="hover:text-blue-500">Distribution Box</Link></li>
+                        <li><Link href="/categories/kitkat-cutouts-fuse" className="hover:text-blue-500">Kitkat Cutouts Fuse</Link></li>
+                        <li><Link href="/categories/switchgear" className="hover:text-blue-500">Switchgear</Link></li>
                     </ul>
                 </div>
 
