@@ -15,6 +15,7 @@ import { FiSearch, FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AiOutlineProduct } from "react-icons/ai";
+import { category } from "@/data/data";
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -28,7 +29,7 @@ export default function Navbar() {
         }`;
 
     return (
-        <div className="w-full shadow-md relative sticky top-0 z-40">
+        <div className="w-full shadow-md sticky top-0 z-40">
             <div className="bg-gray-900 text-white text-sm flex justify-between items-center px-4 md:px-6 py-2">
                 <div className="block">
                     GST: 22ABCDE1234F1Z5
@@ -59,9 +60,36 @@ export default function Navbar() {
                         <FaHome /> Home
                     </Link>
 
-                    <Link href="/products" className={getLinkClass("/products")}>
-                        <AiOutlineProduct /> Products
-                    </Link>
+                    <div className="relative group">
+                        <Link href="/products" className={getLinkClass("/products")}>
+                            <AiOutlineProduct /> Products
+                        </Link>
+
+                        <div className="overflow-y-auto scrollbar-hide border border-gray-400 absolute left-0 top-full mt-3 h-[330px] w-[570px] bg-white shadow-xl rounded-xl p-4 overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                            <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 h-full content-start">
+                                {category.map((cat) => (
+                                    <Link key={cat.id}
+                                        href={`/categories/${cat.id}`}
+                                        className="group/card"
+                                    >
+                                        <div className="border border-gray-300 rounded-lg overflow-hidden hover:shadow-md transition">
+                                            <div className="h-30 overflow-hidden">
+                                                <img
+                                                    src={cat.image}
+                                                    alt={cat.name}
+                                                    className="w-full h-full object-cover group-hover/card:scale-105 transition duration-300"
+                                                />
+                                            </div>
+                                            <div className="text-center text-sm font-medium py-1 border-t border-gray-200">
+                                                {cat.name}
+                                            </div>
+                                        </div>
+                                    </Link>
+                                ))}
+                            </div>
+
+                        </div>
+                    </div>
 
                     <Link href="/about-us" className={getLinkClass("/about-us")}>
                         <FaInfoCircle /> About
@@ -109,6 +137,10 @@ export default function Navbar() {
 
                     <Link href="/" className={getLinkClass("/")}>
                         <FaHome /> Home
+                    </Link>
+
+                    <Link href="/products" className={getLinkClass("/products")}>
+                        <AiOutlineProduct /> Products
                     </Link>
 
                     <Link href="/about-us" className={getLinkClass("/about-us")}>

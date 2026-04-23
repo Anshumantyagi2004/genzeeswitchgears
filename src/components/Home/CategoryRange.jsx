@@ -49,7 +49,7 @@ export default function CategoryRange() {
       initial="hidden"
       whileInView="show"
     //   viewport={{ once: true }}
-      className="w-full pt-10 bg-gray-200"
+      className="w-full pt-10 bg-gray-200 px-4"
     >
       {/* Heading Animation */}
       <motion.h2

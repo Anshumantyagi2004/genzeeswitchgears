@@ -1,5 +1,11 @@
 export const category = [
-    { id: "mcb-box", name: "MCB Box", image: "/4.jpeg", }
+    { id: "mcb-box", name: "MCB Box", image: "/closeBox.png", },
+    { id: "busbar-chamber", name: "Busbar Chamber", image: "/openBox.png", },
+    { id: "changeover-switch", name: "Changeover Switch", image: "/closeBox.png", },
+    { id: "electrical-main-switch-box", name: "Electrical Main Switch Box", image: "/openBox.png", },
+    { id: "distribution-box", name: "Distribution Box", image: "/openBox.png", },
+    { id: "kitkat-cutouts-fuse", name: "Kitkat Cutouts Fuse", image: "/openBox.png", },
+    { id: "switchgear", name: "Switchgear", image: "/openBox.png", },
 ]
 
 export const products = [
