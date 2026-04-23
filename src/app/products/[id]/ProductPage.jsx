@@ -11,6 +11,7 @@ import "swiper/css"
 import "swiper/css/thumbs"
 import "swiper/css/effect-fade"
 import { BsEye } from "react-icons/bs"
+import { RxCross2 } from "react-icons/rx"
 
 
 export default function ProductPage() {
@@ -43,7 +44,7 @@ export default function ProductPage() {
         <motion.div
           initial={{ x: -40 }}
           animate={{ x: 0 }}
-          className="h-[400px] w-full"
+          className="h-full md:h-[400px] w-full"
         >
           <Swiper
             modules={[Autoplay]}
@@ -196,7 +197,7 @@ export default function ProductPage() {
                 onClick={() => setIsOpen(false)}
                 className="absolute top-3 right-3 z-10 bg-black text-white rounded-full p-2"
               >
-                ✕
+                <RxCross2 />
               </button>
 
               {/* Image */}
