@@ -30,9 +30,10 @@ export default function Footer() {
                     </div>
 
                     <div className="text-base flex items-start gap-2 mt-2">
-                        <FaLocationDot size={18} className="mt-" />
+                        <FaLocationDot size={18} className="" />
                         <span>
-                            New Delhi – India
+                            First Floor, 345a-345b, Sahibabad, <br />
+                            Gali No 3 Ghaziabad - 201005, <br /> Uttar Pradesh, India
                         </span>
                     </div>
                 </div>

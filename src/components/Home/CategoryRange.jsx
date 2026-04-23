@@ -6,16 +6,17 @@ import { motion } from "framer-motion";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import Link from "next/link";
 
 const products = [
-  { name: "MCB Box", image: "/1.jpeg" },
-  { name: "Busbar Chamber", image: "/2.jpeg" },
-  { name: "Switchgear", image: "/3.jpeg" },
-  { name: "Distribution Box", image: "/4.jpeg" },
-  { name: "MCB Box", image: "/1.jpeg" },
-  { name: "Busbar Chamber", image: "/2.jpeg" },
-  { name: "Switchgear", image: "/3.jpeg" },
-  { name: "Distribution Box", image: "/4.jpeg" },
+  { name: "MCB Box", image: "/1.jpeg", id: "mcb-box" },
+  { name: "Busbar Chamber", image: "/2.jpeg", id: "busbar-chamber" },
+  { name: "Switchgear", image: "/3.jpeg", id: "switchgear" },
+  { name: "Distribution Box", image: "/4.jpeg", id: "distribution-box" },
+  { name: "MCB Box", image: "/1.jpeg", id: "mcb-box" },
+  { name: "Busbar Chamber", image: "/2.jpeg", id: "busbar-chamber" },
+  { name: "Switchgear", image: "/3.jpeg", id: "switchgear" },
+  { name: "Distribution Box", image: "/4.jpeg", id: "distribution-box" },
 ];
 
 // Animation variants
@@ -48,7 +49,7 @@ export default function CategoryRange() {
       variants={containerVariant}
       initial="hidden"
       whileInView="show"
-    //   viewport={{ once: true }}
+      //   viewport={{ once: true }}
       className="w-full pt-10 bg-gray-200 px-4"
     >
       {/* Heading Animation */}
@@ -78,30 +79,32 @@ export default function CategoryRange() {
       >
         {products.map((item, index) => (
           <SwiperSlide key={index}>
-            <motion.div
-              variants={cardVariant}
-              whileHover={{
-                scale: 1.05,
-                y: -5,
-                transition: { type: "spring", stiffness: 200 },
-              }}
-              className="rounded-xl p-2 flex flex-col items-center justify-center h-80 bg-white shadow-md hover:shadow-xl transition"
-            >
-              {/* Image zoom effect */}
-              <div className="overflow-hidden rounded-lg w-full">
-                <motion.img
-                  src={item.image}
-                  alt={item.name}
-                  className="h-70 w-full object-cover"
-                  whileHover={{ scale: 1.1 }}
-                  transition={{ duration: 0.4 }}
-                />
-              </div>
+            <Link href={`/categories/${item.id}`}>
+              <motion.div
+                variants={cardVariant}
+                whileHover={{
+                  scale: 1.05,
+                  y: -5,
+                  transition: { type: "spring", stiffness: 200 },
+                }}
+                className="rounded-xl p-2 flex flex-col items-center justify-center h-80 bg-white shadow-md hover:shadow-xl transition"
+              >
+                {/* Image zoom effect */}
+                <div className="overflow-hidden rounded-lg w-full">
+                  <motion.img
+                    src={item.image}
+                    alt={item.name}
+                    className="h-70 w-full object-cover"
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ duration: 0.4 }}
+                  />
+                </div>
 
-              <p className="text-gray-800 text-lg font-bold text-center mt-2">
-                {item.name}
-              </p>
-            </motion.div>
+                <p className="text-gray-800 text-lg font-bold text-center mt-2">
+                  {item.name}
+                </p>
+              </motion.div>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

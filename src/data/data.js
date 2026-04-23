@@ -104,5 +104,58 @@ export const products = [
             { "Material": "PVC" },
             { "Pack Type": "Box" }
         ]
+    },
+    {
+        "id": "single-door-mcb-distribution-box",
+        "name": "Single Door MCB Distribution Box (Mild Steel)",
+        "catId": "mcb-box",
+        "catName": "MCB Box",
+        "metaTitle": "Single Door MCB Distribution Box",
+        "metaDescription": "Single Door MCB Distribution Box made of Mild Steel for safe and efficient electrical distribution",
+        "image": "/singleDoorBox.png",
+        "pdf": "",
+        "images": [
+            "/singleDoorBox.png",
+            "/singleDoorBoxOpen.png"
+        ],
+
+        "Product Overview": [
+            "The Single Door MCB Distribution Box made from Mild Steel (MS) by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide secure and efficient electrical distribution for residential, commercial, and light industrial applications",
+            "Constructed using high-quality mild steel, the distribution box offers superior strength, durability, and protection against external damage, making it ideal for long-term use in demanding environments",
+            "This 2-way single-phase MCB distribution box is engineered to safely house Miniature Circuit Breakers (MCBs), ensuring proper circuit management and protection against overloads and short circuits",
+            "Designed for systems operating at 50 Hz frequency, the product ensures stable electrical performance and compatibility with standard power supply conditions",
+            "The single-door design allows easy access for installation, inspection, and maintenance, while ensuring that internal components remain protected from dust, moisture, and accidental contact"
+        ],
+
+        "Key Features": [
+            "Made from robust Mild Steel (MS) material that provides excellent mechanical strength, impact resistance, and long service life even in tough operating conditions",
+            "Powder-coated white finish enhances corrosion resistance, prevents rusting, and gives the box a clean and professional appearance",
+            "2-way connection type allows efficient distribution and control of electrical circuits in compact installations",
+            "Designed for single-phase applications, making it suitable for homes, offices, shops, and small-scale industrial setups",
+            "Compatible with 50 Hz frequency systems, ensuring reliable and stable electrical performance",
+            "Single-door configuration offers convenient access for wiring, installation, and maintenance while maintaining safety",
+            "Strong enclosure design protects internal electrical components from environmental factors such as dust, moisture, and physical damage",
+            "Easy wall-mounting design ensures quick installation and space optimization in various electrical setups",
+            "Manufactured under strict quality control, ensuring safety, durability, and consistent performance"
+        ],
+
+        "Why Choose Genzee Switchgears Private Limited": [
+            "Genzee Switchgears Private Limited is a well-known Industrial Switchgear Manufacturer delivering high-quality and reliable electrical distribution solutions across multiple sectors",
+            "As a trusted Switchgear Manufacturer, the company focuses on precision engineering, durable materials, and advanced manufacturing techniques to ensure superior product performance",
+            "Recognized as a dependable MCB Box Manufacturer, offering robust and safe enclosures that enhance electrical system protection and organization",
+            "Strict quality testing and inspection processes ensure that every product meets industry safety standards and delivers consistent performance",
+            "Use of advanced production technology and high-grade materials ensures long-lasting durability and efficient operation",
+            "Competitive pricing makes the products cost-effective without compromising on quality or safety"
+        ],
+
+        "specs": [
+            { "Connection Type": "2 Way" },
+            { "Material": "Mild Steel (MS)" },
+            { "Color": "White" },
+            { "Frequency": "50 Hz" },
+            { "Phase": "Single Phase" },
+            { "Door Type": "Single Door" },
+            { "Pack Type": "Box" }
+        ]
     }
 ]

@@ -96,17 +96,16 @@ export default function ProductPage() {
 
           <div className="flex flex-wrap gap-4 mt-4">
 
-            <a
-              href="https://wa.me/your-number"
+            <a href="https://wa.me/+919136508089"
               target="_blank"
               className="flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition"
             >
               <FaWhatsapp /> WhatsApp Now
             </a>
 
-            <button className="flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">
+            <a href="tel:+919136508089" className="flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">
               <FaEnvelope /> Inquiry Now
-            </button>
+            </a>
 
             <button className="flex items-center gap-2 bg-gray-800 text-white px-5 py-2 rounded-full hover:bg-black transition">
               <FaFilePdf /> Brochure

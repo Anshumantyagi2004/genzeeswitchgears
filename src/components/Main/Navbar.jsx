@@ -32,14 +32,22 @@ export default function Navbar() {
         <div className="w-full shadow-md sticky top-0 z-40">
             <div className="bg-gray-900 text-white text-sm flex justify-between items-center px-4 md:px-6 py-2">
                 <div className="block">
-                    GST: 22ABCDE1234F1Z5
+                    GST: 09AAKCG9855E1Z3
                 </div>
 
                 <div className="flex gap-4 items-center text-lg ml-auto">
-                    <FaPhoneAlt className="cursor-pointer hover:text-red-400" size={18} />
-                    <FaWhatsapp className="cursor-pointer hover:text-green-500" size={20} />
-                    <FaFacebookF className="cursor-pointer hover:text-blue-500" size={18} />
-                    <FaInstagram className="cursor-pointer hover:text-pink-500" size={18} />
+                    <a href="tel:+919136508089" target="_blank" rel="noopener noreferrer">
+                        <FaPhoneAlt className="cursor-pointer hover:text-red-400" size={18} />
+                    </a>
+                    <a href="https://wa.me/+919136508089" target="_blank" rel="noopener noreferrer">
+                        <FaWhatsapp className="cursor-pointer hover:text-green-500" size={20} />
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <FaFacebookF className="cursor-pointer hover:text-blue-500" size={18} />
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <FaInstagram className="cursor-pointer hover:text-pink-500" size={18} />
+                    </a>
                 </div>
             </div>
 
