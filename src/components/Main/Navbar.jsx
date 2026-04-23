@@ -14,6 +14,7 @@ import {
 import { FiSearch, FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { AiOutlineProduct } from "react-icons/ai";
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -56,6 +57,10 @@ export default function Navbar() {
                 <div className="hidden lg:flex items-center gap-5 text-gray-800 font-medium text-lg">
                     <Link href="/" className={getLinkClass("/")}>
                         <FaHome /> Home
+                    </Link>
+
+                    <Link href="/products" className={getLinkClass("/products")}>
+                        <AiOutlineProduct /> Products
                     </Link>
 
                     <Link href="/about-us" className={getLinkClass("/about-us")}>
