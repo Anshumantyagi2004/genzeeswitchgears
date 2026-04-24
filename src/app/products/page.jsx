@@ -44,7 +44,7 @@ export default function page() {
             className="group"
           >
             <Link href={`/products/${i.id}`}>
-              <div className="bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer transition-all duration-300 group-hover:shadow-xl">
+              <div className="bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer transition-all duration-300 group-hover:shadow-xl h-full flex flex-col">
                 <div className="overflow-hidden">
                   <img
                     src={i.image}
@@ -54,7 +54,7 @@ export default function page() {
                 </div>
 
                 <div className="px-5 py-2 flex flex-col gap-2">
-                  <h2 className="text-lg font-semibold text-gray-800 group-hover:text-black transition">
+                  <h2 className="text-lg flex items-center font-semibold text-gray-800 group-hover:text-black transition line-clamp-2 min-h-[3.5rem]">
                     {i.name}
                   </h2>
 

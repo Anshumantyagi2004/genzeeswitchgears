@@ -30,7 +30,11 @@ export default function ProductPage() {
     { id: "overview", label: "Overview", data: product["Product Overview"] },
     { id: "features", label: "Features", data: product["Key Features"] },
     { id: "why", label: "Why Us", data: product["Why Choose Genzee Switchgears Private Limited"] },
-    { id: "specs", label: "Specifications", data: product.specs },
+    {
+      id: "specs",
+      label: "Specifications",
+      data: product.specs || product.variants
+    },
   ]
 
   return (
@@ -150,7 +154,8 @@ export default function ProductPage() {
                       <li key={i}>{item}</li>
                     ))}
                 </ul>
-              ) : (
+              ) : product.specs ? (
+                // 🔹 Normal Specs View
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {product.specs.map((spec, i) => {
                     const key = Object.keys(spec)[0]
@@ -166,6 +171,32 @@ export default function ProductPage() {
                       </div>
                     )
                   })}
+                </div>
+              ) : (
+                // 🔹 Variants Table View
+                <div className="overflow-x-auto">
+                  <table className="min-w-full border rounded-lg">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        {Object.keys(product.variants[0]).map((key, i) => (
+                          <th key={i} className="text-left p-3 border-b text-gray-600">
+                            {key}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {product.variants.map((variant, i) => (
+                        <tr key={i} className="border-t">
+                          {Object.values(variant).map((value, j) => (
+                            <td key={j} className="p-3 text-gray-800">
+                              {value}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
               )}
             </motion.div>
