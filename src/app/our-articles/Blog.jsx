@@ -15,6 +15,7 @@ export default function Blog() {
                 setLoading(false);
             });
     }, []);
+
     return (<>
         <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
             <div
@@ -46,7 +47,7 @@ export default function Blog() {
                 <h1 className="text-3xl md:text-5xl font-bold text-black">
                     Our Articles
                 </h1>
-                <div className="w-20 h-1 bg-[#825746] mx-auto mt-4 rounded-full"></div>
+                <div className="w-20 h-1 bg-gray-800 mx-auto mt-4 rounded-full"></div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
@@ -56,7 +57,7 @@ export default function Blog() {
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: index * 0.2 }}
-                        className="bg-white border border-amber-100 rounded-xl shadow-md overflow-hidden"
+                        className="bg-white border border-gray-100 rounded-xl shadow-md overflow-hidden"
                     >
                         {/* Image */}
                         {loading ? (
@@ -70,7 +71,7 @@ export default function Blog() {
                         )}
 
                         {/* Content */}
-                        <div className="p-4 border-t border-t-amber-100">
+                        <div className="p-4 border-t border-t-gray-100">
                             {loading ? (
                                 <div className="h-4 bg-gray-200 rounded w-3/4 animate-pulse"></div>
                             ) : (
@@ -82,7 +83,7 @@ export default function Blog() {
                             {loading ? (
                                 <div className="h-4 mt-2 bg-gray-200 rounded w-3/4 animate-pulse"></div>
                             ) : (
-                                <Link href={`/our-articles/${item.permalink}`} className="text-[#825746] pt-2 hover:underline font-medium text-sm">
+                                <Link href={`/our-articles/${item.permalink}`} className="text-gray-800 pt-2 hover:underline font-medium text-sm">
                                     Read more →
                                 </Link>
                             )}

@@ -49,7 +49,7 @@ export default async function BlogPage({ params }) {
         <>
             <section
                 style={{
-                    backgroundImage: "url('/luxe-page-main.jpg')",
+                    backgroundImage: "url('/bg2.jpg')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
