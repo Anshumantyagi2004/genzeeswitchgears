@@ -10,6 +10,7 @@ import Industries from "@/components/Main/Industries";
 import FAQ from "@/components/Home/FAQ";
 import CTA from "@/components/Home/ContactCta";
 import TestimonialSection from "@/components/Home/Testimonials";
+import CitesKeyword from "@/components/Home/CityKeyword";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <TestimonialSection />
       <CTA />
       <FAQ />
+      <CitesKeyword />
     </div>
   );
 }

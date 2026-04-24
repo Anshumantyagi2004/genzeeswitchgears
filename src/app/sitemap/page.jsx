@@ -2,7 +2,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import Link from 'next/link';
-import { products, categories, applications, category } from '@/data/data';
+import { products, categories, applications, category, serviceLocations } from '@/data/data';
 
 export default function page() {
     const sitemapItems = [
@@ -57,7 +57,7 @@ export default function page() {
                         key={item.name}
                         href={`categories/${item.id}`}
                         className="p-6 bg-white rounded-xl border border-black content-center
-                         hover:border-blue-600 hover:shadow-lg transition-all text-center"
+                         hover:border-blue-500 hover:shadow-lg transition-all text-center"
                     >
                         {item.name}
                     </Link>
@@ -72,16 +72,16 @@ export default function page() {
                         {item.name}
                     </Link>
                 ))}
-                {/* {serviceLocations.map((item) => (
+                {serviceLocations.map((item) => (
                     <Link
                         key={item.id}
                         href={`${item.href}`}
-                        className="p-6 bg-white rounded-xl border border-amber-300 content-center
-                         hover:border-amber-500 hover:shadow-lg transition-all text-center"
+                        className="p-6 bg-white rounded-xl border border-black content-center
+                         hover:border-blue-500 hover:shadow-lg transition-all text-center"
                     >
-                       {item.label}
+                        Switchgear Manufacturer in {item.label}
                     </Link>
-                ))} */}
+                ))}
             </div>
         </section>
     </>)

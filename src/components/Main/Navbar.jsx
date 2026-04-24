@@ -16,6 +16,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AiOutlineProduct } from "react-icons/ai";
 import { category } from "@/data/data";
+import SearchBar from "./SearchBar";
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -114,14 +115,7 @@ export default function Navbar() {
                     </Link>
 
                     {/* Search */}
-                    <div className="flex items-center border border-gray-800 rounded-md px-3 py-2">
-                        <input
-                            type="text"
-                            placeholder="Search..."
-                            className="outline-none text-base"
-                        />
-                        <FiSearch className="ml-2 text-gray-800" />
-                    </div>
+                    <SearchBar />
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -136,14 +130,7 @@ export default function Navbar() {
 
             {menuOpen && (
                 <div className="absolute top-full left-0 w-full bg-white shadow-lg z-50 p-5 flex flex-col gap-4 lg:hidden">
-                    <div className="flex items-center border border-gray-800 rounded-md px-3 py-2 text-gray-800">
-                        <input
-                            type="text"
-                            placeholder="Search..."
-                            className="outline-none text-base w-full"
-                        />
-                        <FiSearch className="ml-2 text-gray-800" />
-                    </div>
+                    <SearchBar />
 
                     <Link href="/" className={getLinkClass("/")}>
                         <FaHome /> Home
