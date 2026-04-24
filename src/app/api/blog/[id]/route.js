@@ -5,7 +5,7 @@ import { deleteFromR2 } from "@/utils/deleteFromR2";
 
 // GET /api/blog/:id
 export async function GET(_req, { params }) {
-    const { id } = params;
+    const { id } = await params;
     await connect();
 
     const blog = await Blog.findById(id);
@@ -17,7 +17,7 @@ export async function GET(_req, { params }) {
 // PUT /api/blog/:id
 export async function PUT(req, { params }) {
     try {
-        const { id } = params;
+        const { id } = await params;
         await connect();
 
         const formData = await req.formData();
@@ -74,7 +74,7 @@ export async function PUT(req, { params }) {
 // DELETE /api/blog/:id
 export async function DELETE(_req, { params }) {
     try {
-        const { id } = params;
+        const { id } = await params;
         await connect();
 
         const blog = await Blog.findById(id);
