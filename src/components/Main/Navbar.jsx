@@ -20,6 +20,8 @@ import { category } from "@/data/data";
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
     const pathname = usePathname();
+    const adminLayout = pathname.startsWith("/admin")
+    if (adminLayout) return null;
 
     const getLinkClass = (path) =>
         `flex items-center gap-2 cursor-pointer px-3 py-1.5 rounded-md transition-all

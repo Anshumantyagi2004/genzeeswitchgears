@@ -73,7 +73,7 @@ export default function CategoryPage() {
                                             <span>{i.catName}</span>
                                         </div>
 
-                                        <div className="flex items-center gap-2 text-blue-600 font-medium opacity-0 group-hover:opacity-100 transition-all duration-300">
+                                        <div className="text-sm flex items-center gap-2 text-blue-600 font-medium opacity-0 group-hover:opacity-100 transition-all duration-300">
                                             <span>View Product</span>
                                             <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
                                         </div>

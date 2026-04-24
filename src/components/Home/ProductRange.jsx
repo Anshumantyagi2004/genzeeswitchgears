@@ -46,9 +46,8 @@ export default function ProductRange() {
                         whileHover={{ animationPlayState: "paused" }}
                     >
                         {[...products, ...products].map((item, index) => (
-                            <Link href={`${item.id}`}>
+                            <Link href={`${item.id}`} key={index}>
                                 <motion.div
-                                    key={index}
                                     whileHover={{ y: -10 }}
                                     className="w-[320px] bg-white rounded-xl shadow-md p-4 flex flex-col transition-all group"
                                 >

@@ -23,8 +23,8 @@ export default function Intro() {
     const scale = useTransform(scrollYProgress, [0, 1], [0.99, 1]);
 
     return (
-        <section ref={ref} className="h-[200vh] bg-white">
-            <div className="sticky top-8 min-h-screen flex items-center justify-center px-4 md:px-6">
+        <section ref={ref} className="md:h-[200vh] bg-white">
+            <div className="md:sticky md:top-8 md:min-h-screen md:py-0 py-10 flex items-center justify-center px-4 md:px-6">
 
                 <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                     <motion.div
@@ -50,7 +50,7 @@ export default function Intro() {
 
                     <motion.div
                         style={{ scale }}
-                        className="relative flex justify-center items-center order-1 md:order-2"
+                        className="relative md:flex justify-center items-center order-1 md:order-2 hidden"
                     >
 
                         <div className="relative w-full max-w-[1000px] aspect-[3/2]">
