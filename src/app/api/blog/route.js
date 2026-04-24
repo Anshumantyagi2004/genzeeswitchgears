@@ -1,6 +1,6 @@
 import { connect } from "@/Database/db";
 import Blog from "@/models/blog";
-import { uploadToR2 } from "@/utils/uploadToR2"; // adjust path if needed
+import { uploadToR2 } from "@/utils/uploadToR2";
 
 // GET /api/blog
 export async function GET() {
@@ -25,7 +25,7 @@ export async function POST(req) {
     const file = formData.get("image");
 
     let imageUrl = "";
-    let imageKey = "";
+    let imageFileId = ""; // ✅ FIXED
 
     if (file && file.name) {
       const bytes = await file.arrayBuffer();
@@ -35,13 +35,13 @@ export async function POST(req) {
 
       const resUpload = await uploadToR2({
         file: buffer,
-        folder: "genzeeSwitchgears", // ✅ your custom folder
+        folder: "genzeeSwitchgears",
         fileName,
         contentType: file.type,
       });
 
       imageUrl = resUpload.url;
-      imageKey = resUpload.key;
+      imageFileId = resUpload.key; // ✅ FIXED
     }
 
     const blog = await Blog.create({
@@ -52,7 +52,7 @@ export async function POST(req) {
       metaTitle,
       metaDescription,
       image: imageUrl,
-      imageKey, // instead of public_id
+      imageFileId, // ✅ FIXED
     });
 
     return new Response(JSON.stringify(blog), { status: 201 });

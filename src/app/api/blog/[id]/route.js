@@ -40,8 +40,8 @@ export async function PUT(req, { params }) {
         if (newFile && newFile.name) {
 
             // ✅ DELETE OLD IMAGE FROM R2
-            if (existing.imageKey) {
-                await deleteFromR2(existing.imageKey);
+            if (existing.imageFileId) {
+                await deleteFromR2(existing.imageFileId);
             }
 
             // ⬆ UPLOAD NEW IMAGE
@@ -58,7 +58,7 @@ export async function PUT(req, { params }) {
             });
 
             data.image = uploadRes.url;
-            data.imageKey = uploadRes.key;
+            data.imageFileId = uploadRes.key;
         }
 
         const updated = await Blog.findByIdAndUpdate(id, data, { new: true });
@@ -81,8 +81,8 @@ export async function DELETE(_req, { params }) {
         if (!blog) return new Response("Not found", { status: 404 });
 
         // ✅ DELETE IMAGE FROM R2
-        if (blog.imageKey) {
-            await deleteFromR2(blog.imageKey);
+        if (blog.imageFileId) {
+            await deleteFromR2(blog.imageFileId);
         }
 
         await Blog.findByIdAndDelete(id);
