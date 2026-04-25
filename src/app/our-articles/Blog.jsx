@@ -84,7 +84,7 @@ export default function Blog() {
                                 <div className="h-4 mt-2 bg-gray-200 rounded w-3/4 animate-pulse"></div>
                             ) : (
                                 <div className="flex items-center justify-between pt-2">
-                                    <p className="text-sm">Date :{item?.date}</p>
+                                    <p className="text-sm text-gray-800">Date: {new Date(item.date).toLocaleDateString()}</p>
 
                                     <Link href={`/our-articles/${item.permalink}`} className="text-gray-800 hover:underline font-medium text-sm">
                                         Read more →
