@@ -170,7 +170,7 @@ export default function Location() {
             </div>
         </section>
 
-        <CategoryRange />
+        <CategoryRange popup={true} />
 
         <section className="w-full py-10 px-4 lg:px-15 bg-gray-50">
             <div className="grid lg:grid-cols-2 gap-10 items-center">

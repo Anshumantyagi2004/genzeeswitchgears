@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/navigation";
 import Link from "next/link";
+import PopupForm from "../Main/ContactPopup";
+import { useState } from "react";
 
 const products = [
   { name: "MCB Box", image: "/1.jpeg", id: "mcb-box" },
@@ -43,7 +45,9 @@ const cardVariant = {
   },
 };
 
-export default function CategoryRange() {
+export default function CategoryRange({ popup }) {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <motion.div
       variants={containerVariant}
@@ -78,8 +82,8 @@ export default function CategoryRange() {
         className="pb-10! max-w-7xl mx-auto"
       >
         {products.map((item, index) => (
-          <SwiperSlide key={index}>
-            <Link href={`/categories/${item.id}`}>
+          <SwiperSlide key={index} onClick={() => !popup ? "" : setIsOpen(true)}>
+            <Link href={`${popup ? "" : `categories/${item.id}`}`}>
               <motion.div
                 variants={cardVariant}
                 whileHover={{
@@ -108,6 +112,11 @@ export default function CategoryRange() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <PopupForm
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        formType="contact"
+      />
     </motion.div>
   );
 }
