@@ -83,9 +83,13 @@ export default function Blog() {
                             {loading ? (
                                 <div className="h-4 mt-2 bg-gray-200 rounded w-3/4 animate-pulse"></div>
                             ) : (
-                                <Link href={`/our-articles/${item.permalink}`} className="text-gray-800 pt-2 hover:underline font-medium text-sm">
-                                    Read more →
-                                </Link>
+                                <div className="flex items-center justify-between pt-2">
+                                    <p className="text-sm">Date :{item?.date}</p>
+
+                                    <Link href={`/our-articles/${item.permalink}`} className="text-gray-800 hover:underline font-medium text-sm">
+                                        Read more →
+                                    </Link>
+                                </div>
                             )}
                         </div>
                     </motion.div>
