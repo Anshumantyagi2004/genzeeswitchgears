@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 export default function IndustrialSection() {
   return (
     <section className="w-full py-10 bg-white">
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-7xl mx-auto px-4 overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
         {/* LEFT IMAGE */}
         <motion.div
-          initial={{ opacity: 0, x: -60 }}
+          initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: false }}
@@ -30,7 +30,7 @@ export default function IndustrialSection() {
           viewport={{ once: false }}
           className="space-y-4"
         >
-          <h1 className="text-3xl md:text-5xl font-bold text-gray-950">
+          <h1 className="text-3xl lg:text-5xl font-bold text-gray-950">
             Industrial Switchgear Manufacturer
           </h1>
 

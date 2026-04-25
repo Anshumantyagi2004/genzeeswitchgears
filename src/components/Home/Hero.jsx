@@ -23,7 +23,7 @@ export default function Hero() {
         pagination={{ clickable: true }}
         speed={800}
         loop={true}
-        className="h-[60vh] lg:h-[90vh]"
+        className="h-[50vh] md:h-[60vh] lg:h-[90vh]"
       >
         {/* Slide 1 */}
         <SwiperSlide>
