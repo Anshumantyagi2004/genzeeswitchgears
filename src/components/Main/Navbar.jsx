@@ -71,6 +71,10 @@ export default function Navbar() {
                         <FaHome /> Home
                     </Link>
 
+                    <Link href="/about-us" className={getLinkClass("/about-us")}>
+                        <FaInfoCircle /> About
+                    </Link>
+
                     <div className="relative group">
                         <Link href="/products" className={getLinkClass("/products")}>
                             <AiOutlineProduct /> Products
@@ -102,16 +106,12 @@ export default function Navbar() {
                         </div>
                     </div>
 
-                    <Link href="/about-us" className={getLinkClass("/about-us")}>
-                        <FaInfoCircle /> About
+                    <Link href="/our-articles" className={getLinkClass("/our-articles")}>
+                        <FaNewspaper /> Articles
                     </Link>
 
                     <Link href="/contact-us" className={getLinkClass("/contact-us")}>
                         <FaEnvelope /> Contact
-                    </Link>
-
-                    <Link href="/our-articles" className={getLinkClass("/our-articles")}>
-                        <FaNewspaper /> Articles
                     </Link>
 
                     {/* Search */}
