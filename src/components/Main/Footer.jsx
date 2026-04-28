@@ -1,11 +1,11 @@
 "use client";
-
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FaLocationDot, } from "react-icons/fa6";
 import { BiPhoneCall } from "react-icons/bi";
+import { X } from "lucide-react";
 
 export default function Footer() {
     const [open, setOpen] = useState(false);
@@ -86,42 +86,42 @@ export default function Footer() {
             </div>
 
             {/* Popup */}
-            {/* <AnimatePresence>
-        {open && (
-          <>
-            <motion.div
-              className="fixed inset-0 bg-black/70 z-40"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              onClick={() => setOpen(false)}
-            />
+            <AnimatePresence>
+                {open && (
+                    <>
+                        <motion.div
+                            className="fixed inset-0 bg-black/70 z-40"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            onClick={() => setOpen(false)}
+                        />
 
-            <motion.div
-              className="fixed inset-0 z-50 flex items-center justify-center px-4"
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.8, opacity: 0 }}
-            >
-              <div className="relative bg-white rounded-xl shadow-lg max-w-2xl w-full">
+                        <motion.div
+                            className="fixed inset-0 z-50 flex items-center justify-center px-4"
+                            initial={{ scale: 0.8, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            exit={{ scale: 0.8, opacity: 0 }}
+                        >
+                            <div className="relative bg-white rounded-xl shadow-lg max-w-2xl w-full">
 
-                <button
-                  onClick={() => setOpen(false)}
-                  className="absolute top-3 right-3 text-gray-600 hover:text-black"
-                >
-                  <X size={24} />
-                </button>
+                                <button
+                                    onClick={() => setOpen(false)}
+                                    className="absolute top-3 right-3 text-gray-600 hover:text-black"
+                                >
+                                    <X size={24} />
+                                </button>
 
-                <img
-                  src="/cert.webp"
-                  alt="Trust Seal Large"
-                  className="w-full h-auto object-contain rounded"
-                />
-              </div>
-            </motion.div>
-          </>
-        )}
-      </AnimatePresence> */}
+                                <img
+                                    src="/trust Elite certificate (22).png"
+                                    alt="Trust Seal Large"
+                                    className="w-full h-auto object-contain rounded"
+                                />
+                            </div>
+                        </motion.div>
+                    </>
+                )}
+            </AnimatePresence>
 
             {/* Bottom Bar */}
             <div className="border-t flex justify-around border-gray-700 text-center py-4 text-base text-gray-300">
