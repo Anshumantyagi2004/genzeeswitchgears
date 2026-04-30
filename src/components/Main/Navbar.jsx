@@ -55,7 +55,7 @@ export default function Navbar() {
             </div>
 
             <div className="bg-white flex justify-between items-center px-4 md:px-6 py-4">
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2">
                     <Image
                         src="/logo.webp"
                         alt="Genzeeswitchgears Logo"
@@ -63,6 +63,8 @@ export default function Navbar() {
                         height={60}
                         className="w-auto h-12"
                     />
+
+                    <span className="text-gray-800 py-2 px-4 text-2xl font-bold rounded-md">Genzee Switchgears</span>
                 </div>
 
                 {/* Desktop Menu */}

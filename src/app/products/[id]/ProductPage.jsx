@@ -96,24 +96,37 @@ export default function ProductPage() {
           </div>
 
           <p className="text-gray-800 font-medium leading-relaxed mt-6">
-            {product["Product Overview"][0]}
+            {product["Product Overview"][0]} {product["Product Overview"][1]}
           </p>
 
           <div className="flex flex-wrap gap-4 mt-4">
-
-            <a href="https://wa.me/+919136508089"
+            <a
+              href="https://wa.me/+919136508089"
               target="_blank"
-              className="flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition"
+              className="relative border border-gray-300 flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-md overflow-hidden group"
             >
-              <FaWhatsapp /> WhatsApp Now
+              <FaWhatsapp size={20} />
+              WhatsApp Now
+
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-bottom"></span>
             </a>
 
-            <a href="tel:+919136508089" className="flex items-center gap-2 bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">
-              <FaEnvelope /> Inquiry Now
+            <a
+              href="tel:+919136508089"
+              target="_blank"
+              className="relative border border-gray-300 flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-md overflow-hidden group"
+            >
+              <FaEnvelope size={20} />
+              Inquiry Now
+
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-bottom"></span>
             </a>
 
-            <button className="flex items-center gap-2 bg-gray-800 text-white px-5 py-2 rounded-full hover:bg-black transition">
-              <FaFilePdf /> Brochure
+            <button className="relative border border-gray-300 flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-md overflow-hidden group">
+              <FaFilePdf size={20} />
+              Brochure
+
+              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-bottom"></span>
             </button>
 
           </div>
@@ -121,22 +134,25 @@ export default function ProductPage() {
       </div>
 
       <div className="px-4 md:px-15 py-10">
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap gap-6">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`px-4 py-2 rounded-full text-sm transition ${activeTab === tab.id
-                ? "bg-black text-white"
-                : "bg-gray-300 border border-gray-50 hover:border-gray-400 text-black"
-                }`}
+              className="relative px-4 py-2 text-sm text-black group bg-white rounded-md"
             >
               {tab.label}
+
+              {/* underline */}
+              <span
+                className={`absolute left-0 bottom-0 w-full h-[2px] bg-gray-800 transition-transform duration-300 origin-bottom 
+        ${activeTab === tab.id ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"}`}
+              ></span>
             </button>
           ))}
         </div>
 
-        <div className="mt-6">
+        <div className="mt-4">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeTab}
