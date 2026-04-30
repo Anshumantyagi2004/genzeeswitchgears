@@ -99,7 +99,7 @@ export default function ProductPage() {
             {product["Product Overview"][0]} {product["Product Overview"][1]}
           </p>
 
-          <div className="flex flex-wrap gap-4 mt-4">
+          <div className="flex flex-wrap gap-4 mt-6">
             <a
               href="https://wa.me/+919136508089"
               target="_blank"

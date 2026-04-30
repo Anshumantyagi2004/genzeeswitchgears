@@ -61,7 +61,7 @@ export default function CategoryRange({ popup }) {
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-gray-800 text-center text-3xl md:text-5xl font-semibold mb-6"
+        className="text-gray-800 text-center text-3xl md:text-5xl font-semibold"
       >
         PRODUCT RANGE
       </motion.h2>
@@ -79,10 +79,10 @@ export default function CategoryRange({ popup }) {
           640: { slidesPerView: 2 },
           1024: { slidesPerView: 4 },
         }}
-        className="pb-10! max-w-7xl mx-auto"
+        className="py-10! max-w-7xl mx-auto"
       >
         {products.map((item, index) => (
-          <SwiperSlide key={index} onClick={() => !popup ? "" : setIsOpen(true)}>
+          <SwiperSlide key={index}>
             <Link href={`${popup ? "" : `categories/${item.id}`}`}>
               <motion.div
                 variants={cardVariant}
@@ -91,7 +91,7 @@ export default function CategoryRange({ popup }) {
                   y: -5,
                   transition: { type: "spring", stiffness: 200 },
                 }}
-                className="rounded-xl p-2 flex flex-col items-center justify-center h-80 bg-white shadow-md hover:shadow-xl transition"
+                className="rounded-xl p-2 flex flex-col items-center justify-center h-85 bg-white shadow-md hover:shadow-xl transition"
               >
                 {/* Image zoom effect */}
                 <div className="overflow-hidden rounded-lg w-full">
@@ -107,6 +107,11 @@ export default function CategoryRange({ popup }) {
                 <p className="text-gray-800 text-lg font-bold text-center mt-2">
                   {item.name}
                 </p>
+
+                {popup &&
+                  <button onClick={() => !popup ? "" : setIsOpen(true)} className="bg-gray-800 hover:bg-gray-950 text-white py-2 w-full rounded-md mt-2">
+                    Inquiry Now
+                  </button>}
               </motion.div>
             </Link>
           </SwiperSlide>

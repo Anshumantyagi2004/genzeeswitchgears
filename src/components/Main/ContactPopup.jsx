@@ -1,10 +1,10 @@
 "use client";
-
 import axios from "axios";
 import { AnimatePresence, motion } from "framer-motion";
 import { RxCross2 } from "react-icons/rx";
 import { toast } from "react-hot-toast";
 import { useState } from "react";
+import { User, Mail, Phone, MessageSquare } from "lucide-react";
 
 const formConfigs = {
     contact: {
@@ -17,6 +17,13 @@ const formConfigs = {
             { name: "message", type: "textarea", placeholder: "Your Requirement" },
         ],
     },
+};
+
+const fieldIcons = {
+    contactPerson: User,
+    email: Mail,
+    phone: Phone,
+    message: MessageSquare,
 };
 
 export default function PopupForm({
@@ -110,37 +117,49 @@ export default function PopupForm({
                             </div>
                         ) : (
                             <>
-                                <h2 className="text-2xl font-bold text-center mb-4 text-gray-800">
+                                <h2 className="text-2xl font-bold text-center mb-6 text-gray-800 flex justify-center items-center flex-col">
                                     {config.title}
+                                    <div className="w-15 h-1 bg-gray-800 text-center rounded-lg mt-1"></div>
                                 </h2>
 
-                                <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-                                    {config.fields.map((field, i) =>
-                                        field.type === "textarea" ? (
-                                            <textarea
-                                                key={i}
-                                                rows={4}
-                                                name={field.name}
-                                                placeholder={field.placeholder}
-                                                required={field.required}
-                                                className="border p-2 rounded-md text-black"
-                                            />
-                                        ) : (
-                                            <input
-                                                key={i}
-                                                type={field.type}
-                                                name={field.name}
-                                                placeholder={field.placeholder}
-                                                required={field.required}
-                                                className="border p-2 rounded-md text-black"
-                                            />
-                                        )
-                                    )}
+                                <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+                                    {config.fields.map((field, i) => {
+                                        const Icon = fieldIcons[field.name];
+
+                                        return (
+                                            <div key={i} className="relative">
+                                                {Icon && (
+                                                    <Icon
+                                                        size={18}
+                                                        className="absolute left-3 top-3 text-gray-500"
+                                                    />
+                                                )}
+
+                                                {field.type === "textarea" ? (
+                                                    <textarea
+                                                        rows={4}
+                                                        name={field.name}
+                                                        placeholder={field.placeholder}
+                                                        required={field.required}
+                                                        className="w-full border border-gray-300 p-2 pl-10 rounded-md text-black focus:outline-none focus:ring-1 focus:ring-gray-400"
+                                                    />
+                                                ) : (
+                                                    <input
+                                                        type={field.type}
+                                                        name={field.name}
+                                                        placeholder={field.placeholder}
+                                                        required={field.required}
+                                                        className="w-full border border-gray-300 p-2 pl-10 rounded-md text-black focus:outline-none focus:ring-1 focus:ring-gray-400"
+                                                    />
+                                                )}
+                                            </div>
+                                        );
+                                    })}
 
                                     <button
                                         type="submit"
                                         disabled={loading}
-                                        className="bg-gray-800 text-white py-3 rounded-md"
+                                        className="bg-gray-800 text-white py-3 rounded-md hover:bg-black transition"
                                     >
                                         {loading ? "Submitting..." : "Submit Inquiry"}
                                     </button>
