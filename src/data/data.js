@@ -66,6 +66,9 @@ export const products = [
             "/openBox.png",
         ],
 
+        "descSPN":"6, 8, 12 & 16 Ways",
+        "descTPN":"4, 6, 8 & 12 Ways",
+
         "Product Overview": [
             "The MCB Distribution Box (Acrylic PVC) from Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe, organized, and efficient electrical distribution for residential and commercial applications",
             "Manufactured using high-quality PVC material with an acrylic front, the distribution box ensures durability, insulation safety, and a modern aesthetic appearance suitable for contemporary electrical installations",
@@ -104,7 +107,13 @@ export const products = [
             { "Door Type": "Single Door" },
             { "Material": "PVC" },
             { "Pack Type": "Box" }
-        ]
+        ],
+        "SPN": {
+            "img":"/products/mcb/spn.png"
+        },
+        "TPN": {
+            "img":"/products/mcb/tpn.png"
+        }
     },
     {
         "id": "single-door-mcb-distribution-box",
@@ -119,6 +128,8 @@ export const products = [
             "/singleDoorBox.png",
             "/singleDoorBoxOpen.png"
         ],
+        "descSPN":"4, 6, 8, 12 & 16 Ways",
+        "descTPN":"4, 6, 8 & 12 Ways",
 
         "Product Overview": [
             "The Single Door MCB Distribution Box made from Mild Steel (MS) by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide secure and efficient electrical distribution for residential, commercial, and light industrial applications",
@@ -158,6 +169,14 @@ export const products = [
             { "Door Type": "Single Door" },
             { "Pack Type": "Box" }
         ]
+        ,
+         "SPN": {
+            "img":"/products/mcb/spn1.png"
+        },
+        "TPN": {
+            "img":"/products/mcb/tpn2.png"
+        }
+
     },
     {
         "id": "h-type-pvc-channel-spl-mcb-distribution-box",
@@ -283,11 +302,12 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "2 Pole MCB Box | Compact Electrical Distribution Box | Genzee Switchgear",
         "metaDescription": "Buy 2 Pole MCB Box from Genzee Switchgear. High-quality, compact electrical distribution box for safe and reliable circuit protection. Leading MCB Box Manufacturer in India.",
-        "image": "/2poleBox.png",
+        "image": "/2 Pole MCB Box.webp",
         "pdf": "",
         "images": [
-            "/2poleBox.png",
-            "/2poleBoxOpen.png"
+            "/2 Pole MCB Box.webp",
+            "/2 Pole MCB Box1.webp"
+            
         ],
 
         "Product Overview": [
@@ -343,11 +363,13 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "Mild Steel TPN MCB Box | Heavy-Duty Electrical Distribution Box | Genzee Switchgear",
         "metaDescription": "Buy Mild Steel TPN MCB Box from Genzee Switchgear. High-quality, heavy-duty electrical distribution box designed for safe and reliable three-phase power distribution. Leading MCB Box Manufacturer in India.",
-        "image": "/tpnBox.png",
+        "image": "/Mild Steel TPN MCB BOX.webp",
         "pdf": "",
         "images": [
-            "/tpnBox.png",
-            "/tpnBoxOpen.png"
+            "/Mild Steel TPN MCB BOX.webp",
+            "/Mild Steel TPN MCB BOX1.webp",
+            "/Mild Steel TPN MCB BOX2.webp",
+            
         ],
 
         "Product Overview": [
@@ -404,11 +426,13 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "Euro Model TPN MCB Box | Three Phase Electrical Distribution Box | Genzee Switchgear",
         "metaDescription": "Buy Euro Model TPN MCB Box from Genzee Switchgear. High-quality three-phase electrical distribution box for safe and reliable power management. Leading MCB Box Manufacturer in India.",
-        "image": "/euroTpnBox.png",
+        "image": "/Euro Model TPN MCB BOX.webp",
         "pdf": "",
         "images": [
-            "/euroTpnBox.png",
-            "/euroTpnBoxOpen.png"
+            "/Euro Model TPN MCB BOX.webp",
+            "/Euro Model TPN MCB BOX1.webp",
+            "/Euro Model TPN MCB BOX2.webp",
+           
         ],
 
         "Product Overview": [
@@ -465,11 +489,13 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "Prime Model MCB Box | Premium Electrical Distribution Box | Genzee Switchgear",
         "metaDescription": "Buy Prime Model MCB Box from Genzee Switchgear. Premium-quality electrical distribution box designed for safe and reliable power management. Leading MCB Box Manufacturer in India.",
-        "image": "/primeModelBox.png",
+        "image": "/Prime Model MCB Box.webp",
         "pdf": "",
         "images": [
-            "/primeModelBox.png",
-            "/primeModelBoxOpen.png"
+            "/Prime Model MCB Box.webp",
+            "/Prime Model MCB Box 1.wepb",
+            "/Prime Model MCB Box 2.webp",
+            
         ],
 
         "Product Overview": [
@@ -526,11 +552,12 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "Full Frame MCB Box | Heavy-Duty Electrical Distribution Box | Genzee Switchgear",
         "metaDescription": "Full Frame MCB Box | Heavy-Duty Electrical Distribution Box | Genzee Switchgear",
-        "image": "/fullFrameBox.png",
+        "image": "/Full Frame MCB Box.webp",
         "pdf": "",
         "images": [
-            "/fullFrameBox.png",
-            "/fullFrameBoxOpen.png"
+            "/Full Frame MCB Box.webp",
+            "/Full Frame MCB Box1.webp",
+         
         ],
 
         "Product Overview": [
@@ -587,12 +614,15 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "Double Door Electrical MCB Box | Durable Distribution Box | Genzee Switchgear",
         "metaDescription": "Buy Double Door Electrical MCB Box from Genzee Switchgear. High-quality and secure electrical distribution box for safe power management. Leading MCB Box Manufacturer in India.",
-        "image": "/doubleDoorBox.png",
+        "image": "/Double Door Electrical MCB Box.webp",
         "pdf": "",
         "images": [
-            "/doubleDoorBox.png",
-            "/doubleDoorBoxOpen.png"
+            "/Double Door Electrical MCB Box.webp",
+            
         ],
+        "descSPN":"6, 8, 12 & 16 Ways",
+        "descTPN":"4, 6, 8 & 12 Ways",
+
 
         "Product Overview": [
             "The Double Door Electrical MCB Box by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide enhanced safety, organized wiring, and efficient electrical distribution for industrial, commercial, and residential applications",
@@ -638,7 +668,13 @@ export const products = [
             { "Voltage": "220 V" },
             { "Phase": "Single Phase" },
             { "Door Type": "Double Door" }
-        ]
+        ],
+         "SPN": {
+            "img":"/products/mcb/spn3.png"
+        },
+        "TPN": {
+            "img":"/products/mcb/tpn3.png"
+        }
     },
     {
         "id": "ac-box-with-plug-socket-without-mcb",
@@ -894,11 +930,13 @@ export const products = [
         "catName": "Busbar Chamber",
         "metaTitle": "Electric Busbar Chamber | High-Performance Electrical Distribution Box | Genzee Switchgear",
         "metaDescription": "Buy Electric Busbar Chamber from Genzee Switchgear. Durable and high-quality electrical busbar solution for safe and efficient power distribution. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/busbarChamber.png",
+        "image": "/Electric Busbar Chamber.webp",
         "pdf": "",
         "images": [
-            "/busbarChamber.png",
-            "/busbarChamberOpen.png"
+            "/Electric Busbar Chamber.webp",
+            "/Electric Busbar Chamber1.webp",
+            "/Electric Busbar Chamber2.webp",
+          
         ],
 
         "Product Overview": [
@@ -949,11 +987,13 @@ export const products = [
         "catName": "Busbar Chamber",
         "metaTitle": "White Grey Busbar Chamber | Durable Electrical Busbar Box | Genzee Switchgear",
         "metaDescription": "Buy White Grey Busbar Chamber from Genzee Switchgear. High-quality and durable electrical busbar solution for safe and efficient power distribution. Leading Busbar Chamber Manufacturer in India.",
-        "image": "/whiteGreyBusbar.png",
+        "image": "/White Grey Busbar Chambers.webp",
         "pdf": "",
         "images": [
-            "/whiteGreyBusbar.png",
-            "/whiteGreyBusbarOpen.png"
+            "/White Grey Busbar Chambers.webp",
+            "/White Grey Busbar Chambers1.webp",
+            "/White Grey Busbar Chambers2.webp",
+
         ],
 
         "Product Overview": [
@@ -1003,11 +1043,13 @@ export const products = [
         "catName": "Busbar Chamber",
         "metaTitle": "63 Amps Busbar Chamber | High-Performance Electrical Busbar Box | Genzee Switchgear",
         "metaDescription": "Buy 63 Amps Busbar Chamber from Genzee Switchgear. Durable and efficient electrical busbar solution for safe 63A power distribution. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/63ampBusbar.png",
+        "image": "/63 Amps Busbar Chamber.webp",
         "pdf": "",
         "images": [
-            "/63ampBusbar.png",
-            "/63ampBusbarOpen.png"
+            "/63 Amps Busbar Chamber.webp",
+            "/63 Amps Busbar Chamber1.webp",
+            "/63 Amps Busbar Chamber2.webp",
+           
         ],
 
         "Product Overview": [
@@ -1060,11 +1102,11 @@ export const products = [
         "catName": "Busbar Chamber",
         "metaTitle": "Industrial Busbar Chambers Manufacturer | High-Performance Busbar Solutions | Genzee Switchgear",
         "metaDescription": "Buy Industrial Busbar Chambers from Genzee Switchgear. High-quality electrical busbar solutions for safe, efficient, and reliable power distribution. Leading Busbar Chamber Manufacturer in India.",
-        "image": "/industrialBusbar.png",
+        "image": "/Industrial Busbar Chambers.webp",
         "pdf": "",
         "images": [
-            "/industrialBusbar.png",
-            "/industrialBusbarOpen.png"
+            "/Industrial Busbar Chambers.webp",
+            "/Industrial Busbar Chambers1.webp"
         ],
 
         "Product Overview": [
@@ -1120,11 +1162,12 @@ export const products = [
         "catName": "Busbar Chamber",
         "metaTitle": "Busbar Chamber Box (Copper) | High Conductivity Electrical Busbar Box | Genzee Switchgear",
         "metaDescription": "Buy Copper Busbar Chamber Box from Genzee Switchgear. Durable and high-conductivity electrical busbar solution for safe power distribution. Leading Industrial Switchgear Manufacturer in India",
-        "image": "/copperBusbar.png",
+        "image": "/Busbar Chamber Box.webp",
         "pdf": "",
         "images": [
-            "/copperBusbar.png",
-            "/copperBusbarOpen.png"
+            "/Busbar Chamber Box.webp",
+            "/Busbar Chamber Box1.webp",
+            
         ],
 
         "Product Overview": [
@@ -1367,11 +1410,11 @@ export const products = [
         "catName": "Changeover Switch",
         "metaTitle": "32A Changeover Switch | Heavy Duty Electrical Power Switch | Genzee Switchgear",
         "metaDescription": "Buy 32A Changeover Switch from Genzee Switchgear. Durable and high-performance electrical switch for safe load transfer and power control. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/32aChangeover.png",
+        "image": "/32 A Changeover Switch.webp",
         "pdf": "",
         "images": [
-            "/32aChangeover.png",
-            "/32aChangeoverOpen.png"
+            "/32 A Changeover Switch.webp",
+            "/32 A Changeover Switch.webp"
         ],
 
         "Product Overview": [
@@ -1424,11 +1467,11 @@ export const products = [
         "catName": "Changeover Switch",
         "metaTitle": "125A Changeover Switch | Heavy Duty Industrial Power Switch | Genzee Switchgear",
         "metaDescription": "Buy 125A Changeover Switch from Genzee Switchgear. Heavy-duty electrical switch for safe and efficient high-load power transfer. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/125aChangeover.png",
+        "image": "/Change Over Switch.webp",
         "pdf": "",
         "images": [
-            "/125aChangeover.png",
-            "/125aChangeoverOpen.png"
+            "/Change Over Switch.webp",
+            "/Change Over Switch1.webp"
         ],
 
         "Product Overview": [
@@ -1478,11 +1521,11 @@ export const products = [
         "catName": "Changeover Switch",
         "metaTitle": "Electrical Changeover Switches Manufacturer | Industrial Power Changeover Switches | Genzee Switchgear",
         "metaDescription": "Buy Electrical Changeover Switches from Genzee Switchgear. Durable and high-performance power switching solutions for safe load transfer. Leading Changeover Switch Manufacturer in India.",
-        "image": "/electricalChangeover.png",
+        "image": "/Electrical Changeover Switches.webp",
         "pdf": "",
         "images": [
-            "/electricalChangeover.png",
-            "/electricalChangeoverOpen.png"
+            "/Electrical Changeover Switches.webp",
+            "/Electrical Changeover Switches1.webp",
         ],
 
         "Product Overview": [
@@ -1533,11 +1576,12 @@ export const products = [
         "catName": "Changeover Switch",
         "metaTitle": "25A Changeover Switch | Compact Electrical Power Switch | Genzee Switchgear",
         "metaDescription": "Buy 25A Changeover Switch from Genzee Switchgear. Durable and efficient electrical switch for safe load transfer and power control. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/25aChangeover.png",
+        "image": "/Change Over Switch.webp",
         "pdf": "",
         "images": [
-            "/25aChangeover.png",
-            "/25aChangeoverOpen.png"
+            "/Change Over Switch.webp",
+            "/Change Over Switch1.webp",
+            
         ],
 
         "Product Overview": [
@@ -1671,11 +1715,11 @@ export const products = [
         "catName": "Electrical Switch Box",
         "metaTitle": "Electrical Main Switch Box (5A) | Compact Power Control Box | Genzee Switchgear",
         "metaDescription": "Buy Electrical Main Switch Box (5A) from Genzee Switchgear. High-quality and compact switch box for safe and efficient low-capacity power control. Leading Switchgear Manufacturer in India.",
-        "image": "/mainSwitchBox.png",
+        "image": "/Electrical Main Switch Box.webp",
         "pdf": "",
         "images": [
-            "/mainSwitchBox.png",
-            "/mainSwitchBoxOpen.png"
+            "/Electrical Main Switch Box.webp",
+            "/Electrical Main Switch Box1.webp",
         ],
 
         "Product Overview": [
@@ -1725,11 +1769,11 @@ export const products = [
         "catName": "Electrical Switch Box",
         "metaTitle": "200A Electric Main Switch | Heavy Duty Industrial Main Switch | Genzee Switchgear",
         "metaDescription": "Buy 200A Electric Main Switch from Genzee Switchgear. Heavy-duty and high-performance main switch for safe and efficient power control in industrial systems. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/200aMainSwitch.png",
+        "image": "/Electrical Main Switch Box.webp",
         "pdf": "",
         "images": [
-            "/200aMainSwitch.png",
-            "/200aMainSwitchOpen.png"
+            "/Electrical Main Switch Box.webp",
+            "/Electrical Main Switch Box1.webp"
         ],
 
         "Product Overview": [
@@ -2195,10 +2239,12 @@ export const products = [
         "catName": "Kitkat Cutouts Fuse",
         "metaTitle": "Kitkat Cutouts Fuse | Electrical Fuse Cutout Switch | Genzee Switchgear",
         "metaDescription": "Buy Kitkat Cutouts Fuse from Genzee Switchgear. Durable and efficient electrical fuse cutout solution for safe circuit protection and power control. Leading Switchgear Manufacturer in India.",
-        "image": "/kitkatCutoutsFuse.png",
+        "image": "/Kitkat Cutouts Fuse.png",
         "pdf": "",
         "images": [
-            "/kitkatCutoutsFuse.png"
+            "/Kitkat Cutouts Fuse.png",
+            "/Kitkat Cutouts Fuse1.webp",
+            "/Kitkat Cutouts Fuse2.webp"
         ],
 
         "specs": [

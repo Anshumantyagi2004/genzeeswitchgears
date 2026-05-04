@@ -33,12 +33,12 @@ export default function Navbar() {
 
     return (
         <div className="w-full shadow-md sticky top-0 z-40">
-            <div className="bg-gray-900 text-white text-sm flex justify-between items-center px-4 md:px-6 py-2">
-                <div className="block">
+            <div className="bg-[#e5e7eb] text-white text-sm flex justify-between items-center px-4 md:px-6 py-2">
+                <div className="block font-bold text-black">
                     GST: 09AAKCG9855E1Z3
                 </div>
 
-                <div className="flex gap-4 items-center text-lg ml-auto">
+                <div className="flex gap-4 items-center text-black text-lg ml-auto">
                     <a href="tel:+919136508089" target="_blank" rel="noopener noreferrer">
                         <FaPhoneAlt className="cursor-pointer hover:text-red-400" size={18} />
                     </a>
