@@ -8,7 +8,7 @@ export default function IndustrialSection() {
       <img
           src="/genzbg.png"
           alt="Genz"
-          className="absolute left-20 top-68 -translate-y-1/2 h-99  "
+          className="absolute hidden lg:block left-20 top-68 -translate-y-1/2 h-99  "
         />
       <div className="max-w-7xl relative mx-auto px-4 overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         
