@@ -23,23 +23,24 @@ export default function Intro() {
   //   const scale = useTransform(scrollYProgress, [0, 1], [0.99, 1]);
 
   return (
-    <section ref={ref} className="bg-white">
-      <div className="min-h-screen py-10 flex items-center justify-center px-4 md:px-6">
+    <section ref={ref} className="relative ">
+        <div className="inset-0 absolute bg-[url('/genbrand.jpeg')] opacity-6 bg-cover z-5 bg-center bg-no-repeat"></div>
+      <div className="min-h-screen py-10 max-w-7xl mx-auto z-10 flex text-black items-center justify-center px-4 md:px-6">
         {" "}
-        <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div className="max-w-7xl text-black z-30 w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <motion.div
             style={{ y: textY, opacity: textOpacity }}
             className="space-y-5 order-2 md:order-1"
           >
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900">
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-black">
               Genzee Switchgears Private Limited
             </h2>
 
-            <h3 className="text-base sm:text-lg md:text-xl text-blue-600 font-semibold">
+            <h3 className="text-base sm:text-lg md:text-xl text-blue-700 font-semibold">
               Powering Industries with Reliable Electrical Solutions
             </h3>
 
-            <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
+            <p className="text-black text-sm sm:text-base leading-relaxed">
               Genzee Switchgears Private Limited is a leading{" "}
               <strong>Industrial Switchgear Manufacturer</strong> offering
               reliable and high-performance electrical distribution solutions
@@ -55,7 +56,7 @@ export default function Intro() {
               environments.
             </p>
 
-            <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
+            <p className="text-black text-sm sm:text-base leading-relaxed">
               With extensive industry experience, we have also established
               ourselves as a trusted{" "}
               <strong>

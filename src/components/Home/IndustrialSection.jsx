@@ -5,11 +5,7 @@ import { motion } from "framer-motion";
 export default function IndustrialSection() {
   return (
     <section className="w-full relative py-10 bg-white">
-      <img
-          src="/genzbg.png"
-          alt="Genz"
-          className="absolute hidden lg:block left-20 top-68 -translate-y-1/2 h-99  "
-        />
+      
       <div className="max-w-7xl relative mx-auto px-4 overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         
         {/* LEFT IMAGE */}
