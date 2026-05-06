@@ -164,7 +164,7 @@ export default function ProductPage() {
           {tabs.map((tab) => (
             <button
               key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
+              onClick={() => setActivdeTab(tab.id)}
               className="relative px-4 py-2 text-sm text-black group bg-white rounded-md"
             >
               {tab.label}
