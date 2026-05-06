@@ -34,7 +34,7 @@ export default function AllProducts() {
 
     <section className="bg-gray-200 px-4 lg:px-15 py-10">
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
-        {products.map((i, idx) => (
+        {products.map((i, idx) => i && i.image ? (
           <motion.div
             key={i.id}
             initial={{ opacity: 0, y: 40 }}
@@ -49,7 +49,7 @@ export default function AllProducts() {
                   <img
                     src={i.image}
                     alt={i.name}
-                    className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-56 object-contain transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
 
@@ -74,7 +74,7 @@ export default function AllProducts() {
               </div>
             </Link>
           </motion.div>
-        ))}
+        ) :null )}
       </div>
     </section>
   </>)

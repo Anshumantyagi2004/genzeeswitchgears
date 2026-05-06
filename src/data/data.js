@@ -122,11 +122,11 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "Single Door MCB Distribution Box (Mild Steel) | Durable Electrical DB Box | Genzee Switchgear",
         "metaDescription": "Buy Single Door MCB Distribution Box (Mild Steel) from Genzee Switchgear. High-quality, safe, and durable electrical distribution box for industrial and commercial use. Leading MCB Box Manufacturer in India.",
-        "image": "/singleDoorBox.png",
+        "image": "/Prime Model MCB Box 2.webp",
         "pdf": "",
         "images": [
-            "/singleDoorBox.png",
-            "/singleDoorBoxOpen.png"
+            "/Prime Model MCB Box 2.webp",
+            
         ],
         "descSPN":"4, 6, 8, 12 & 16 Ways",
         "descTPN":"4, 6, 8 & 12 Ways",
@@ -178,62 +178,62 @@ export const products = [
         }
 
     },
-    {
-        "id": "h-type-pvc-channel-spl-mcb-distribution-box",
-        "name": "H Type PVC Channel SPL MCB Distribution Box",
-        "catId": "mcb-box",
-        "catName": "MCB Box",
-        "metaTitle": "H Type PVC Channel SPL MCB Distribution Box | Durable Electrical DB Box | Genzee Switchgear",
-        "metaDescription": "Buy H Type PVC Channel SPL MCB Distribution Box from Genzee Switchgear. High-quality, durable electrical distribution box designed for safe and efficient power management. Leading MCB Box Manufacturer in India.",
-        "image": "/hTypeBox.png",
-        "pdf": "",
-        "images": [
-            "/hTypeBox.png",
-            "/hTypeBoxOpen.png"
-        ],
+    // {
+    //     "id": "h-type-pvc-channel-spl-mcb-distribution-box",
+    //     "name": "H Type PVC Channel SPL MCB Distribution Box",
+    //     "catId": "mcb-box",
+    //     "catName": "MCB Box",
+    //     "metaTitle": "H Type PVC Channel SPL MCB Distribution Box | Durable Electrical DB Box | Genzee Switchgear",
+    //     "metaDescription": "Buy H Type PVC Channel SPL MCB Distribution Box from Genzee Switchgear. High-quality, durable electrical distribution box designed for safe and efficient power management. Leading MCB Box Manufacturer in India.",
+    //     // "image": "/hTypeBox.png",
+    //     "pdf": "",
+    //     // "images": [
+    //     //     "/hTypeBox.png",
+    //     //     "/hTypeBoxOpen.png"
+    //     // ],
 
-        "Product Overview": [
-            "The H Type PVC Channel SPL MCB Distribution Box by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to deliver safe, efficient, and organized electrical distribution for residential, commercial, and light industrial applications",
-            "Manufactured using high-quality PVC material, this distribution box provides excellent insulation, durability, and resistance to electrical and environmental stress, ensuring long-lasting performance",
-            "The H-type channel design enhances internal wiring management, allowing neat arrangement and improved accessibility of electrical connections within the distribution box",
-            "This 2-way single-phase MCB distribution box is ideal for securely housing Miniature Circuit Breakers (MCBs), protecting electrical circuits from overloads, short circuits, and faults",
-            "Designed for 50 Hz frequency systems, the product ensures stable and reliable operation under standard electrical conditions",
-            "Developed by an experienced Switchgear Manufacturer, this product combines functionality, safety, and modern design for efficient electrical control and distribution"
-        ],
+    //     "Product Overview": [
+    //         "The H Type PVC Channel SPL MCB Distribution Box by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to deliver safe, efficient, and organized electrical distribution for residential, commercial, and light industrial applications",
+    //         "Manufactured using high-quality PVC material, this distribution box provides excellent insulation, durability, and resistance to electrical and environmental stress, ensuring long-lasting performance",
+    //         "The H-type channel design enhances internal wiring management, allowing neat arrangement and improved accessibility of electrical connections within the distribution box",
+    //         "This 2-way single-phase MCB distribution box is ideal for securely housing Miniature Circuit Breakers (MCBs), protecting electrical circuits from overloads, short circuits, and faults",
+    //         "Designed for 50 Hz frequency systems, the product ensures stable and reliable operation under standard electrical conditions",
+    //         "Developed by an experienced Switchgear Manufacturer, this product combines functionality, safety, and modern design for efficient electrical control and distribution"
+    //     ],
 
-        "Key Features": [
-            "Constructed with premium-grade PVC material that offers excellent electrical insulation, lightweight structure, and resistance to corrosion and environmental damage",
-            "H-type channel design ensures organized cable routing, better space utilization, and simplified wiring management within the distribution box",
-            "Equipped with a single-door configuration for easy access, allowing quick inspection, maintenance, and safe operation",
-            "2-way connection type enables efficient control and distribution of multiple electrical circuits in compact installations",
-            "Designed for single-phase applications, making it suitable for homes, offices, shops, and small commercial spaces",
-            "Compatible with 50 Hz frequency, ensuring stable and efficient electrical performance in standard power systems",
-            "Smooth white finish provides a clean and modern appearance, suitable for visible installations",
-            "Manufactured under strict quality standards by a reliable MCB Box Manufacturer, ensuring durability, safety, and consistent performance"
-        ],
+    //     "Key Features": [
+    //         "Constructed with premium-grade PVC material that offers excellent electrical insulation, lightweight structure, and resistance to corrosion and environmental damage",
+    //         "H-type channel design ensures organized cable routing, better space utilization, and simplified wiring management within the distribution box",
+    //         "Equipped with a single-door configuration for easy access, allowing quick inspection, maintenance, and safe operation",
+    //         "2-way connection type enables efficient control and distribution of multiple electrical circuits in compact installations",
+    //         "Designed for single-phase applications, making it suitable for homes, offices, shops, and small commercial spaces",
+    //         "Compatible with 50 Hz frequency, ensuring stable and efficient electrical performance in standard power systems",
+    //         "Smooth white finish provides a clean and modern appearance, suitable for visible installations",
+    //         "Manufactured under strict quality standards by a reliable MCB Box Manufacturer, ensuring durability, safety, and consistent performance"
+    //     ],
 
-        "Why Choose Genzee Switchgears Private Limited": [
-            "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-quality and dependable electrical distribution products",
-            "As a leading Switchgear Manufacturer, the company focuses on advanced engineering, superior materials, and precision manufacturing to ensure optimal performance",
-            "Recognized as a trusted MCB Box Manufacturer, offering safe, durable, and user-friendly distribution boxes for various electrical applications",
-            "Strong emphasis on quality control, with rigorous testing procedures to ensure every product meets safety and performance standards",
-            "Utilization of modern technology and manufacturing processes to deliver innovative and efficient electrical solutions",
-            "Competitive pricing combined with premium quality makes the products highly cost-effective for customers",
-            "Reliable supply chain and production capabilities ensure timely delivery for bulk and project requirements",
-            "Dedicated customer support ensures assistance with product selection, technical guidance, and after-sales service",
-            "Customer-focused approach aimed at building long-term relationships through consistent quality, reliability, and service excellence"
-        ],
+    //     "Why Choose Genzee Switchgears Private Limited": [
+    //         "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-quality and dependable electrical distribution products",
+    //         "As a leading Switchgear Manufacturer, the company focuses on advanced engineering, superior materials, and precision manufacturing to ensure optimal performance",
+    //         "Recognized as a trusted MCB Box Manufacturer, offering safe, durable, and user-friendly distribution boxes for various electrical applications",
+    //         "Strong emphasis on quality control, with rigorous testing procedures to ensure every product meets safety and performance standards",
+    //         "Utilization of modern technology and manufacturing processes to deliver innovative and efficient electrical solutions",
+    //         "Competitive pricing combined with premium quality makes the products highly cost-effective for customers",
+    //         "Reliable supply chain and production capabilities ensure timely delivery for bulk and project requirements",
+    //         "Dedicated customer support ensures assistance with product selection, technical guidance, and after-sales service",
+    //         "Customer-focused approach aimed at building long-term relationships through consistent quality, reliability, and service excellence"
+    //     ],
 
-        "specs": [
-            { "Connection Type": "2 Way" },
-            { "Color": "White" },
-            { "Frequency": "50 Hz" },
-            { "Phase": "Single Phase" },
-            { "Door Type": "Single Door" },
-            { "Material": "PVC" },
-            { "Pack Type": "Box" }
-        ]
-    },
+    //     "specs": [
+    //         { "Connection Type": "2 Way" },
+    //         { "Color": "White" },
+    //         { "Frequency": "50 Hz" },
+    //         { "Phase": "Single Phase" },
+    //         { "Door Type": "Single Door" },
+    //         { "Material": "PVC" },
+    //         { "Pack Type": "Box" }
+    //     ]
+    // },
     {
         "id": "prime-series-mcb-distribution-box",
         "name": "Prime Series MCB Distribution Box",
@@ -241,11 +241,11 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "Prime Series MCB Distribution Box | Premium Electrical DB Box | Genzee Switchgear",
         "metaDescription": "Buy Prime Series MCB Distribution Box from Genzee Switchgear. Premium quality electrical distribution box offering safety, durability, and high performance. Leading MCB Box Manufacturer in India.",
-        "image": "/primeBox.png",
+        "image": "/openBox.png",
         "pdf": "",
         "images": [
-            "/primeBox.png",
-            "/primeBoxOpen.png"
+            "/openBox.png",
+            "/openBox.png"
         ],
 
         "Product Overview": [
@@ -683,12 +683,12 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "A.C. Box with Plug & Socket (Without MCB) | Industrial Electrical Box | Genzee Switchgear",
         "metaDescription": "Buy A.C. Box with Plug & Socket (Without MCB) from Genzee Switchgear. Durable and high-quality electrical solution for safe power connection and distribution. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/acBox.png",
+        // "image": "/acBox.png",
         "pdf": "",
-        "images": [
-            "/acBox.png",
-            "/acBoxOpen.png"
-        ],
+        // "images": [
+        //     "/acBox.png",
+        //     "/acBoxOpen.png"
+        // ],
 
         "Product Overview": [
             "The A.C. Box with Plug & Socket (Without MCB) by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide a reliable and safe power connection solution for air conditioners and other heavy electrical appliances",
@@ -762,12 +762,12 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "A.C. Plug & Socket | Durable Industrial Electrical Plug & Socket | Genzee Switchgear",
         "metaDescription": "Buy A.C. Plug & Socket from Genzee Switchgear. Durable and safe electrical plug and socket solution for industrial and commercial power connections. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/acPlugSocket.png",
+        // "image": "/acPlugSocket.png",
         "pdf": "",
-        "images": [
-            "/acPlugSocket.png",
-            "/acPlugSocket2.png"
-        ],
+        // "images": [
+        //     "/acPlugSocket.png",
+        //     "/acPlugSocket2.png"
+        // ],
 
         "Product Overview": [
             "The A.C. Plug & Socket range by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe, reliable, and efficient electrical connectivity for industrial, commercial, and heavy-duty applications",
@@ -867,12 +867,12 @@ export const products = [
         "catName": "MCB Box",
         "metaTitle": "4 Way SPN MCB Distribution Board | Compact Electrical DB Box | Genzee Switchgear",
         "metaDescription": "Buy 4 Way SPN MCB Distribution Board from Genzee Switchgear. High-quality and durable electrical distribution board for safe power management. Leading MCB Box Manufacturer in India.",
-        "image": "/distributionBoard.png",
+        // "image": "/distributionBoard.png",
         "pdf": "",
-        "images": [
-            "/distributionBoard.png",
-            "/distributionBoardOpen.png"
-        ],
+        // "images": [
+        //     "/distributionBoard.png",
+        //     "/distributionBoardOpen.png"
+        // ],
 
         "Product Overview": [
             "The MCB Distribution Board (4 Way SPN) by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to ensure safe, efficient, and organized electrical power distribution in residential, commercial, and light industrial environments",
@@ -1211,198 +1211,198 @@ export const products = [
     },
 
     //Changeover Switch
-    {
-        "id": "changeover-knife-type-switch",
-        "name": "Change Over Knife Type Switch",
-        "catId": "changeover-switch",
-        "catName": "Changeover Switch",
-        "metaTitle": "Change Over Knife Type Switch | Heavy Duty Electrical Switch | Genzee Switchgear",
-        "metaDescription": "Buy Change Over Knife Type Switch from Genzee Switchgear. Durable and heavy-duty electrical switch designed for safe load transfer and power control. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/changeoverKnife.png",
-        "pdf": "",
-        "images": [
-            "/changeoverKnife.png",
-            "/changeoverKnifeOpen.png"
-        ],
+    // {
+    //     "id": "changeover-knife-type-switch",
+    //     "name": "Change Over Knife Type Switch",
+    //     "catId": "changeover-switch",
+    //     "catName": "Changeover Switch",
+    //     "metaTitle": "Change Over Knife Type Switch | Heavy Duty Electrical Switch | Genzee Switchgear",
+    //     "metaDescription": "Buy Change Over Knife Type Switch from Genzee Switchgear. Durable and heavy-duty electrical switch designed for safe load transfer and power control. Leading Industrial Switchgear Manufacturer in India.",
+    //     // "image": "/changeoverKnife.png",
+    //     "pdf": "",
+    //     // "images": [
+    //     //     "/changeoverKnife.png",
+    //     //     "/changeoverKnifeOpen.png"
+    //     // ],
 
-        "Product Overview": [
-            "The Change Over Knife Type Switch by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe and reliable manual switching between power sources in industrial and commercial applications",
-            "Engineered for heavy-duty performance, these switches allow smooth and secure transfer of electrical load between main supply and backup sources such as generators",
-            "Manufactured using high-quality components and robust construction, the knife-type mechanism ensures strong contact, minimal power loss, and long operational life",
-            "Available in a wide range of current ratings from 63 Amps to 1000 Amps, the product caters to diverse industrial power requirements",
-            "Designed for 415 Volts systems with 4-pole configuration, ensuring complete isolation and enhanced electrical safety",
-            "Suitable for use in industrial panels, power distribution systems, and electrical control setups where reliable switching is critical",
-            "Developed by an experienced Switchgear Manufacturer, this product ensures operational efficiency, safety, and durability in demanding environments"
-        ],
+    //     "Product Overview": [
+    //         "The Change Over Knife Type Switch by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe and reliable manual switching between power sources in industrial and commercial applications",
+    //         "Engineered for heavy-duty performance, these switches allow smooth and secure transfer of electrical load between main supply and backup sources such as generators",
+    //         "Manufactured using high-quality components and robust construction, the knife-type mechanism ensures strong contact, minimal power loss, and long operational life",
+    //         "Available in a wide range of current ratings from 63 Amps to 1000 Amps, the product caters to diverse industrial power requirements",
+    //         "Designed for 415 Volts systems with 4-pole configuration, ensuring complete isolation and enhanced electrical safety",
+    //         "Suitable for use in industrial panels, power distribution systems, and electrical control setups where reliable switching is critical",
+    //         "Developed by an experienced Switchgear Manufacturer, this product ensures operational efficiency, safety, and durability in demanding environments"
+    //     ],
 
-        "Key Features": [
-            "Heavy-duty knife-type mechanism ensures firm electrical contact, reducing resistance and enhancing performance",
-            "Available in multiple current ratings (63A to 1000A), providing flexibility for various industrial load requirements",
-            "4-pole configuration ensures complete isolation of all phases and neutral for enhanced safety",
-            "Designed for 415V systems, making it suitable for industrial and high-load applications",
-            "Robust construction using high-quality materials ensures durability and long service life",
-            "Smooth manual operation allows easy switching between power sources without complications",
-            "High mechanical strength ensures reliable performance even under frequent usage",
-            "Designed to minimize electrical losses and ensure efficient power transfer",
-            "Suitable for installation in control panels, distribution boards, and industrial setups",
-            "Manufactured under strict quality standards by a reliable MCB Box Manufacturer, ensuring safety and consistent performance"
-        ],
+    //     "Key Features": [
+    //         "Heavy-duty knife-type mechanism ensures firm electrical contact, reducing resistance and enhancing performance",
+    //         "Available in multiple current ratings (63A to 1000A), providing flexibility for various industrial load requirements",
+    //         "4-pole configuration ensures complete isolation of all phases and neutral for enhanced safety",
+    //         "Designed for 415V systems, making it suitable for industrial and high-load applications",
+    //         "Robust construction using high-quality materials ensures durability and long service life",
+    //         "Smooth manual operation allows easy switching between power sources without complications",
+    //         "High mechanical strength ensures reliable performance even under frequent usage",
+    //         "Designed to minimize electrical losses and ensure efficient power transfer",
+    //         "Suitable for installation in control panels, distribution boards, and industrial setups",
+    //         "Manufactured under strict quality standards by a reliable MCB Box Manufacturer, ensuring safety and consistent performance"
+    //     ],
 
-        "Why Choose Genzee Switchgears Private Limited": [
-            "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-performance and durable electrical switching solutions",
-            "As a leading Switchgear Manufacturer, the company focuses on precision engineering, advanced manufacturing processes, and superior material quality",
-            "Recognized as a trusted MCB Box Manufacturer, offering safe and robust electrical components for industrial applications",
-            "Strong commitment to quality assurance with rigorous testing to ensure reliable and safe operation",
-            "Use of advanced technology ensures consistent product performance and long service life",
-            "Competitive pricing provides cost-effective solutions for industrial buyers without compromising on quality",
-            "Efficient production and supply chain management ensure timely delivery for bulk and project requirements",
-            "Dedicated customer support team assists with product selection, technical guidance, and after-sales service"
-        ],
+    //     "Why Choose Genzee Switchgears Private Limited": [
+    //         "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-performance and durable electrical switching solutions",
+    //         "As a leading Switchgear Manufacturer, the company focuses on precision engineering, advanced manufacturing processes, and superior material quality",
+    //         "Recognized as a trusted MCB Box Manufacturer, offering safe and robust electrical components for industrial applications",
+    //         "Strong commitment to quality assurance with rigorous testing to ensure reliable and safe operation",
+    //         "Use of advanced technology ensures consistent product performance and long service life",
+    //         "Competitive pricing provides cost-effective solutions for industrial buyers without compromising on quality",
+    //         "Efficient production and supply chain management ensure timely delivery for bulk and project requirements",
+    //         "Dedicated customer support team assists with product selection, technical guidance, and after-sales service"
+    //     ],
 
-        "variants": [
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-141",
-                "Rating (Amps)": "63",
-                "Volts": "415",
-                "Type": "4 Pole",
-                "Price (Rs)": "5895.00",
-                "Packing (Per Case)": "2"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-142",
-                "Rating (Amps)": "100",
-                "Volts": "415",
-                "Type": "4 Pole",
-                "Price (Rs)": "7150.00",
-                "Packing (Per Case)": "2"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-143",
-                "Rating (Amps)": "200",
-                "Volts": "415",
-                "Type": "4 Pole",
-                "Price (Rs)": "13450.00",
-                "Packing (Per Case)": "1"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-144",
-                "Rating (Amps)": "300",
-                "Volts": "415",
-                "Type": "4 Pole",
-                "Price (Rs)": "16795.00",
-                "Packing (Per Case)": "1"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-145",
-                "Rating (Amps)": "400",
-                "Volts": "415",
-                "Type": "4 Pole",
-                "Price (Rs)": "30610.00",
-                "Packing (Per Case)": "1"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-146",
-                "Rating (Amps)": "500",
-                "Volts": "415",
-                "Type": "4 Pole",
-                "Price (Rs)": "31500.00",
-                "Packing (Per Case)": "1"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-147",
-                "Rating (Amps)": "600",
-                "Volts": "415",
-                "Type": "4 Pole",
-                "Price (Rs)": "40500.00",
-                "Packing (Per Case)": "1"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-148",
-                "Rating (Amps)": "800",
-                "Volts": "415",
-                "Type": "4 Pole",
-                "Price (Rs)": "53200.00",
-                "Packing (Per Case)": "1"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-149",
-                "Rating (Amps)": "1000",
-                "Volts": "415",
-                "Type": "4 Pole",
-                "Price (Rs)": "99600.00",
-                "Packing (Per Case)": "1"
-            }
-        ]
-    },
-    {
-        "id": "changeover-switch-porcelain-fitting",
-        "name": "Change Over Switch with Porcelain Fitting",
-        "catId": "changeover-switch",
-        "catName": "Changeover Switch",
-        "metaTitle": "Change Over Switch with Porcelain Fitting | Heavy Duty Electrical Switch | Genzee Switchgear",
-        "metaDescription": "Buy Change Over Switch with Porcelain Fitting from Genzee Switchgear. Heavy-duty electrical switch designed for safe and efficient load transfer. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/changeoverPorcelain.png",
-        "pdf": "",
-        "images": [
-            "/changeoverPorcelain.png",
-            "/changeoverPorcelainOpen.png"
-        ],
+    //     "variants": [
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-141",
+    //             "Rating (Amps)": "63",
+    //             "Volts": "415",
+    //             "Type": "4 Pole",
+    //             "Price (Rs)": "5895.00",
+    //             "Packing (Per Case)": "2"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-142",
+    //             "Rating (Amps)": "100",
+    //             "Volts": "415",
+    //             "Type": "4 Pole",
+    //             "Price (Rs)": "7150.00",
+    //             "Packing (Per Case)": "2"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-143",
+    //             "Rating (Amps)": "200",
+    //             "Volts": "415",
+    //             "Type": "4 Pole",
+    //             "Price (Rs)": "13450.00",
+    //             "Packing (Per Case)": "1"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-144",
+    //             "Rating (Amps)": "300",
+    //             "Volts": "415",
+    //             "Type": "4 Pole",
+    //             "Price (Rs)": "16795.00",
+    //             "Packing (Per Case)": "1"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-145",
+    //             "Rating (Amps)": "400",
+    //             "Volts": "415",
+    //             "Type": "4 Pole",
+    //             "Price (Rs)": "30610.00",
+    //             "Packing (Per Case)": "1"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-146",
+    //             "Rating (Amps)": "500",
+    //             "Volts": "415",
+    //             "Type": "4 Pole",
+    //             "Price (Rs)": "31500.00",
+    //             "Packing (Per Case)": "1"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-147",
+    //             "Rating (Amps)": "600",
+    //             "Volts": "415",
+    //             "Type": "4 Pole",
+    //             "Price (Rs)": "40500.00",
+    //             "Packing (Per Case)": "1"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-148",
+    //             "Rating (Amps)": "800",
+    //             "Volts": "415",
+    //             "Type": "4 Pole",
+    //             "Price (Rs)": "53200.00",
+    //             "Packing (Per Case)": "1"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-149",
+    //             "Rating (Amps)": "1000",
+    //             "Volts": "415",
+    //             "Type": "4 Pole",
+    //             "Price (Rs)": "99600.00",
+    //             "Packing (Per Case)": "1"
+    //         }
+    //     ]
+    // },
+    // {
+    //     "id": "changeover-switch-porcelain-fitting",
+    //     "name": "Change Over Switch with Porcelain Fitting",
+    //     "catId": "changeover-switch",
+    //     "catName": "Changeover Switch",
+    //     "metaTitle": "Change Over Switch with Porcelain Fitting | Heavy Duty Electrical Switch | Genzee Switchgear",
+    //     "metaDescription": "Buy Change Over Switch with Porcelain Fitting from Genzee Switchgear. Heavy-duty electrical switch designed for safe and efficient load transfer. Leading Industrial Switchgear Manufacturer in India.",
+    //     // "image": "/changeoverPorcelain.png",
+    //     "pdf": "",
+    //     // "images": [
+    //     //     "/changeoverPorcelain.png",
+    //     //     "/changeoverPorcelainOpen.png"
+    //     // ],
 
-        "Product Overview": [
-            "The Change Over Switch with Porcelain Fitting by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe and reliable manual switching between power sources in industrial and commercial applications",
-            "Engineered for efficient load transfer, this switch allows smooth switching between main power supply and backup sources such as generators, ensuring uninterrupted power flow",
-            "Equipped with high-quality porcelain fittings, the switch offers excellent insulation, heat resistance, and durability, making it suitable for demanding electrical environments",
-            "Designed for single-phase applications with a rated current of 25 Amps, it is ideal for light industrial, commercial, and residential use",
-            "Operates at 240 Volts and 50 Hz frequency, ensuring stable and consistent performance under standard electrical conditions",
-            "The compact and sturdy design ensures easy installation, safe operation, and long service life",
-            "Developed by an experienced Switchgear Manufacturer, this product combines safety, durability, and reliable functionality"
-        ],
+    //     "Product Overview": [
+    //         "The Change Over Switch with Porcelain Fitting by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe and reliable manual switching between power sources in industrial and commercial applications",
+    //         "Engineered for efficient load transfer, this switch allows smooth switching between main power supply and backup sources such as generators, ensuring uninterrupted power flow",
+    //         "Equipped with high-quality porcelain fittings, the switch offers excellent insulation, heat resistance, and durability, making it suitable for demanding electrical environments",
+    //         "Designed for single-phase applications with a rated current of 25 Amps, it is ideal for light industrial, commercial, and residential use",
+    //         "Operates at 240 Volts and 50 Hz frequency, ensuring stable and consistent performance under standard electrical conditions",
+    //         "The compact and sturdy design ensures easy installation, safe operation, and long service life",
+    //         "Developed by an experienced Switchgear Manufacturer, this product combines safety, durability, and reliable functionality"
+    //     ],
 
-        "Key Features": [
-            "High-quality porcelain fitting provides superior insulation, heat resistance, and enhanced electrical safety",
-            "Rated current of 25 Amps ensures efficient handling of light to moderate electrical loads",
-            "Designed for single-phase systems, making it suitable for homes, small industries, and commercial setups",
-            "Operates at 240 Volts and 50 Hz frequency for stable and reliable performance",
-            "Durable construction ensures long-lasting usage even under regular switching operations",
-            "Smooth manual operation allows easy and safe switching between power sources",
-            "Compact design enables easy installation and efficient space utilization",
-            "Strong and reliable contact mechanism ensures minimal power loss and improved efficiency",
-            "White finish provides a clean and professional appearance for electrical installations",
-            "Manufactured under strict quality standards by a reliable MCB Box Manufacturer, ensuring safety and consistent performance"
-        ],
+    //     "Key Features": [
+    //         "High-quality porcelain fitting provides superior insulation, heat resistance, and enhanced electrical safety",
+    //         "Rated current of 25 Amps ensures efficient handling of light to moderate electrical loads",
+    //         "Designed for single-phase systems, making it suitable for homes, small industries, and commercial setups",
+    //         "Operates at 240 Volts and 50 Hz frequency for stable and reliable performance",
+    //         "Durable construction ensures long-lasting usage even under regular switching operations",
+    //         "Smooth manual operation allows easy and safe switching between power sources",
+    //         "Compact design enables easy installation and efficient space utilization",
+    //         "Strong and reliable contact mechanism ensures minimal power loss and improved efficiency",
+    //         "White finish provides a clean and professional appearance for electrical installations",
+    //         "Manufactured under strict quality standards by a reliable MCB Box Manufacturer, ensuring safety and consistent performance"
+    //     ],
 
-        "Why Choose Genzee Switchgears Private Limited": [
-            "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-quality and durable electrical switching solutions",
-            "As a trusted Switchgear Manufacturer, the company focuses on precision engineering, advanced manufacturing processes, and premium materials",
-            "Recognized as a dependable MCB Box Manufacturer, offering safe and reliable electrical products for various applications",
-            "Strong commitment to quality assurance with rigorous testing to ensure reliable and safe product performance",
-            "Use of advanced technology and high-grade materials ensures durability and long operational life",
-            "Competitive pricing provides cost-effective solutions without compromising on quality or safety",
-            "Efficient production and supply chain management ensure timely delivery for bulk and project requirements",
-            "Dedicated customer support team assists with product selection, technical guidance, and after-sales service",
-            "Continuous innovation to meet evolving electrical standards and industry demands",
-            "Customer-centric approach focused on building long-term relationships through trust, reliability, and consistent product quality"
-        ],
+    //     "Why Choose Genzee Switchgears Private Limited": [
+    //         "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-quality and durable electrical switching solutions",
+    //         "As a trusted Switchgear Manufacturer, the company focuses on precision engineering, advanced manufacturing processes, and premium materials",
+    //         "Recognized as a dependable MCB Box Manufacturer, offering safe and reliable electrical products for various applications",
+    //         "Strong commitment to quality assurance with rigorous testing to ensure reliable and safe product performance",
+    //         "Use of advanced technology and high-grade materials ensures durability and long operational life",
+    //         "Competitive pricing provides cost-effective solutions without compromising on quality or safety",
+    //         "Efficient production and supply chain management ensure timely delivery for bulk and project requirements",
+    //         "Dedicated customer support team assists with product selection, technical guidance, and after-sales service",
+    //         "Continuous innovation to meet evolving electrical standards and industry demands",
+    //         "Customer-centric approach focused on building long-term relationships through trust, reliability, and consistent product quality"
+    //     ],
 
-        "specs": [
-            { "Rated Current(A)": "25 A" },
-            { "Phase": "Single Phase" },
-            { "Usage/Application": "Industrial" },
-            { "Color": "White" },
-            { "Features": "Durable" },
-            { "Rated Voltage": "240 V" },
-            { "Rated Frequency": "50 Hz" }
-        ]
-    },
+    //     "specs": [
+    //         { "Rated Current(A)": "25 A" },
+    //         { "Phase": "Single Phase" },
+    //         { "Usage/Application": "Industrial" },
+    //         { "Color": "White" },
+    //         { "Features": "Durable" },
+    //         { "Rated Voltage": "240 V" },
+    //         { "Rated Frequency": "50 Hz" }
+    //     ]
+    // },
     {
         "id": "32a-changeover-switch",
         "name": "32A Changeover Switch",
@@ -1633,81 +1633,81 @@ export const products = [
     },
 
     //Electrical Main Switch Box
-    {
-        "id": "reversing-switch",
-        "name": "Reversing Switch (Reverse & Forward Switch)",
-        "catId": "electrical-main-switch-box",
-        "catName": "Electrical Switch Box",
-        "metaTitle": "Reversing Switch (Forward & Reverse Switch) | Industrial Motor Control Switch | Genzee Switchgear",
-        "metaDescription": "Buy Reversing Switch (Forward & Reverse Switch) from Genzee Switchgear. Durable and high-performance motor control switch for safe direction change in industrial applications. Leading Industrial Switchgear Manufacturer in India.",
-        "image": "/reversingSwitch.png",
-        "pdf": "",
-        "images": [
-            "/reversingSwitch.png",
-            "/reversingSwitchOpen.png"
-        ],
+    // {
+    //     "id": "reversing-switch",
+    //     "name": "Reversing Switch (Reverse & Forward Switch)",
+    //     "catId": "electrical-main-switch-box",
+    //     "catName": "Electrical Switch Box",
+    //     "metaTitle": "Reversing Switch (Forward & Reverse Switch) | Industrial Motor Control Switch | Genzee Switchgear",
+    //     "metaDescription": "Buy Reversing Switch (Forward & Reverse Switch) from Genzee Switchgear. Durable and high-performance motor control switch for safe direction change in industrial applications. Leading Industrial Switchgear Manufacturer in India.",
+    //     // "image": "/reversingSwitch.png", 
+    //     "pdf": "",
+    //     // "images": [
+    //     //     "/reversingSwitch.png",
+    //     //     "/reversingSwitchOpen.png"
+    //     // ],
 
-        "Product Overview": [
-            "The Reversing Switch (Reverse & Forward Switch) by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe and efficient directional control of electric motors in industrial applications",
-            "Engineered for reliable performance, this switch enables smooth forward and reverse operation of motors, making it ideal for machinery, conveyors, hoists, and industrial equipment",
-            "Manufactured using high-quality components, the switch ensures strong electrical contact, durability, and long service life even under continuous industrial usage",
-            "Designed for 415 Volts systems, it provides stable and efficient motor control in three-phase industrial environments",
-            "Available in multiple current ratings such as 16A and 32A, it caters to different load requirements and applications",
-            "The robust construction ensures safe operation, reduced maintenance, and consistent performance in demanding conditions",
-            "Developed by an experienced Switchgear Manufacturer, this product ensures operational safety, reliability, and efficiency"
-        ],
+    //     "Product Overview": [
+    //         "The Reversing Switch (Reverse & Forward Switch) by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe and efficient directional control of electric motors in industrial applications",
+    //         "Engineered for reliable performance, this switch enables smooth forward and reverse operation of motors, making it ideal for machinery, conveyors, hoists, and industrial equipment",
+    //         "Manufactured using high-quality components, the switch ensures strong electrical contact, durability, and long service life even under continuous industrial usage",
+    //         "Designed for 415 Volts systems, it provides stable and efficient motor control in three-phase industrial environments",
+    //         "Available in multiple current ratings such as 16A and 32A, it caters to different load requirements and applications",
+    //         "The robust construction ensures safe operation, reduced maintenance, and consistent performance in demanding conditions",
+    //         "Developed by an experienced Switchgear Manufacturer, this product ensures operational safety, reliability, and efficiency"
+    //     ],
 
-        "Key Features": [
-            "Designed for forward and reverse motor control, enabling smooth directional switching in industrial machines",
-            "Available in 16 Amp and 32 Amp variants, suitable for light to medium industrial motor loads",
-            "Operates at 415 Volts, making it ideal for three-phase industrial applications",
-            "Ensures safe operation with reliable switching mechanism to prevent electrical faults",
-            "Suitable for industrial machinery such as conveyors, hoists, pumps, and motors",
-            "High mechanical strength ensures consistent performance under frequent switching operations",
-            "Manufactured under strict quality standards by a reliable MCB Box Manufacturer, ensuring safety and durability"
-        ],
+    //     "Key Features": [
+    //         "Designed for forward and reverse motor control, enabling smooth directional switching in industrial machines",
+    //         "Available in 16 Amp and 32 Amp variants, suitable for light to medium industrial motor loads",
+    //         "Operates at 415 Volts, making it ideal for three-phase industrial applications",
+    //         "Ensures safe operation with reliable switching mechanism to prevent electrical faults",
+    //         "Suitable for industrial machinery such as conveyors, hoists, pumps, and motors",
+    //         "High mechanical strength ensures consistent performance under frequent switching operations",
+    //         "Manufactured under strict quality standards by a reliable MCB Box Manufacturer, ensuring safety and durability"
+    //     ],
 
-        "Why Choose Genzee Switchgears Private Limited": [
-            "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-quality and reliable electrical control products",
-            "As a leading Switchgear Manufacturer, the company focuses on precision engineering, advanced manufacturing techniques, and durable materials",
-            "Recognized as a dependable MCB Box Manufacturer, offering safe and robust electrical solutions for industrial applications",
-            "Strong commitment to quality assurance with strict testing procedures ensures reliable product performance",
-            "Use of advanced technology ensures accuracy, durability, and long operational life",
-            "Competitive pricing provides cost-effective solutions without compromising on quality or safety",
-            "Continuous innovation to meet evolving industrial standards and customer expectations",
-            "Customer-centric approach focused on building long-term relationships through trust, reliability, and consistent quality"
-        ],
+    //     "Why Choose Genzee Switchgears Private Limited": [
+    //         "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-quality and reliable electrical control products",
+    //         "As a leading Switchgear Manufacturer, the company focuses on precision engineering, advanced manufacturing techniques, and durable materials",
+    //         "Recognized as a dependable MCB Box Manufacturer, offering safe and robust electrical solutions for industrial applications",
+    //         "Strong commitment to quality assurance with strict testing procedures ensures reliable product performance",
+    //         "Use of advanced technology ensures accuracy, durability, and long operational life",
+    //         "Competitive pricing provides cost-effective solutions without compromising on quality or safety",
+    //         "Continuous innovation to meet evolving industrial standards and customer expectations",
+    //         "Customer-centric approach focused on building long-term relationships through trust, reliability, and consistent quality"
+    //     ],
 
-        "variants": [
-            {
-                "HSN Code": "8356",
-                "Item Code": "PS-181",
-                "Rating (Amps)": "16",
-                "Volts": "415",
-                "Type": "R/F",
-                "Price": "392.00",
-                "Packing": "48"
-            },
-            {
-                "HSN Code": "8356",
-                "Item Code": "PS-182",
-                "Rating (Amps)": "32",
-                "Volts": "415",
-                "Type": "COMP. R/F",
-                "Price": "728.00",
-                "Packing": "36"
-            },
-            {
-                "HSN Code": "8356",
-                "Item Code": "PS-183",
-                "Rating (Amps)": "32",
-                "Volts": "415",
-                "Type": "R/F TP (H)",
-                "Price": "975.00",
-                "Packing": "36"
-            }
-        ]
-    },
+    //     "variants": [
+    //         {
+    //             "HSN Code": "8356",
+    //             "Item Code": "PS-181",
+    //             "Rating (Amps)": "16",
+    //             "Volts": "415",
+    //             "Type": "R/F",
+    //             "Price": "392.00",
+    //             "Packing": "48"
+    //         },
+    //         {
+    //             "HSN Code": "8356",
+    //             "Item Code": "PS-182",
+    //             "Rating (Amps)": "32",
+    //             "Volts": "415",
+    //             "Type": "COMP. R/F",
+    //             "Price": "728.00",
+    //             "Packing": "36"
+    //         },
+    //         {
+    //             "HSN Code": "8356",
+    //             "Item Code": "PS-183",
+    //             "Rating (Amps)": "32",
+    //             "Volts": "415",
+    //             "Type": "R/F TP (H)",
+    //             "Price": "975.00",
+    //             "Packing": "36"
+    //         }
+    //     ]
+    // },
     {
         "id": "electrical-main-switch-box-5a",
         "name": "Electrical Main Switch Box (5A)",
@@ -1827,10 +1827,10 @@ export const products = [
         "catName": "Distribution Box",
         "metaTitle": "Electrical Power Distribution Box Manufacturer | Industrial DB Panels | Genzee Switchgear",
         "metaDescription": "Buy Electrical Power Distribution Box from Genzee Switchgear. Reliable and high-performance distribution solutions for safe and efficient electrical power management. Leading Distribution Box Manufacturer in India.",
-        "image": "/distributionBox.png",
+        "image": "/Prime Model MCB Box 1.webp",
         "pdf": "",
         "images": [
-            "/distributionBox.png"
+            "/Prime Model MCB Box 1.webp"
         ],
 
         "Product Overview": [
@@ -1878,10 +1878,10 @@ export const products = [
         "catName": "Distribution Box",
         "metaTitle": "Single Phase Power Distribution Box Manufacturer | Electrical DB Box | Genzee Switchgear",
         "metaDescription": "Buy Single Phase Power Distribution Box from Genzee Switchgear. Reliable and durable electrical distribution solutions for safe and efficient single phase power management. Leading Distribution Box Manufacturer in India.",
-        "image": "/singlePhaseDB.png",
+        "image": "/Full Frame MCB Box.webp",
         "pdf": "",
         "images": [
-            "/singlePhaseDB.png"
+            "/Full Frame MCB Box.webp"
         ],
 
         "Product Overview": [
@@ -1930,10 +1930,10 @@ export const products = [
         "catName": "Distribution Box",
         "metaTitle": "Power Distribution Box Manufacturer | Electrical Distribution Box (DB) | Genzee Switchgear",
         "metaDescription": "Buy Power Distribution Box from Genzee Switchgear. Reliable and high-performance electrical distribution solutions for safe and efficient power management. Leading Distribution Box Manufacturer in India.",
-        "image": "/powerDistributionBox.png",
+        "image": "/Full Frame MCB Box1.webp",
         "pdf": "",
         "images": [
-            "/powerDistributionBox.png"
+            "/Full Frame MCB Box1.webp"
         ],
 
         "Product Overview": [
@@ -1976,10 +1976,10 @@ export const products = [
         "catName": "Distribution Box",
         "metaTitle": "TTPN Distribution Board Manufacturer | Three Phase Power Distribution Board | Genzee Switchgear",
         "metaDescription": "Buy TPN Distribution Board from Genzee Switchgear. Reliable and heavy-duty three-phase electrical distribution solutions for safe and efficient power management. Leading Distribution Board Manufacturer in India.",
-        "image": "/tpnDistributionBoard.png",
+        "image": "/Mild Steel TPN MCB BOX2.webp",
         "pdf": "",
         "images": [
-            "/tpnDistributionBoard.png"
+            "/Mild Steel TPN MCB BOX2.webp"
         ],
 
         "Product Overview": [
@@ -2022,10 +2022,10 @@ export const products = [
         "catName": "Distribution Box",
         "metaTitle": "Three Phase Power Distribution Box Manufacturer | Industrial DB Box | Genzee Switchgear",
         "metaDescription": "Buy Three Phase Power Distribution Box from Genzee Switchgear. Heavy-duty and reliable electrical distribution solution for safe and efficient three-phase power control. Leading Distribution Box Manufacturer in India",
-        "image": "/threePhaseDB.png",
+        "image": "/Mild Steel TPN MCB BOX.webp",
         "pdf": "",
         "images": [
-            "/threePhaseDB.png"
+            "/Mild Steel TPN MCB BOX.webp"
         ],
 
         "Product Overview": [
@@ -2066,172 +2066,172 @@ export const products = [
     },
 
     //Kitkat Cutouts Fuse
-    {
-        "id": "porcelain-fuse-units",
-        "name": "Procelain Fuse Units",
-        "catId": "kitkat-cutouts-fuse",
-        "catName": "Kitkat Cutouts Fuse",
-        "metaTitle": "Porcelain Fuse Units Manufacturer | Electrical Fuse Protection Units | Genzee Switchgear",
-        "metaDescription": "Buy Porcelain Fuse Units from Genzee Switchgear. High-quality electrical fuse protection solutions for safe and reliable circuit protection. Leading Switchgear Manufacturer in India.",
-        "image": "/kitkatFuse.png",
-        "pdf": "",
-        "images": [
-            "/kitkatFuse.png"
-        ],
+    // {
+    //     "id": "porcelain-fuse-units",
+    //     "name": "Procelain Fuse Units",
+    //     "catId": "kitkat-cutouts-fuse",
+    //     "catName": "Kitkat Cutouts Fuse",
+    //     "metaTitle": "Porcelain Fuse Units Manufacturer | Electrical Fuse Protection Units | Genzee Switchgear",
+    //     "metaDescription": "Buy Porcelain Fuse Units from Genzee Switchgear. High-quality electrical fuse protection solutions for safe and reliable circuit protection. Leading Switchgear Manufacturer in India.",
+    //     // "image": "/kitkatFuse.png",
+    //     "pdf": "",
+    //     // "images": [
+    //     //     "/kitkatFuse.png"
+    //     // ],
 
-        "variants": [
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-161",
-                "Rating (Amps)": "16",
-                "Volts": "240",
-                "Type": "Kay Anchor",
-                "Price": "49.00",
-                "Packing": "240"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-162",
-                "Rating (Amps)": "32+16",
-                "Volts": "240+415",
-                "Type": "Excel",
-                "Price": "81.00",
-                "Packing": "120"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-163",
-                "Rating (Amps)": "32+16",
-                "Volts": "240+415",
-                "Type": "Handle Type",
-                "Price": "90.00",
-                "Packing": "120"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-164",
-                "Rating (Amps)": "32",
-                "Volts": "415",
-                "Type": "Excel",
-                "Price": "131.00",
-                "Packing": "72"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-165",
-                "Rating (Amps)": "32",
-                "Volts": "415",
-                "Type": "Handle Type",
-                "Price": "141.00",
-                "Packing": "72"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-166",
-                "Rating (Amps)": "63",
-                "Volts": "415",
-                "Type": "Excel",
-                "Price": "333.00",
-                "Packing": "24"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-167",
-                "Rating (Amps)": "63",
-                "Volts": "415",
-                "Type": "Handle Type",
-                "Price": "350.00",
-                "Packing": "24"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-168",
-                "Rating (Amps)": "100",
-                "Volts": "415",
-                "Type": "Excel",
-                "Price": "633.00",
-                "Packing": "12"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-169",
-                "Rating (Amps)": "100",
-                "Volts": "415",
-                "Type": "Excel (Extn. Spl.)",
-                "Price": "777.00",
-                "Packing": "12"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-170",
-                "Rating (Amps)": "200",
-                "Volts": "415",
-                "Type": "Excel",
-                "Price": "1310.00",
-                "Packing": "12"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-171",
-                "Rating (Amps)": "200",
-                "Volts": "415",
-                "Type": "Excel (Extn. Spl.)",
-                "Price": "1621.00",
-                "Packing": "12"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-172",
-                "Rating (Amps)": "320",
-                "Volts": "415",
-                "Type": "DLX. Mem",
-                "Price": "1931.00",
-                "Packing": "6"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-173",
-                "Rating (Amps)": "500",
-                "Volts": "415",
-                "Type": "DLX. Mem",
-                "Price": "2331.00",
-                "Packing": "6"
-            },
-            {
-                "HSN Code": "8536",
-                "Item Code": "PS-174",
-                "Rating (Amps)": "500",
-                "Volts": "415",
-                "Type": "SPL. Mem",
-                "Price": "3053.00",
-                "Packing": "6"
-            }
-        ],
+    //     "variants": [
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-161",
+    //             "Rating (Amps)": "16",
+    //             "Volts": "240",
+    //             "Type": "Kay Anchor",
+    //             "Price": "49.00",
+    //             "Packing": "240"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-162",
+    //             "Rating (Amps)": "32+16",
+    //             "Volts": "240+415",
+    //             "Type": "Excel",
+    //             "Price": "81.00",
+    //             "Packing": "120"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-163",
+    //             "Rating (Amps)": "32+16",
+    //             "Volts": "240+415",
+    //             "Type": "Handle Type",
+    //             "Price": "90.00",
+    //             "Packing": "120"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-164",
+    //             "Rating (Amps)": "32",
+    //             "Volts": "415",
+    //             "Type": "Excel",
+    //             "Price": "131.00",
+    //             "Packing": "72"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-165",
+    //             "Rating (Amps)": "32",
+    //             "Volts": "415",
+    //             "Type": "Handle Type",
+    //             "Price": "141.00",
+    //             "Packing": "72"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-166",
+    //             "Rating (Amps)": "63",
+    //             "Volts": "415",
+    //             "Type": "Excel",
+    //             "Price": "333.00",
+    //             "Packing": "24"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-167",
+    //             "Rating (Amps)": "63",
+    //             "Volts": "415",
+    //             "Type": "Handle Type",
+    //             "Price": "350.00",
+    //             "Packing": "24"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-168",
+    //             "Rating (Amps)": "100",
+    //             "Volts": "415",
+    //             "Type": "Excel",
+    //             "Price": "633.00",
+    //             "Packing": "12"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-169",
+    //             "Rating (Amps)": "100",
+    //             "Volts": "415",
+    //             "Type": "Excel (Extn. Spl.)",
+    //             "Price": "777.00",
+    //             "Packing": "12"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-170",
+    //             "Rating (Amps)": "200",
+    //             "Volts": "415",
+    //             "Type": "Excel",
+    //             "Price": "1310.00",
+    //             "Packing": "12"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-171",
+    //             "Rating (Amps)": "200",
+    //             "Volts": "415",
+    //             "Type": "Excel (Extn. Spl.)",
+    //             "Price": "1621.00",
+    //             "Packing": "12"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-172",
+    //             "Rating (Amps)": "320",
+    //             "Volts": "415",
+    //             "Type": "DLX. Mem",
+    //             "Price": "1931.00",
+    //             "Packing": "6"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-173",
+    //             "Rating (Amps)": "500",
+    //             "Volts": "415",
+    //             "Type": "DLX. Mem",
+    //             "Price": "2331.00",
+    //             "Packing": "6"
+    //         },
+    //         {
+    //             "HSN Code": "8536",
+    //             "Item Code": "PS-174",
+    //             "Rating (Amps)": "500",
+    //             "Volts": "415",
+    //             "Type": "SPL. Mem",
+    //             "Price": "3053.00",
+    //             "Packing": "6"
+    //         }
+    //     ],
 
-        "Product Overview": [
-            "The Porcelain Fuse Units by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, are designed to provide reliable circuit protection by safely interrupting excessive current flow in industrial and commercial electrical systems",
-            "Engineered using high-quality porcelain material, these fuse units offer excellent insulation, high heat resistance, and superior electrical safety, making them ideal for demanding environments",
-            "These fuse units are available in a wide range of current ratings from 16 Amps to 500 Amps, ensuring suitability for various light to heavy electrical load applications",
-            "Designed for both 240V and 415V systems, the product range supports single-phase and three-phase applications across industrial, commercial, and utility installations",
-            "Developed with precision engineering by Genzee Switchgears Private Limited, a reliable Switchgear Manufacturer, the units ensure long-lasting performance, safety compliance, and efficient circuit protection"
-        ],
+    //     "Product Overview": [
+    //         "The Porcelain Fuse Units by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, are designed to provide reliable circuit protection by safely interrupting excessive current flow in industrial and commercial electrical systems",
+    //         "Engineered using high-quality porcelain material, these fuse units offer excellent insulation, high heat resistance, and superior electrical safety, making them ideal for demanding environments",
+    //         "These fuse units are available in a wide range of current ratings from 16 Amps to 500 Amps, ensuring suitability for various light to heavy electrical load applications",
+    //         "Designed for both 240V and 415V systems, the product range supports single-phase and three-phase applications across industrial, commercial, and utility installations",
+    //         "Developed with precision engineering by Genzee Switchgears Private Limited, a reliable Switchgear Manufacturer, the units ensure long-lasting performance, safety compliance, and efficient circuit protection"
+    //     ],
 
-        "Key Features": [
-            "High-quality porcelain body provides excellent thermal resistance, electrical insulation, and durability under high-temperature conditions",
-            "Wide current rating range (16A to 500A) allows flexible usage across multiple electrical applications, from low-load to heavy-duty industrial systems",
-            "Available in different types such as Kay Anchor, Excel, Handle Type, and Deluxe models to suit varied operational and installation requirements",
-            "Designed for both 240V and 415V systems, ensuring compatibility with diverse electrical setups and industrial infrastructure",
-            "Strong construction ensures reliable performance, minimal maintenance, and long service life even under continuous electrical load conditions"
-        ],
+    //     "Key Features": [
+    //         "High-quality porcelain body provides excellent thermal resistance, electrical insulation, and durability under high-temperature conditions",
+    //         "Wide current rating range (16A to 500A) allows flexible usage across multiple electrical applications, from low-load to heavy-duty industrial systems",
+    //         "Available in different types such as Kay Anchor, Excel, Handle Type, and Deluxe models to suit varied operational and installation requirements",
+    //         "Designed for both 240V and 415V systems, ensuring compatibility with diverse electrical setups and industrial infrastructure",
+    //         "Strong construction ensures reliable performance, minimal maintenance, and long service life even under continuous electrical load conditions"
+    //     ],
 
-        "Why Choose Genzee Switchgears Private Limited": [
-            "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering safe, durable, and high-performance electrical protection solutions",
-            "The company follows advanced manufacturing standards and strict quality control processes to ensure reliable and consistent product performance",
-            "As a trusted Switchgear Manufacturer, it offers a wide range of electrical products designed for safety, efficiency, and long operational life",
-            "Each product undergoes rigorous testing to ensure compliance with industrial safety standards and dependable performance in real-world conditions",
-            "Strong customer support, timely delivery, and continuous innovation make the company a preferred choice for electrical protection products"
-        ]
-    },
+    //     "Why Choose Genzee Switchgears Private Limited": [
+    //         "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering safe, durable, and high-performance electrical protection solutions",
+    //         "The company follows advanced manufacturing standards and strict quality control processes to ensure reliable and consistent product performance",
+    //         "As a trusted Switchgear Manufacturer, it offers a wide range of electrical products designed for safety, efficiency, and long operational life",
+    //         "Each product undergoes rigorous testing to ensure compliance with industrial safety standards and dependable performance in real-world conditions",
+    //         "Strong customer support, timely delivery, and continuous innovation make the company a preferred choice for electrical protection products"
+    //     ]
+    // },
     {
         "id": "kitkat-cutouts-fuse",
         "name": "Kitkat Cutouts Fuse",
@@ -2280,98 +2280,98 @@ export const products = [
             "Strong customer support, timely delivery, and commitment to innovation make the company a preferred choice in the electrical industry"
         ]
     },
-    {
-        "id": "genzee-cut-out-kitkat-fuse-unit",
-        "name": "Genzee Cut Out Kitkat Fuse Unit",
-        "catId": "kitkat-cutouts-fuse",
-        "catName": "Kitkat Cutouts Fuse",
-        "metaTitle": "Genzee Cut Out Kitkat Fuse Unit | Electrical Fuse Protection Unit | Genzee Switchgear",
-        "metaDescription": "Buy Genzee Cut Out Kitkat Fuse Unit from Genzee Switchgear. Durable and high-quality electrical fuse protection solution for safe circuit control and power distribution. Leading Switchgear Manufacturer in India.",
-        "image": "/genzeeCutOutKitkatFuse.png",
-        "pdf": "",
-        "images": [
-            "/genzeeCutOutKitkatFuse.png"
-        ],
+    // {
+    //     "id": "genzee-cut-out-kitkat-fuse-unit",
+    //     "name": "Genzee Cut Out Kitkat Fuse Unit",
+    //     "catId": "kitkat-cutouts-fuse",
+    //     "catName": "Kitkat Cutouts Fuse",
+    //     "metaTitle": "Genzee Cut Out Kitkat Fuse Unit | Electrical Fuse Protection Unit | Genzee Switchgear",
+    //     "metaDescription": "Buy Genzee Cut Out Kitkat Fuse Unit from Genzee Switchgear. Durable and high-quality electrical fuse protection solution for safe circuit control and power distribution. Leading Switchgear Manufacturer in India.",
+    //     // "image": "/genzeeCutOutKitkatFuse.png",
+    //     "pdf": "",
+    //     // "images": [
+    //     //     "/genzeeCutOutKitkatFuse.png"
+    //     // ],
 
-        "specs": [
-            { "Rated Voltage": "220 V" },
-            { "Usage/Application": "Home Distribution Board" },
-            { "Frequency": "50 Hz" },
-            { "Pack Type": "Box" },
-            { "Phase": "Single Phase" },
-            { "Current Rating": "16A" }
-        ],
+    //     "specs": [
+    //         { "Rated Voltage": "220 V" },
+    //         { "Usage/Application": "Home Distribution Board" },
+    //         { "Frequency": "50 Hz" },
+    //         { "Pack Type": "Box" },
+    //         { "Phase": "Single Phase" },
+    //         { "Current Rating": "16A" }
+    //     ],
 
-        "Product Overview": [
-            "The Genzee Cut Out Kitkat Fuse Unit by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide reliable and efficient circuit protection in residential and light commercial electrical systems",
-            "Specifically developed for home distribution boards, this fuse unit ensures safe interruption of excessive current flow, protecting wiring, appliances, and electrical installations from damage due to overload or short circuit",
-            "Manufactured using high-quality insulating materials combined with durable internal components, the fuse unit offers long-lasting performance, excellent thermal resistance, and dependable electrical safety",
-            "Designed for single-phase electrical systems operating at 220 Volts and 50 Hz frequency, it ensures stable and consistent protection under standard domestic power conditions",
-            "Developed with precision engineering by Genzee Switchgears Private Limited, a trusted Switchgear Manufacturer, the product ensures safety compliance, reliability, and ease of use for everyday electrical applications"
-        ],
+    //     "Product Overview": [
+    //         "The Genzee Cut Out Kitkat Fuse Unit by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide reliable and efficient circuit protection in residential and light commercial electrical systems",
+    //         "Specifically developed for home distribution boards, this fuse unit ensures safe interruption of excessive current flow, protecting wiring, appliances, and electrical installations from damage due to overload or short circuit",
+    //         "Manufactured using high-quality insulating materials combined with durable internal components, the fuse unit offers long-lasting performance, excellent thermal resistance, and dependable electrical safety",
+    //         "Designed for single-phase electrical systems operating at 220 Volts and 50 Hz frequency, it ensures stable and consistent protection under standard domestic power conditions",
+    //         "Developed with precision engineering by Genzee Switchgears Private Limited, a trusted Switchgear Manufacturer, the product ensures safety compliance, reliability, and ease of use for everyday electrical applications"
+    //     ],
 
-        "Key Features": [
-            "Rated at 16 Amps, making it ideal for protecting light electrical circuits commonly found in residential and small commercial setups",
-            "Designed for home distribution boards, ensuring safe and efficient circuit protection for household electrical systems",
-            "High-quality insulating body provides excellent protection against electrical shocks, heat, and short circuit conditions",
-            "Easy installation and replacement design allows quick maintenance without requiring complex tools or technical expertise",
-            "Reliable fuse mechanism ensures fast response during overload conditions, minimizing risk to connected devices and wiring"
-        ],
+    //     "Key Features": [
+    //         "Rated at 16 Amps, making it ideal for protecting light electrical circuits commonly found in residential and small commercial setups",
+    //         "Designed for home distribution boards, ensuring safe and efficient circuit protection for household electrical systems",
+    //         "High-quality insulating body provides excellent protection against electrical shocks, heat, and short circuit conditions",
+    //         "Easy installation and replacement design allows quick maintenance without requiring complex tools or technical expertise",
+    //         "Reliable fuse mechanism ensures fast response during overload conditions, minimizing risk to connected devices and wiring"
+    //     ],
 
-        "Why Choose Genzee Switchgears Private Limited": [
-            "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering safe, durable, and high-performance electrical protection products",
-            "The company follows strict quality standards and advanced manufacturing processes to ensure product reliability and consistent performance",
-            "As a trusted Switchgear Manufacturer, it offers a wide range of electrical solutions designed for safety, efficiency, and long operational life",
-            "Every product undergoes rigorous quality testing to meet safety standards and ensure dependable real-world performance",
-            "Strong customer support, timely delivery, and continuous innovation make the company a preferred choice in the electrical industry"
-        ]
-    },
-    {
-        "id": "2-way-cutout-fuse",
-        "name": "2 Way Cutout Fuse",
-        "catId": "kitkat-cutouts-fuse",
-        "catName": "Kitkat Cutouts Fuse",
-        "metaTitle": "2 Way Cutout Fuse | Electrical Fuse Protection Unit | Genzee Switchgear",
-        "metaDescription": "Buy 2 Way Cutout Fuse from Genzee Switchgear. Durable electrical fuse protection device for safe and efficient circuit control and power distribution. Leading Switchgear Manufacturer in India.",
-        "image": "/2WayCutoutFuse.png",
-        "pdf": "",
-        "images": [
-            "/2WayCutoutFuse.png"
-        ],
+    //     "Why Choose Genzee Switchgears Private Limited": [
+    //         "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering safe, durable, and high-performance electrical protection products",
+    //         "The company follows strict quality standards and advanced manufacturing processes to ensure product reliability and consistent performance",
+    //         "As a trusted Switchgear Manufacturer, it offers a wide range of electrical solutions designed for safety, efficiency, and long operational life",
+    //         "Every product undergoes rigorous quality testing to meet safety standards and ensure dependable real-world performance",
+    //         "Strong customer support, timely delivery, and continuous innovation make the company a preferred choice in the electrical industry"
+    //     ]
+    // },
+    // {
+    //     "id": "2-way-cutout-fuse",
+    //     "name": "2 Way Cutout Fuse",
+    //     "catId": "kitkat-cutouts-fuse",
+    //     "catName": "Kitkat Cutouts Fuse",
+    //     "metaTitle": "2 Way Cutout Fuse | Electrical Fuse Protection Unit | Genzee Switchgear",
+    //     "metaDescription": "Buy 2 Way Cutout Fuse from Genzee Switchgear. Durable electrical fuse protection device for safe and efficient circuit control and power distribution. Leading Switchgear Manufacturer in India.",
+    //     // "image": "/2WayCutoutFuse.png",
+    //     "pdf": "",
+    //     // "images": [
+    //     //     "/2WayCutoutFuse.png"
+    //     // ],
 
-        "specs": [
-            { "Material": "ABS" },
-            { "Color": "White" },
-            { "Frequency": "50 Hz" },
-            { "Voltage": "240 V" },
-            { "Connection Type": "2 Way" },
-            { "Door Type": "Double Door" }
-        ],
+    //     "specs": [
+    //         { "Material": "ABS" },
+    //         { "Color": "White" },
+    //         { "Frequency": "50 Hz" },
+    //         { "Voltage": "240 V" },
+    //         { "Connection Type": "2 Way" },
+    //         { "Door Type": "Double Door" }
+    //     ],
 
-        "Product Overview": [
-            "The 2 Way Cutout Fuse by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe and efficient circuit protection for residential, commercial, and light industrial electrical systems",
-            "It is engineered to protect electrical circuits from overload and short circuit conditions by safely interrupting excessive current flow, ensuring the safety of wiring and connected devices",
-            "Manufactured using high-quality ABS material, the fuse unit offers excellent insulation properties, lightweight construction, and strong resistance to impact and heat",
-            "Designed for operation at 240 Volts and 50 Hz frequency, it ensures stable and reliable performance under standard electrical conditions",
-            "Developed by Genzee Switchgears Private Limited, a reliable Switchgear Manufacturer, this product ensures durability, safety compliance, and consistent protection in everyday electrical applications"
-        ],
+    //     "Product Overview": [
+    //         "The 2 Way Cutout Fuse by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe and efficient circuit protection for residential, commercial, and light industrial electrical systems",
+    //         "It is engineered to protect electrical circuits from overload and short circuit conditions by safely interrupting excessive current flow, ensuring the safety of wiring and connected devices",
+    //         "Manufactured using high-quality ABS material, the fuse unit offers excellent insulation properties, lightweight construction, and strong resistance to impact and heat",
+    //         "Designed for operation at 240 Volts and 50 Hz frequency, it ensures stable and reliable performance under standard electrical conditions",
+    //         "Developed by Genzee Switchgears Private Limited, a reliable Switchgear Manufacturer, this product ensures durability, safety compliance, and consistent protection in everyday electrical applications"
+    //     ],
 
-        "Key Features": [
-            "2-way connection type allows efficient distribution and protection of multiple electrical circuits within a compact design",
-            "High-quality ABS construction provides superior electrical insulation, corrosion resistance, and long service life",
-            "Double-door design enhances safety by protecting internal components while allowing easy access for maintenance and fuse replacement",
-            "Operates at 240V and 50 Hz frequency, ensuring compatibility with standard residential and commercial power systems",
-            "Compact and user-friendly design enables easy installation, handling, and maintenance in various electrical setups"
-        ],
+    //     "Key Features": [
+    //         "2-way connection type allows efficient distribution and protection of multiple electrical circuits within a compact design",
+    //         "High-quality ABS construction provides superior electrical insulation, corrosion resistance, and long service life",
+    //         "Double-door design enhances safety by protecting internal components while allowing easy access for maintenance and fuse replacement",
+    //         "Operates at 240V and 50 Hz frequency, ensuring compatibility with standard residential and commercial power systems",
+    //         "Compact and user-friendly design enables easy installation, handling, and maintenance in various electrical setups"
+    //     ],
 
-        "Why Choose Genzee Switchgears Private Limited": [
-            "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering reliable and high-quality electrical protection solutions",
-            "The company follows strict quality control processes and advanced manufacturing techniques to ensure product safety and durability",
-            "As a trusted Switchgear Manufacturer, it offers a wide range of electrical products designed for efficiency, safety, and long-term performance",
-            "Each product undergoes rigorous testing to ensure compliance with safety standards and dependable operation",
-            "Strong customer support, timely delivery, and continuous innovation make the company a preferred choice in the electrical industry"
-        ]
-    },
+    //     "Why Choose Genzee Switchgears Private Limited": [
+    //         "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering reliable and high-quality electrical protection solutions",
+    //         "The company follows strict quality control processes and advanced manufacturing techniques to ensure product safety and durability",
+    //         "As a trusted Switchgear Manufacturer, it offers a wide range of electrical products designed for efficiency, safety, and long-term performance",
+    //         "Each product undergoes rigorous testing to ensure compliance with safety standards and dependable operation",
+    //         "Strong customer support, timely delivery, and continuous innovation make the company a preferred choice in the electrical industry"
+    //     ]
+    // },
 
     //Switchgear
     {
@@ -2381,7 +2381,7 @@ export const products = [
         "catName": "Switchgear",
         "metaTitle": "HRC Type Switchgear | High Rupturing Capacity Electrical Switchgear | Genzee Switchgear",
         "metaDescription": "Buy HRC Type Switchgear from Genzee Switchgear. High Rupturing Capacity electrical switchgear designed for superior protection, safety, and reliable power distribution. Leading Switchgear Manufacturer in India.",
-        "image": "/hrcSwitchgear.png",
+        // "image": "/hrcSwitchgear.png",
         "pdf": "",
         "images": [
             "/hrcSwitchgear.png"
@@ -2478,7 +2478,7 @@ export const products = [
         "catName": "Switchgear",
         "metaTitle": "Porcelain Rewirable Type Switchgear | Electrical Fuse Switchgear | Genzee Switchgear",
         "metaDescription": "Buy Porcelain Rewirable Type Switchgear from Genzee Switchgear. High-quality and durable electrical fuse switchgear for safe circuit protection and power distribution. Leading Switchgear Manufacturer in India.",
-        "image": "/switchGearPorcelainRewirable.png",
+        // "image": "/switchGearPorcelainRewirable.png",
         "pdf": "",
         "images": [
             "/switchGearPorcelainRewirable.png"

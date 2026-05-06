@@ -76,7 +76,7 @@ export default function Intro() {
           <div className="relative lg:flex justify-center items-center order-1 md:order-2 hidden">
             <div className="relative w-full max-w-[1000px] aspect-[3/2]">
               <img
-                src="/openBox.png"
+                src="/Double Door Electrical MCB Box.webp"
                 alt="Switchgear Box"
                 className="w-full h-120 object-cover"
               />

@@ -26,7 +26,7 @@ export default function ProductPage() {
   const relProduct = products.filter((p) => p.catId === product.catId);
 
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-  const [activeTab, setActiveTab] = useState("overview");
+  const [activeTab, setActivdeTab] = useState("overview");
   const [isOpen, setIsOpen] = useState(false);
   const [activeImg, setActiveImg] = useState(null);
 
@@ -88,8 +88,8 @@ export default function ProductPage() {
             className="h-full w-full rounded-2xl overflow-hidden"
           >
             {product.images.map((img, i) => (
-              <SwiperSlide key={i} className="relative">
-                <img src={img} alt="" className="w-full h-full object-cover" />
+              <SwiperSlide key={i} className="relative h-80">
+                <img src={img} alt="" className="w-full h-full object-contain" />
 
                 <button
                   onClick={() => {
@@ -114,7 +114,7 @@ export default function ProductPage() {
             {product.name}
           </h1>
 
-          <div className="flex items-center text-base ">
+            {product && product.descSPN && product.descTPN? (<div className="flex items-center text-base ">
             {/* <FaTag className="text-gray-200" /> */}
             <span className=" mr-3 bg-gray-800 text-gray-200 gap-2 px-3 py-1 rounded-2xl w-fit">
               SPN {product.descSPN}
@@ -122,7 +122,8 @@ export default function ProductPage() {
             <span className="bg-gray-800 text-gray-200 gap-2 px-3 py-1 rounded-2xl w-fit">
               TPN {product.descTPN}
             </span>
-          </div>
+          </div>):null}
+          
 
           <p className="text-gray-800 font-medium leading-relaxed mt-6">
             {product["Product Overview"][0]} {product["Product Overview"][1]}
@@ -286,12 +287,12 @@ export default function ProductPage() {
                 className="group"
               >
                 <Link href={`/products/${i.id}`}>
-                  <div className="bg-white rounded-2xl shadow-md overflow-hidden cursor-pointer transition-all duration-300 group-hover:shadow-xl">
+                  <div className="bg-white rounded-2xl md:h-[350px] shadow-md overflow-hidden cursor-pointer transition-all duration-300 group-hover:shadow-xl">
                     <div className="overflow-hidden">
                       <img
                         src={i.image}
                         alt={i.name}
-                        className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-56 object-contain transition-transform duration-500 group-hover:scale-110"
                       />
                     </div>
 

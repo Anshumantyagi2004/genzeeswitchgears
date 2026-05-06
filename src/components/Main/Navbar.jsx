@@ -94,7 +94,7 @@ export default function Navbar() {
                                                 <img
                                                     src={cat.image}
                                                     alt={cat.name}
-                                                    className="w-full h-full object-cover group-hover/card:scale-105 transition duration-300"
+                                                    className="w-full h-full object-contain group-hover/card:scale-105 transition duration-300"
                                                 />
                                             </div>
                                             <div className="text-center text-sm font-medium py-1 border-t border-gray-200">

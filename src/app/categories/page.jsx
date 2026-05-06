@@ -49,7 +49,7 @@ export default function page() {
                   <img
                     src={i.image}
                     alt={i.name}
-                    className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-56 object-contain transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
 

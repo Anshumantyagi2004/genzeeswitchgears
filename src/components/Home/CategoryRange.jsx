@@ -11,14 +11,14 @@ import PopupForm from "../Main/ContactPopup";
 import { useState } from "react";
 
 const products = [
-  { name: "MCB Box", image: "/1.jpeg", id: "mcb-box" },
-  { name: "Busbar Chamber", image: "/2.jpeg", id: "busbar-chamber" },
+  { name: "MCB Box", image: "/closeBox.png", id: "mcb-box" },
+  { name: "Busbar Chamber", image: "/Industrial Busbar Chambers.webp", id: "busbar-chamber" },
   { name: "Switchgear", image: "/3.jpeg", id: "switchgear" },
-  { name: "Distribution Box", image: "/4.jpeg", id: "distribution-box" },
-  { name: "MCB Box", image: "/1.jpeg", id: "mcb-box" },
-  { name: "Busbar Chamber", image: "/2.jpeg", id: "busbar-chamber" },
+  { name: "Distribution Box", image: "/Prime Model MCB Box (2).webp", id: "distribution-box" },
+  // { name: "MCB Box", image: "/1.jpeg", id: "mcb-box" },
+  { name: "Busbar Chamber", image: "/Busbar Chamber Box.webp", id: "busbar-chamber" },
   { name: "Switchgear", image: "/3.jpeg", id: "switchgear" },
-  { name: "Distribution Box", image: "/4.jpeg", id: "distribution-box" },
+  { name: "Distribution Box", image: "/Prime Model MCB Box (2).webp", id: "distribution-box" },
 ];
 
 // Animation variants
@@ -94,11 +94,11 @@ export default function CategoryRange({ popup }) {
                 className="rounded-xl p-2 flex flex-col items-center justify-center h-85 bg-white shadow-md hover:shadow-xl transition"
               >
                 {/* Image zoom effect */}
-                <div className="overflow-hidden rounded-lg w-full">
+                <div className="overflow-hidden bg-[#c8bbb5] rounded-lg w-full">
                   <motion.img
                     src={item.image}
                     alt={item.name}
-                    className="h-70 w-full object-cover"
+                    className="h-70 md:h-70 w-full object-contain"
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.4 }}
                   />

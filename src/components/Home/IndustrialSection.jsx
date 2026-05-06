@@ -14,12 +14,12 @@ export default function IndustrialSection() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: false }}
-          className="flex justify-center"
+          className="flex justify-center "
         >
           <img
-            src="/3.jpeg" // 👉 replace with your image
+            src="/Busbar Chamber Box.webp" // 👉 replace with your image
             alt="Industrial Switchgear"
-            className="w-full z-10 max-w-[600px] rounded-xl shadow-lg object-cover"
+            className="w-full z-10 max-w-[600px] rounded-xl  object-cover"
           />
         </motion.div>
 
