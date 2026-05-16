@@ -34,27 +34,40 @@ export default function ProductPage() {
 
   const tabs = [
     { id: "overview", label: "Overview", data: product["Product Overview"] },
+
     { id: "features", label: "Features", data: product["Key Features"] },
+
     {
       id: "why",
       label: "Why Us",
       data: product["Why Choose Genzee Switchgears Private Limited"],
     },
+
     {
       id: "specs",
       label: "Specifications",
       data: product.specs || product.variants,
     },
-    {
-      id: "spn",
-      label: "SPN Distrubtion Board",
-      data: product.SPN || product.variants,
-    },
-    {
-      id: "tpn",
-      label: "TPN Distrubtion Board",
-      data: product.TPN || product.variants,
-    },
+
+    ...(product.SPN
+      ? [
+          {
+            id: "spn",
+            label: "SPN Distribution Board",
+            data: product.SPN,
+          },
+        ]
+      : []),
+
+    ...(product.TPN
+      ? [
+          {
+            id: "tpn",
+            label: "TPN Distribution Board",
+            data: product.TPN,
+          },
+        ]
+      : []),
   ];
 
   return (
@@ -89,7 +102,11 @@ export default function ProductPage() {
           >
             {product.images.map((img, i) => (
               <SwiperSlide key={i} className="relative h-80">
-                <img src={img} alt="" className="w-full h-full object-contain" />
+                <img
+                  src={img}
+                  alt=""
+                  className="w-full h-full object-contain"
+                />
 
                 <button
                   onClick={() => {
@@ -114,16 +131,17 @@ export default function ProductPage() {
             {product.name}
           </h1>
 
-            {product && product.descSPN && product.descTPN? (<div className="flex items-center text-base ">
-            {/* <FaTag className="text-gray-200" /> */}
-            <span className=" mr-3 bg-gray-800 text-gray-200 gap-2 px-3 py-1 rounded-2xl w-fit">
-              SPN {product.descSPN}
-            </span>
-            <span className="bg-gray-800 text-gray-200 gap-2 px-3 py-1 rounded-2xl w-fit">
-              TPN {product.descTPN}
-            </span>
-          </div>):null}
-          
+          {product && product.descSPN && product.descTPN ? (
+            <div className="flex items-center text-base ">
+              {/* <FaTag className="text-gray-200" /> */}
+              <span className=" mr-3 bg-gray-800 text-gray-200 gap-2 px-3 py-1 rounded-2xl w-fit">
+                SPN {product.descSPN}
+              </span>
+              <span className="bg-gray-800 text-gray-200 gap-2 px-3 py-1 rounded-2xl w-fit">
+                TPN {product.descTPN}
+              </span>
+            </div>
+          ) : null}
 
           <p className="text-gray-800 font-medium leading-relaxed mt-6">
             {product["Product Overview"][0]} {product["Product Overview"][1]}
