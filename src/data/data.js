@@ -3235,6 +3235,189 @@ export const products = [
       { Availability: "In Stock" },
     ],
   },
+  {
+    id: "prime-series-mcb-distribution-box",
+    name: "Prime Series MCB Distribution Box",
+    catId: "switchgear",
+    catName: "Switchgear",
+    metaTitle:
+      "Prime Series MCB Distribution Box | Premium Electrical DB Box | Genzee Switchgear",
+    metaDescription:
+      "Buy Prime Series MCB Distribution Box from Genzee Switchgear. Premium quality electrical distribution box offering safety, durability, and high performance. Leading MCB Box Manufacturer in India.",
+    image: "/openBox.png",
+    pdf: "",
+    images: ["/openBox.png", "/openBox.png"],
+
+    "Product Overview": [
+      "The Prime Series MCB Distribution Box by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide superior electrical distribution with enhanced safety, durability, and modern design",
+      "Manufactured using high-quality Mild Steel (MS), this distribution box offers exceptional strength, impact resistance, and long-lasting performance, making it suitable for residential, commercial, and industrial applications",
+      "The Prime Model is developed with a focus on reliability and efficiency, ensuring proper housing and protection of Miniature Circuit Breakers (MCBs) for smooth electrical circuit management",
+      "Featuring a 2-way connection system, the box allows organized distribution of electrical circuits while maintaining optimal safety standards",
+      "Designed for single-phase systems operating at 50 Hz frequency, it ensures stable and consistent electrical performance across standard power supply setups",
+      "The stylish white and grey color combination enhances the aesthetic appeal, making it suitable for both visible and concealed installations in modern infrastructures",
+      "The single-door design ensures easy access for installation, inspection, and maintenance while protecting internal components from dust, moisture, and external damage",
+      "Developed by an experienced Switchgear Manufacturer, the Prime Series combines advanced engineering with practical usability for efficient electrical management",
+    ],
+
+    "Key Features": [
+      "Constructed with premium Mild Steel (MS) material that ensures high mechanical strength, durability, and resistance to physical impact",
+      "Powder-coated white and grey finish enhances corrosion resistance, prevents rusting, and provides a clean, modern appearance",
+      "2-way connection type allows efficient control and distribution of electrical circuits in compact and organized setups",
+      "Designed for single-phase electrical systems, making it ideal for homes, offices, retail outlets, and small industrial units",
+      "Compatible with 50 Hz frequency, ensuring reliable performance under standard electrical conditions",
+      "Single-door configuration provides convenient access for wiring, maintenance, and inspection while ensuring safety",
+      "Strong and secure enclosure protects internal components from dust, moisture, and accidental contact",
+      "Easy wall-mounting design ensures quick installation and efficient use of space",
+      "Precision-engineered structure ensures proper alignment and secure fitting of MCBs for safe operation",
+      "Manufactured under strict quality control by a trusted MCB Box Manufacturer, ensuring consistent performance and long service life",
+    ],
+
+    "Why Choose Genzee Switchgears Private Limited": [
+      "Genzee Switchgears Private Limited is a trusted Industrial Switchgear Manufacturer known for delivering high-performance electrical distribution solutions across diverse industries",
+      "As a reliable Switchgear Manufacturer, the company emphasizes advanced manufacturing techniques, quality materials, and precision engineering",
+      "Recognized as a dependable MCB Box Manufacturer, offering robust and safe enclosures designed for modern electrical requirements",
+      "Strong commitment to quality assurance with rigorous testing and inspection at every stage of production",
+      "Use of advanced technology and high-grade materials ensures durability, safety, and efficient product performance",
+      "Competitive pricing structure provides excellent value without compromising on quality or safety standards",
+      "Efficient manufacturing and logistics ensure timely delivery for bulk orders and project-based requirements",
+      "Dedicated customer support team provides assistance in product selection, customization, and after-sales service",
+      "Continuous innovation and improvement to meet evolving industry standards and customer expectations",
+      "Customer-centric approach focused on building long-term relationships through trust, reliability, and consistent quality",
+    ],
+
+    specs: [
+      { "Connection Type": "2 Way" },
+      { Material: "Mild Steel (MS)" },
+      { Color: "White And Grey" },
+      { Frequency: "50 Hz" },
+      { Phase: "Single Phase" },
+      { "Door Type": "Single Door" },
+      { Model: "Prime Model" },
+    ],
+  },
+  {
+    id: "2-pole-mcb-box",
+    name: "2 Pole MCB Box",
+    catId: "switchgear",
+    catName: "Switchgear",
+    metaTitle:
+      "2 Pole MCB Box | Compact Electrical Distribution Box | Genzee Switchgear",
+    metaDescription:
+      "Buy 2 Pole MCB Box from Genzee Switchgear. High-quality, compact electrical distribution box for safe and reliable circuit protection. Leading MCB Box Manufacturer in India.",
+    image: "/2 Pole MCB Box.webp",
+    pdf: "",
+    images: ["/2 Pole MCB Box.webp", "/2 Pole MCB Box1.webp"],
+
+    "Product Overview": [
+      "The 2 Pole MCB Box by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide safe, efficient, and reliable housing for two-pole Miniature Circuit Breakers in industrial and commercial electrical systems",
+      "Manufactured using high-quality Mild Steel (MS), this MCB box ensures superior strength, durability, and protection against external damage, making it suitable for demanding industrial environments",
+      "The 2-way connection design enables effective circuit distribution and control, ensuring proper management of electrical load and enhanced system safety",
+      "Specifically designed for single-phase applications operating at 50 Hz frequency, the product delivers stable and consistent electrical performance",
+      "The grey finish provides a professional industrial look while offering additional resistance against corrosion and wear",
+      "Featuring a single-door design, the box allows easy access for installation, inspection, and maintenance while keeping internal components securely enclosed",
+      "Developed by an experienced Switchgear Manufacturer, this product ensures efficient circuit protection, improved safety, and long-term reliability",
+    ],
+
+    "Key Features": [
+      "Built with robust Mild Steel (MS) construction that provides excellent mechanical strength, impact resistance, and durability in industrial conditions",
+      "Powder-coated grey finish enhances corrosion resistance, prevents rusting, and increases the lifespan of the enclosure",
+      "2 pole configuration supports safe disconnection of both live and neutral lines, ensuring enhanced electrical safety",
+      "2-way connection type allows efficient distribution and control of electrical circuits in compact installations",
+      "Designed for single-phase systems, making it suitable for industrial equipment, control panels, and commercial electrical setups",
+      "Compatible with 50 Hz frequency, ensuring stable performance in standard power supply systems",
+      "Single-door configuration ensures convenient access for wiring, inspection, and maintenance operations",
+      "Secure enclosure design protects internal components from dust, moisture, and accidental contact",
+      "Easy wall-mounting feature allows quick installation and efficient space utilization",
+      "Manufactured under strict quality standards by a trusted MCB Box Manufacturer, ensuring consistent performance and safety compliance",
+    ],
+
+    "Why Choose Genzee Switchgears Private Limited": [
+      "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering durable and high-performance electrical products for industrial applications",
+      "As a reliable Switchgear Manufacturer, the company focuses on precision engineering, high-quality materials, and advanced production techniques",
+      "Recognized as a trusted MCB Box Manufacturer, offering robust and safe enclosures designed to meet industrial safety standards",
+      "Strong quality assurance practices with rigorous testing ensure each product delivers reliable and long-lasting performance",
+      "Use of modern manufacturing technology ensures accuracy, consistency, and superior product quality",
+      "Competitive pricing provides cost-effective solutions without compromising on durability or safety",
+      "Efficient production and supply chain management ensure timely delivery for bulk and project requirements",
+      "Dedicated customer support team offers assistance with product selection, technical queries, and after-sales service",
+      "Continuous innovation and improvement to meet evolving electrical industry standards",
+      "Customer-centric approach focused on building long-term partnerships through quality, reliability, and trust",
+    ],
+
+    specs: [
+      { "Connection Type": "2 Way" },
+      { Material: "Mild Steel (MS)" },
+      { Color: "Grey" },
+      { Frequency: "50 Hz" },
+      { Usage: "Industrial" },
+      { Phase: "Single Phase" },
+      { "Door Type": "Single Door" },
+    ],
+  },
+  {
+    id: "mild-steel-tpn-mcb-box",
+    name: "Mild Steel TPN MCB Box",
+    catId: "switchgear",
+    catName: "Switchgear",
+    metaTitle:
+      "Mild Steel TPN MCB Box | Heavy-Duty Electrical Distribution Box | Genzee Switchgear",
+    metaDescription:
+      "Buy Mild Steel TPN MCB Box from Genzee Switchgear. High-quality, heavy-duty electrical distribution box designed for safe and reliable three-phase power distribution. Leading MCB Box Manufacturer in India.",
+    image: "/Mild Steel TPN MCB BOX.webp",
+    pdf: "",
+    images: [
+      "/Mild Steel TPN MCB BOX.webp",
+      "/Mild Steel TPN MCB BOX1.webp",
+      "/Mild Steel TPN MCB BOX2.webp",
+    ],
+
+    "Product Overview": [
+      "The Mild Steel TPN MCB Box by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide secure, efficient, and organized electrical distribution for industrial, commercial, and infrastructure applications",
+      "Manufactured using high-quality Mild Steel (MS), this MCB box ensures exceptional strength, durability, and protection against external impacts, making it suitable for long-term use in demanding environments",
+      "The TPN (Triple Pole and Neutral) configuration supports efficient handling of multiple circuits, ensuring balanced load distribution and enhanced electrical safety",
+      "Featuring a 2-way connection system, the box allows structured and efficient circuit management, making it ideal for various electrical installations",
+      "Designed for single-phase applications operating at 50 Hz frequency, it ensures stable and reliable electrical performance under standard conditions",
+      "The white and grey color combination provides a clean and professional appearance while offering additional resistance to corrosion and wear",
+      "Equipped with a single-door design, the box ensures easy access for installation, inspection, and maintenance while protecting internal components from dust, moisture, and accidental contact",
+      "Developed by an experienced Switchgear Manufacturer, this product ensures optimal performance, safety, and long service life",
+    ],
+
+    "Key Features": [
+      "Constructed with premium-grade Mild Steel (MS) that provides high mechanical strength, durability, and resistance to physical damage",
+      "Powder-coated white and grey finish enhances corrosion resistance, prevents rusting, and improves overall product lifespan",
+      "TPN (Triple Pole and Neutral) design allows efficient distribution and management of electrical circuits with improved safety",
+      "2-way connection type supports organized circuit control and efficient electrical distribution",
+      "Designed for single-phase electrical systems, making it suitable for a wide range of industrial and commercial applications",
+      "Compatible with 50 Hz frequency, ensuring stable and consistent performance in standard power supply systems",
+      "Single-door configuration provides easy access for wiring, maintenance, and inspection while ensuring safety",
+      "Strong enclosure protects internal components from environmental factors such as dust, moisture, and accidental damage",
+      "Easy wall-mounting design allows quick installation and efficient space utilization",
+      "Manufactured under strict quality standards by a trusted MCB Box Manufacturer, ensuring reliability, safety, and long-term performance",
+    ],
+
+    "Why Choose Genzee Switchgears Private Limited": [
+      "Genzee Switchgears Private Limited is a trusted Industrial Switchgear Manufacturer known for delivering high-quality and reliable electrical distribution solutions",
+      "As a leading Switchgear Manufacturer, the company focuses on precision engineering, advanced manufacturing processes, and premium materials",
+      "Recognized as a dependable MCB Box Manufacturer, offering durable and safe enclosures designed for modern electrical systems",
+      "Strong emphasis on quality control with rigorous testing procedures to ensure consistent product performance and safety",
+      "Use of advanced technology and modern machinery to deliver accurate, efficient, and long-lasting products",
+      "Competitive pricing ensures cost-effective solutions without compromising on quality or safety",
+      "Efficient production and logistics ensure timely delivery for bulk orders and project requirements",
+      "Dedicated customer support team provides assistance with product selection, customization, and after-sales service",
+      "Continuous innovation and improvement to meet evolving industry standards and customer expectations",
+      "Customer-centric approach focused on building long-term relationships through trust, quality, and reliability",
+    ],
+
+    specs: [
+      { "Connection Type": "2 Way" },
+      { Material: "Mild Steel (MS)" },
+      { Color: "White And Grey" },
+      { Frequency: "50 Hz" },
+      { Phase: "Single Phase" },
+      { "Door Type": "Single Door" },
+      { "Pack Type": "Box" },
+    ],
+  },
 ];
 
 export const serviceLocations = [
