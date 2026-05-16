@@ -12,7 +12,7 @@ export default function Contact() {
         {
             icon: <FaPhoneAlt />,
             title: "Phone Number",
-            content: ["+91 9136508089", "+91 8865979034"],
+            content: [ "+91 8865979034","+91 9136508089"],
         },
         {
             icon: <CgMail />,

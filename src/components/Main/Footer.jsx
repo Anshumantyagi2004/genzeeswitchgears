@@ -26,7 +26,7 @@ export default function Footer() {
 
                     <div className="mt-3 text-base flex items-center gap-2">
                         <BiPhoneCall size={18} />
-                        <span>+91 9136508089</span>
+                        <span>+91 8865979034</span>
                     </div>
 
                     <div className="text-base flex items-start gap-2 mt-2">

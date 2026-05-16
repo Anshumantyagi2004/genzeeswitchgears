@@ -2,7 +2,7 @@ export const category = [
   {
     id: "mcb-box",
     name: "MCB Box",
-    image: "/FULL Frame MCB Box.webp",
+    image: "/Full-Frame-MCB-Box.webp",
     metaTitle:
       "MCB Box Manufacturer | High-Quality Electrical MCB Boxes | Genzee Switchgear",
     metaDescription:
