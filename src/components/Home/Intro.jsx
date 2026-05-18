@@ -25,14 +25,14 @@ export default function Intro() {
   return (
     <section ref={ref} className="relative ">
         <div className="inset-0 absolute bg-[url('/genbrand.jpeg')] opacity-6 bg-cover z-5 bg-center bg-no-repeat"></div>
-      <div className="min-h-screen py-10 max-w-7xl mx-auto z-10 flex text-black items-center justify-center px-4 md:px-6">
+      <div className=" md:min-h-[60vh] py-10 max-w-7xl mx-auto z-10 flex text-black items-center justify-center px-4 md:px-6">
         {" "}
         <div className="max-w-7xl text-black z-30 w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <motion.div
             style={{ y: textY, opacity: textOpacity }}
             className="space-y-5 order-2 md:order-1"
           >
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-black">
+            <h2 className="text-3xl sm:text-3xl md:text-5xl font-bold text-black">
               Genzee Switchgears Private Limited
             </h2>
 

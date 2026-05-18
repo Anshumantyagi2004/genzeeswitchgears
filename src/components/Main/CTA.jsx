@@ -8,7 +8,7 @@ export default function CTASection() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <section className="relative w-full py-20 flex items-center justify-center">
+        <section className="relative w-full py-10 md:py-20 flex items-center justify-center">
             <div className="absolute inset-0">
                 <img
                     src="/banner.jpg"

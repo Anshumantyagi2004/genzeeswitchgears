@@ -81,9 +81,9 @@ export default function SearchBar() {
     };
 
     return (
-        <div ref={wrapperRef} className="relative w-full md:w-62">
+        <div ref={wrapperRef} className="relative w-full md:w-52">
 
-            <div className="flex items-center border border-gray-800 rounded-md px-3 py-2">
+            <div className="flex items-center  border border-gray-800 rounded-md px-3 py-2">
                 <input
                     value={query}
                     onChange={(e) => handleSearch(e.target.value)}
@@ -91,7 +91,7 @@ export default function SearchBar() {
                     placeholder="Search products..."
                     className="outline-none text-base text-black"
                 />
-                <FiSearch className="ml-auto text-gray-800" />
+                <FiSearch className="ml-auto text-gray-800 absolute right-3" />
             </div>
 
             {/* 📦 Dropdown */}

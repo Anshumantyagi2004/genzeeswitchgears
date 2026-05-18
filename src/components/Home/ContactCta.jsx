@@ -10,7 +10,7 @@ export default function CTA() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <section
-      className="relative py-24 px-6 text-white bg-fixed bg-center bg-cover"
+      className="relative py-9 md:py-15 px-6 text-white bg-fixed bg-center bg-cover"
       style={{
         backgroundImage:
           "url('/bg.jpg')",

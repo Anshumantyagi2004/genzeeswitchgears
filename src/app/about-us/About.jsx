@@ -118,7 +118,7 @@ export default function About() {
             </div>
         </section>
 
-        <div className="px-6 md:px-16 py-16 bg-gradient-to-b from-gray-100 to-gray-200">
+        <div className="px-6 md:px-16 py-7 md:py-16 bg-gradient-to-b from-gray-100 to-gray-200">
 
             {/* Grid */}
             <motion.div
@@ -126,7 +126,7 @@ export default function About() {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: true }}
-                className="grid grid-cols-1 md:grid-cols-2 gap-10"
+                className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10"
             >
                 {data.map((item, index) => (
                     <motion.div

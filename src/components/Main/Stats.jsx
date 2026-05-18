@@ -28,7 +28,7 @@ const stats = [
 
 export default function StatsSection() {
     return (
-        <section className="relative py-20">
+        <section className="relative py-6 md:py-15">
 
             {/* BACKGROUND */}
             <div className="absolute inset-0">

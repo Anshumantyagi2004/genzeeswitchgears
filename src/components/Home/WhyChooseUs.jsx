@@ -51,11 +51,11 @@ const features = [
 
 export default function WhyChooseUs() {
     return (
-        <section className="py-20 bg-gray-100">
+        <section className="py-9 md:py-15 bg-gray-100">
             <div className="max-w-7xl mx-auto px-6">
 
                 {/* HEADING */}
-                <div className="text-center mb-14">
+                <div className="text-center mb-7 md:mb-14">
                     <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
                         What Makes Us the Right Choice
                     </h2>

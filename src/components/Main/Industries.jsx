@@ -45,7 +45,7 @@ const industries = [
 
 export default function Industries() {
   return (
-    <section className="relative py-20 px-6 bg-gradient-to-b from-slate-950 to-slate-900 text-white">
+    <section className="relative py-9 md:py-15 px-6 bg-gradient-to-b from-slate-950 to-slate-900 text-white">
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold">
           Industries We Cater To
