@@ -177,10 +177,10 @@ export default function Hero() {
         </div>
 
         {/* WhatsApp */}
-        <div className="absolute bottom-10 left-10 z-30">
+        <div className="absolute bottom-8 left-40 z-30">
           <Link
             href="https://wa.me/+918865979034"
-            className="bg-green-500 hover:bg-green-600 text-white flex items-center gap-2 rounded-xl px-5 py-4 transition-all duration-300 shadow-lg"
+            className="bg-green-500 hover:bg-green-600  text-2xl text-white w-60 justify-center flex items-center gap-2 rounded-xl px-5 py-4 transition-all duration-300 shadow-lg"
           >
             <FaWhatsapp className="text-2xl" />
             <span className="font-semibold">Whatsapp</span>
@@ -193,7 +193,7 @@ export default function Hero() {
         {/* Top Banner */}
         <div className="relative">
           <Image
-            src="/mob-banner.webp"
+            src="/mobile-banner-banner.webp"
             alt="Mobile Banner"
             width={1000}
             height={1400}
