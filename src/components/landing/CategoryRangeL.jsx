@@ -3,7 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import { motion } from "framer-motion";
-
+import { IoLogoWhatsapp } from "react-icons/io";
 import "swiper/css";
 import "swiper/css/navigation";
 import Link from "next/link";
@@ -12,13 +12,29 @@ import { useState } from "react";
 
 const products = [
   { name: "MCB Box", image: "/inquiry/Full Frame MCB Box.webp", id: "mcb-box" },
-  { name: "Busbar Chamber", image: "/inquiry/Busbar Chamber Box.webp", id: "busbar-chamber" },
+  {
+    name: "Busbar Chamber",
+    image: "/inquiry/Busbar Chamber Box.webp",
+    id: "busbar-chamber",
+  },
   { name: "Switchgear", image: "/3.jpeg", id: "switchgear" },
-  { name: "Mild Steel MCB Box", image: "/inquiry/Mild Steel MCB Box.webp", id: "distribution-box" },
+  {
+    name: "Mild Steel MCB Box",
+    image: "/inquiry/Mild Steel MCB Box.webp",
+    id: "distribution-box",
+  },
   // { name: "MCB Box", image: "/1.jpeg", id: "mcb-box" },
-  { name: "Kitkat Cutouts Fuse", image: "/inquiry/Kitkat Cutouts Fuse.webp", id: "Kitkat Cutouts Fuse" },
+  {
+    name: "Kitkat Cutouts Fuse",
+    image: "/inquiry/Kitkat Cutouts Fuse.webp",
+    id: "Kitkat Cutouts Fuse",
+  },
   // { name: "Switchgear", image: "/3.jpeg", id: "switchgear" },
-  { name: "Mild Steel TPN MCB BOX", image: "/inquiry/Mild Steel TPN MCB BOX.webp", id: "distribution-box" },
+  {
+    name: "Mild Steel TPN MCB BOX",
+    image: "/inquiry/Mild Steel TPN MCB BOX.webp",
+    id: "distribution-box",
+  },
 ];
 
 // Animation variants
@@ -79,7 +95,7 @@ export default function CategoryRange({ popup }) {
           640: { slidesPerView: 2 },
           1024: { slidesPerView: 4 },
         }}
-        className="py-10! max-w-7xl mx-auto"
+        className="py-7! max-w-7xl mx-auto"
       >
         {products.map((item, index) => (
           <SwiperSlide key={index}>
@@ -108,20 +124,27 @@ export default function CategoryRange({ popup }) {
                   {item.name}
                 </p>
 
-                {popup &&
-                  <button onClick={() => !popup ? "" : setIsOpen(true)} className="bg-gray-800 hover:bg-gray-950 text-white py-2 w-full rounded-md mt-2">
+                {popup && (
+                  <button
+                    onClick={() => (!popup ? "" : setIsOpen(true))}
+                    className="bg-gray-800 hover:bg-gray-950 text-white py-2 w-full rounded-md mt-2"
+                  >
                     Inquiry Now
-                  </button>}
+                  </button>
+                )}
               </motion.div>
             </Link>
           </SwiperSlide>
         ))}
       </Swiper>
-      <PopupForm
-        isOpen={isOpen}
-        setIsOpen={setIsOpen}
-        formType="contact"
-      />
+      <div className=" flex justify-center items-center">
+        {" "}
+        <Link href="https://wa.me/+918865979034" className="bg-green-400 py-2 px-3 mb-5 font-bold flex gap-1 rounded-lg justify-center items-center">
+          <IoLogoWhatsapp />
+          Whatsaspp
+        </Link>
+      </div>
+      <PopupForm isOpen={isOpen} setIsOpen={setIsOpen} formType="contact" />
     </motion.div>
   );
 }

@@ -9,6 +9,8 @@ import "swiper/css";
 
 import PopupForm from "../Main/ContactPopup";
 import { useState } from "react";
+import { IoLogoWhatsapp } from "react-icons/io";
+import Link from "next/link";
 
 const products = [
   {
@@ -152,6 +154,18 @@ export default function ProductRangeL({ popup }) {
             </SwiperSlide>
           ))}
         </Swiper>
+        
+      </div>
+
+      <div className=" flex justify-center flex-col mt-3 items-center">
+        <p className="text-gray-600 mt-4 text-center md:max-w-2xl mx-auto">
+            Talk to Our Experts for Reliable Industrial MCB Box & Switchgear Solutions
+          </p>
+        {" "}
+        <Link href="https://wa.me/+918865979034" className="bg-green-400 py-2 px-3 mt-2 font-bold flex gap-1 rounded-lg justify-center items-center">
+          <IoLogoWhatsapp />
+          Whatsaspp
+        </Link>
       </div>
 
       {/* Popup */}

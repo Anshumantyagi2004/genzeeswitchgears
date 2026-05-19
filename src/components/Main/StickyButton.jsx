@@ -1,8 +1,14 @@
+"use client"
 import React from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa6'
+import { usePathname } from "next/navigation";
 
 export default function StickyButton() {
+    const pathname = usePathname();
+
+  // Hide on inquiry page
+  if (pathname === "/inquiry") return null;
     return (<>
         <a href="https://wa.me/+918865979034"
             target="_blank"

@@ -11,6 +11,7 @@ import {
     FaEnvelope,
     FaNewspaper,
 } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 import { FiSearch, FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -50,6 +51,9 @@ export default function Navbar() {
                     </a>
                     <a href="https://www.instagram.com/genzee.prince/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="cursor-pointer hover:text-pink-500" size={18} />
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCf_yUu-rds0bQQKWX7tCD5A" target="_blank" rel="noopener noreferrer">
+                        <FaYoutube className="cursor-pointer hover:text-red-500" size={18} />
                     </a>
                 </div>
             </div>

@@ -8,13 +8,7 @@ import { motion } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa6";
 import { toast } from "react-hot-toast";
 
-import {
-  User,
-  Mail,
-  Phone,
-  MessageSquare,
-  CheckCircle,
-} from "lucide-react";
+import { User, Mail, Phone, MessageSquare, CheckCircle } from "lucide-react";
 
 import Link from "next/link";
 
@@ -77,7 +71,7 @@ export default function Hero() {
         data,
         {
           validateStatus: (s) => s >= 200 && s < 500,
-        }
+        },
       );
 
       if (res.status >= 200 && res.status < 300) {
@@ -98,13 +92,12 @@ export default function Hero() {
         {/* Background */}
         <div className="absolute h-full  inset-0">
           <Image
-            src="/genzee-banenr.webp"
+            src="/desk-banner.webp"
             alt="Hero Banner"
             fill
             priority
             className="object-cover"
           />
-
         </div>
 
         {/* Glow */}
@@ -113,7 +106,7 @@ export default function Hero() {
 
         {/* Content */}
         <div className="relative z-20 max-w-7xl mx-auto px-6 h-full flex items-center">
-          <div className="grid lg:grid-cols-3 gap-12 items-center w-full">
+          <div className="grid lg:grid-cols-3  items-center ">
             {/* Empty Left */}
             <div></div>
 
@@ -125,17 +118,16 @@ export default function Hero() {
               initial={{ opacity: 0, x: 70 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="flex justify-end w-full mt-2"
+              className="flex justify-end w-full ml-2  mt-2"
             >
-              <div className="w-full max-w-md bg-[#012148]/95 backdrop-blur-2xl border border-white/10 rounded-[32px] p-6 shadow-2xl">
+              <div className="w-full max-w-3xl bg-[#012148]/95 backdrop-blur-2xl border border-white/10 rounded-[32px] p-6 shadow-2xl">
+                {" "}
                 <h2 className="text-3xl font-bold text-white text-center">
                   Get a Quote
                 </h2>
-
                 <p className="text-gray-300 text-center mt-3 text-sm leading-relaxed">
                   Fill out the form and our team will contact you shortly.
                 </p>
-
                 <form
                   onSubmit={handleSubmit}
                   className="flex flex-col gap-5 mt-8"
@@ -201,7 +193,7 @@ export default function Hero() {
         {/* Top Banner */}
         <div className="relative">
           <Image
-            src="/mobile-banner.webp"
+            src="/mob-banner.webp"
             alt="Mobile Banner"
             width={1000}
             height={1400}
@@ -209,11 +201,8 @@ export default function Hero() {
             priority
           />
 
-
           {/* Mobile Buttons */}
           <div className="absolute bottom-5 left-0 right-0 px-4 flex gap-3">
-          
-
             {/* <Link
               href="https://wa.me/+918865979034"
               className="flex-1 bg-green-500 text-white font-semibold py-3 rounded-xl shadow-lg flex items-center justify-center gap-2"
@@ -240,10 +229,7 @@ export default function Hero() {
               <div className="w-16 h-1 bg-orange-500 rounded-full mx-auto mt-3"></div>
             </div>
 
-            <form
-              onSubmit={handleSubmit}
-              className="flex flex-col gap-4 mt-8"
-            >
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4 mt-8">
               {fields.map((field, i) => {
                 const Icon = field.icon;
 

@@ -65,6 +65,9 @@ export default function WhyChooseUs() {
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#0B2C66] uppercase tracking-wide">
             Why Choose Genzee Switchgears
           </h2>
+          <p className="text-sm mt-4  md:text-xl font-bold text-[#0B2C66] uppercase tracking-wide">
+            Get High-Quality Industrial MCB Box & Switchgear Direct from Manufacturer
+          </p>
 
           <div className="w-16 h-1 bg-orange-500 rounded-full mx-auto mt-4"></div>
         </motion.div>

@@ -115,13 +115,16 @@ export default function CategoryRange({ popup }) {
               </motion.div>
             </Link>
           </SwiperSlide>
+          
         ))}
+        
       </Swiper>
       <PopupForm
         isOpen={isOpen}
         setIsOpen={setIsOpen}
         formType="contact"
       />
+    
     </motion.div>
   );
 }
