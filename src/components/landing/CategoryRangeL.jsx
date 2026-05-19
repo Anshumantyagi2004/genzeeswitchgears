@@ -17,7 +17,6 @@ const products = [
     image: "/inquiry/Busbar Chamber Box.webp",
     id: "busbar-chamber",
   },
-  { name: "Switchgear", image: "/3.jpeg", id: "switchgear" },
   {
     name: "Mild Steel MCB Box",
     image: "/inquiry/Mild Steel MCB Box.webp",
@@ -29,7 +28,7 @@ const products = [
     image: "/inquiry/Kitkat Cutouts Fuse.webp",
     id: "Kitkat Cutouts Fuse",
   },
-  // { name: "Switchgear", image: "/3.jpeg", id: "switchgear" },
+  { name: "Switchgear", image: "/inquiry/Switchgear.webp", id: "switchgear" },
   {
     name: "Mild Steel TPN MCB BOX",
     image: "/inquiry/Mild Steel TPN MCB BOX.webp",
