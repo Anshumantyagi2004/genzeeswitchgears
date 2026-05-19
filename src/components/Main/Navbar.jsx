@@ -45,16 +45,16 @@ export default function Navbar() {
                     <a href="https://wa.me/+918865979034" target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp className="cursor-pointer hover:text-green-500" size={20} />
                     </a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/people/Genzee-Switchgears/61588682865617/" target="_blank" rel="noopener noreferrer">
                         <FaFacebookF className="cursor-pointer hover:text-blue-500" size={18} />
                     </a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/genzee.prince/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="cursor-pointer hover:text-pink-500" size={18} />
                     </a>
                 </div>
             </div>
 
-            <div className="bg-white flex justify-between items-center px-4 md:px-6 py-4">
+            <div className="bg-white flex justify-between items-center px-4 md:px-6 py-2">
                 <div className="flex items-center gap-2">
                     <Image
                         src="/logo.webp"

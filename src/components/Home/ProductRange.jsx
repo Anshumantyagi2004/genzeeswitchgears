@@ -54,7 +54,7 @@ export default function ProductRange() {
                                     <img
                                         src={item.image}
                                         alt={item.name}
-                                        className="h-40 object-contain mb-4"
+                                        className="h-40 object-cover mb-4"
                                     />
 
                                     <h3 className="line-clamp-2 min-h-[3.5rem] flex items-center text-lg font-semibold text-gray-800 mb-3 text-center">

@@ -688,9 +688,9 @@ export const products = [
       "Full Frame MCB Box | Heavy-Duty Electrical Distribution Box | Genzee Switchgear",
     metaDescription:
       "Full Frame MCB Box | Heavy-Duty Electrical Distribution Box | Genzee Switchgear",
-    image: "/Full Frame MCB Box.webp",
+    image: "/Full-Frame-MCB-Box.webp",
     pdf: "",
-    images: ["/Full Frame MCB Box.webp", "/Full Frame MCB Box1.webp"],
+    images: ["/Full-Frame-MCB-Box.webp", "/Full Frame MCB Box1.webp"],
 
     "Product Overview": [
       "The Full Frame MCB Box by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide secure, efficient, and well-structured electrical distribution for residential, commercial, and industrial applications",
@@ -2263,9 +2263,9 @@ export const products = [
       "Single Phase Power Distribution Box Manufacturer | Electrical DB Box | Genzee Switchgear",
     metaDescription:
       "Buy Single Phase Power Distribution Box from Genzee Switchgear. Reliable and durable electrical distribution solutions for safe and efficient single phase power management. Leading Distribution Box Manufacturer in India.",
-    image: "/Full Frame MCB Box.webp",
+    image: "/Full-Frame-MCB-Box.webp",
     pdf: "",
-    images: ["/Full Frame MCB Box.webp"],
+    images: ["/Full-Frame-MCB-Box.webp"],
 
     "Product Overview": [
       "The Single-Phase Power Distribution Box by Genzee Switchgears Private Limited is designed to deliver safe, efficient, and well-organized electrical power distribution for industrial, commercial, and utility applications where multiple outputs are required from a single controlled source",
