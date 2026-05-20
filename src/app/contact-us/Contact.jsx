@@ -34,7 +34,7 @@ export default function Contact() {
     return (
         <>
             {/* Banner Section */}
-            <section className="relative w-full h-62 md:h-88 flex items-center justify-center text-white">
+            <section className="relative w-full h-62  md:h-88 flex items-center justify-center text-white">
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
@@ -66,7 +66,8 @@ export default function Contact() {
             </section>
 
             {/* Contact Cards */}
-            <section className="w-full pt-10 pb-5 bg-gray-50 md:px-15 px-4">
+            <div className="bg-gray-50">
+            <section className="w-full pt-10 max-w-7xl mx-auto pb-5 bg-gray-50 md:px-15 px-4">
                 <div className="grid md:grid-cols-3 md:gap-8 gap-5">
                     {cardData.map((card, index) => (
                         <motion.div
@@ -101,6 +102,7 @@ export default function Contact() {
                     ))}
                 </div>
             </section>
+            </div>
 
             {/* Form Section */}
             <FormSection />

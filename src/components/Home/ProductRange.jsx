@@ -65,7 +65,7 @@ export default function ProductRange() {
                     className="h-55 w-full object-cover mb-4 rounded-lg"
                   />
 
-                  <h3 className="line-clamp-2 min-h-[3.5rem] flex items-center text-lg font-semibold text-gray-800 mb-3 text-center">
+                  <h3 className="line-clamp-2 min-h-[3.5rem] flex items-center text-lg font-semibold text-gray-800 mb-3 text-start">
                     {item.name}
                   </h3>
 

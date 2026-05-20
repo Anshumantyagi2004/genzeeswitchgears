@@ -88,8 +88,8 @@ export default function Navbar() {
 
                         <div className="overflow-y-auto scrollbar-hide border border-gray-400 absolute left-0 top-full mt-3 h-[330px] w-[570px] bg-white shadow-xl rounded-xl p-4 overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                             <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 h-full content-start">
-                                {category.map((cat) => (
-                                    <Link key={cat.id}
+                                {category.map((cat ,index) => (
+                                    <Link key={index}
                                         href={`/categories/${cat.id}`}
                                         className="group/card"
                                     >

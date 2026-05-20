@@ -48,7 +48,8 @@ export default function FormSection() {
     };
 
     return (
-        <section className="w-full px-4 py-10 md:px-15 bg-gray-200">
+        <div className="bg-gray-200">
+        <section className="w-full px-4 py-10 max-w-7xl mx-auto md:px-15 bg-gray-200">
             <div className="flex flex-col md:flex-row items-center gap-10">
                 <div className="w-full md:w-1/2 h-[500px]">
                     <iframe
@@ -118,5 +119,6 @@ export default function FormSection() {
                 </div>
             </div>
         </section>
+        </div>
     )
 }

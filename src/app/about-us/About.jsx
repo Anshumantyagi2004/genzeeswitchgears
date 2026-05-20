@@ -126,7 +126,7 @@ export default function About() {
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: true }}
-                className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10"
+                className="grid grid-cols-1 max-w-7xl mx-auto md:grid-cols-2 gap-5 md:gap-10"
             >
                 {data.map((item, index) => (
                     <motion.div

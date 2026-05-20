@@ -172,6 +172,7 @@ export default function Location() {
 
         <CategoryRange popup={true} />
 
+        <section className="max-w-7xl mx-auto bg-gray-50">
         <section className="w-full py-10 px-4 lg:px-15 bg-gray-50">
             <div className="grid lg:grid-cols-2 gap-10 items-center">
                 <div>
@@ -203,6 +204,7 @@ export default function Location() {
                 </div>
             </div>
         </section>
+        </section>
 
         <StatsSection />
 
@@ -222,6 +224,7 @@ export default function Location() {
             </div>
 
             {/* Grid */}
+            <div className='max-w-7xl mx-auto'>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {features.map((item, index) => {
                     const Icon = item.icon;
@@ -248,8 +251,10 @@ export default function Location() {
                     );
                 })}
             </div>
+            </div>
         </section>
 
+        <section className="max-w-7xl mx-auto bg-gray-200">
         <section className="w-full py-10 px-4 lg:px-15 bg-gray-200">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                 {/* Heading */}
@@ -309,6 +314,7 @@ export default function Location() {
                     })}
                 </div>
             </div>
+        </section>
         </section>
 
         <Industries />
