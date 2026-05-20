@@ -179,12 +179,12 @@ export default function Hero() {
         {/* WhatsApp */}
         <div className="absolute bottom-8 left-10 z-30">
           <Link
-            href="https://wa.me/+918865979034"
-            className="bg-[#ff7200] hover:bg-green-600  whitespace-nowrap text-2xl text-white  justify-center flex items-center gap-2 rounded-xl px-3 py-2 transition-all duration-300 shadow-lg"
-          >
-            <FaWhatsapp className="text-2xl" />
-            <span className="font-semibold ">Share Your Requirements</span>
-          </Link>
+  href="https://wa.me/918865979034?text=Hello%2C%20I%20need%20a%20quotation%20for%20your%20switchgear%20products."
+  className="bg-[#ff7200] hover:bg-green-600 whitespace-nowrap text-2xl text-white justify-center flex items-center gap-2 rounded-xl px-3 py-2 transition-all duration-300 shadow-lg"
+>
+  <FaWhatsapp className="text-2xl" />
+  <span className="font-semibold">Share Your Requirements</span>
+</Link>
         </div>
       </section>
 

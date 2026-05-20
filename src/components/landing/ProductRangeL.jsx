@@ -162,7 +162,8 @@ export default function ProductRangeL({ popup }) {
             Talk to Our Experts for Reliable Industrial MCB Box & Switchgear Solutions
           </p>
         {" "}
-        <Link href="https://wa.me/+918865979034" className="bg-green-600 text-xl py-2 px-3 mt-2 font-bold flex gap-1 rounded-lg justify-center items-center">
+        <Link   href="https://wa.me/918865979034?text=Hello%2C%20I%20need%20a%20quotation%20for%20your%20switchgear%20products."
+ className="bg-green-600 text-xl py-2 px-3 mt-2 font-bold flex gap-1 rounded-lg justify-center items-center">
           <IoLogoWhatsapp size={30} />
           Connect with Expert Now
 

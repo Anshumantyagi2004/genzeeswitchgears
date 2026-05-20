@@ -34,7 +34,8 @@ export default function page  () {
 
         {/* WhatsApp */}
         <Link
-          href="https://wa.me/+918865979034"
+            href="https://wa.me/918865979034?text=Hello%2C%20I%20need%20a%20quotation%20for%20your%20switchgear%20products."
+
           target="_blank"
           className="flex flex-col items-center justify-center py-3"
         >

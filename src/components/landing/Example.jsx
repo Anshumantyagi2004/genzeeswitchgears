@@ -163,7 +163,8 @@ export default function Example() {
       </div>
       <div className=" flex justify-center items-center mt-5 ">
         {" "}
-        <Link href="https://wa.me/+918865979034" className="bg-green-600 whitespace-nowrap text-xl py-2 px-3  font-bold flex gap-1  rounded-lg justify-center items-center">
+        <Link   href="https://wa.me/918865979034?text=Hello%2C%20I%20need%20a%20quotation%20for%20your%20switchgear%20products."
+ className="bg-green-600 whitespace-nowrap text-xl py-2 px-3  font-bold flex gap-1  rounded-lg justify-center items-center">
           <IoLogoWhatsapp size={30} />
           Get Factory Quote on WhatsApp
 
