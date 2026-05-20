@@ -7,6 +7,8 @@ import {
   Globe2,
   ShieldCheck,
 } from "lucide-react";
+import Link from "next/link";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const stats = [
   {
@@ -33,7 +35,7 @@ const stats = [
 
 export default function Example() {
   return (
-    <section className="relative overflow-hidden bg-white py-10 md:py-16 px-4">
+    <section className="relative overflow-hidden bg-white py-10 md:pt-11 px-4">
 
       {/* Background Glow */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-orange-100 blur-[120px] rounded-full -z-10"></div>
@@ -149,7 +151,7 @@ export default function Example() {
               <img
                 src="/Electrical Main Switch Box.webp"
                 alt="Warehouse"
-                className="w-full h-full bg-orange-50 object-cover group-hover:scale-110 transition duration-700"
+                className="w-full h-full bg-orange-50 object-contain group-hover:scale-110 transition duration-700"
               />
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
@@ -157,7 +159,16 @@ export default function Example() {
 
           </motion.div>
         </div>
+        
       </div>
-    </section>
+      <div className=" flex justify-center items-center mt-5 ">
+        {" "}
+        <Link href="https://wa.me/+918865979034" className="bg-green-600 whitespace-nowrap text-xl py-2 px-3  font-bold flex gap-1  rounded-lg justify-center items-center">
+          <IoLogoWhatsapp size={30} />
+          Get Factory Quote on WhatsApp
+
+        </Link>
+      </div>
+    </section>  
   );
 }

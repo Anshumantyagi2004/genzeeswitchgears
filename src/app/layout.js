@@ -4,6 +4,7 @@ import Navbar from "@/components/Main/Navbar";
 import Footer from "@/components/Main/Footer";
 import { Toaster } from "react-hot-toast";
 import StickyButton from "@/components/Main/StickyButton";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,8 +17,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Switchgear Manufacturer | Industrial Switchgear & MCB Box Manufacturer | Genzee Switchgear",
-  description: "Leading Switchgear Manufacturer offering Industrial Switchgear and MCB Boxes. Genzee Switchgear delivers safe, durable, and high-performance electrical solutions.",
+  title:
+    "Switchgear Manufacturer | Industrial Switchgear & MCB Box Manufacturer | Genzee Switchgear",
+  description:
+    "Leading Switchgear Manufacturer offering Industrial Switchgear and MCB Boxes. Genzee Switchgear delivers safe, durable, and high-performance electrical solutions.",
   icons: {
     icon: "/logo.webp",
   },
@@ -29,7 +32,27 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        {/* Google Tag Manager */}
+        <Script id="gtm-script" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-W3PCJK6V');
+          `}
+        </Script>
+      </head>
       <body className="min-h-full flex flex-col">
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-W3PCJK6V"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         <Navbar />
         {children}
         <Toaster position="top-center" />

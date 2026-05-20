@@ -36,7 +36,7 @@ export default function AllProducts() {
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {products.map((i, idx) => i && i.image ? (
           <motion.div
-            key={i.id}
+            key={idx}
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: idx * 0.1, duration: 0.4 }}

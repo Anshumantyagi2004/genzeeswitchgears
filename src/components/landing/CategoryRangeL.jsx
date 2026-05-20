@@ -138,7 +138,7 @@ export default function CategoryRange({ popup }) {
       </Swiper>
       <div className=" flex justify-center items-center">
         {" "}
-        <Link href="https://wa.me/+918865979034" className="bg-green-400 whitespace-nowrap text-xl py-4 px-3 mb-5 font-bold flex gap-1 w-80 rounded-lg justify-center items-center">
+        <Link href="https://wa.me/+918865979034" className="bg-green-600 whitespace-nowrap text-xl py-2 px-3 mb-5 font-bold flex gap-1 w-80 rounded-lg justify-center items-center">
           <IoLogoWhatsapp size={30} />
           Instant Quote on WhatsApp
 
