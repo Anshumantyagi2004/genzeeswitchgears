@@ -5,24 +5,16 @@ import { RxCross2 } from "react-icons/rx";
 import { toast } from "react-hot-toast";
 import { useState } from "react";
 import { User, Mail, Phone, MessageSquare } from "lucide-react";
+import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
+import { auth } from "@/utils/firebase";
 
 const formConfigs = {
   contact: {
     title: "Contact Us",
     product: "Switchgears",
     fields: [
-      {
-        name: "contactPerson",
-        type: "text",
-        placeholder: "Your Name",
-        required: true,
-      },
-      {
-        name: "email",
-        type: "email",
-        placeholder: "Your Email",
-        required: true,
-      },
+      { name: "contactPerson", type: "text", placeholder: "Your Name", required: true },
+      { name: "email", type: "email", placeholder: "Your Email", required: true },
       { name: "phone", type: "tel", placeholder: "Phone Number" },
       { name: "message", type: "textarea", placeholder: "Your Requirement" },
     ],
@@ -40,10 +32,62 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
+  const [otpSent, setOtpSent] = useState(false);
+  const [otp, setOtp] = useState("");
+  const [confirmation, setConfirmation] = useState(null);
+
   const config = formConfigs[formType];
 
+  // INIT RECAPTCHA
+  const setupRecaptcha = () => {
+    if (!window.recaptchaVerifier) {
+      window.recaptchaVerifier = new RecaptchaVerifier(
+        auth,
+        "recaptcha-container",
+        { size: "invisible" }
+      );
+    }
+  };
+
+  // SEND OTP
+  const sendOtp = async (phone) => {
+    try {
+      setupRecaptcha();
+
+      const appVerifier = window.recaptchaVerifier;
+
+      const result = await signInWithPhoneNumber(
+        auth,
+        "+91" + phone,
+        appVerifier
+      );
+
+      setConfirmation(result);
+      setOtpSent(true);
+
+      toast.success("OTP sent successfully");
+    } catch (err) {
+      console.log(err);
+      toast.error("Failed to send OTP");
+    }
+  };
+
+  // VERIFY OTP
+  const verifyOtp = async () => {
+    try {
+      await confirmation.confirm(otp);
+      toast.success("OTP verified successfully");
+      return true;
+    } catch (err) {
+      toast.error("Invalid OTP");
+      return false;
+    }
+  };
+
+  // SUBMIT FORM
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     const formData = new FormData(e.target);
 
     const data = {
@@ -65,21 +109,41 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
     try {
       setLoading(true);
 
+      // STEP 1 → SEND OTP
+      if (!otpSent) {
+        await sendOtp(data.phone);
+        setLoading(false);
+        return;
+      }
+
+      // STEP 2 → VERIFY OTP
+      const isVerified = await verifyOtp();
+      if (!isVerified) {
+        setLoading(false);
+        return;
+      }
+
+      // STEP 3 → FINAL SUBMIT
       const res = await axios.post(
         "https://brandbnalo.com/api/form/add",
         data,
-        { validateStatus: (s) => s >= 200 && s < 500 },
+        { validateStatus: (s) => s >= 200 && s < 500 }
       );
 
       if (res.status >= 200 && res.status < 300) {
         setSubmitted(true);
-
-        setTimeout(() => e.target.reset(), 100);
+        e.target.reset();
 
         setTimeout(() => {
           setSubmitted(false);
-          setIsOpen(false); // close popup
-        }, 3000);
+          setIsOpen(false);
+        }, 2000);
+
+        setOtpSent(false);
+        setOtp("");
+        setConfirmation(null);
+      } else {
+        toast.error("Submission failed");
       }
     } catch (err) {
       toast.error("Something went wrong");
@@ -99,14 +163,9 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
           onClick={() => setIsOpen(false)}
         >
           <motion.div
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            exit={{ scale: 0.8, opacity: 0 }}
-            transition={{ duration: 0.3 }}
             className="relative bg-white rounded-xl w-full max-w-lg mx-4 p-6"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Close */}
             <button
               onClick={() => setIsOpen(false)}
               className="absolute top-3 right-3 bg-black text-white rounded-full p-2"
@@ -114,30 +173,36 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
               <RxCross2 />
             </button>
 
+            {/* invisible recaptcha container */}
+            <div id="recaptcha-container"></div>
+
             {submitted ? (
-              <div className="text-center py-10">
-                <div className="flex flex-col items-center justify-center py-10 text-center">
-                  <div className="w-20 h-20 flex items-center justify-center rounded-full bg-green-100 mb-5 shadow-inner">
-                    <span className="text-4xl">🎉</span>
-                  </div>
+              <div className="flex items-center justify-center py-12">
+  <div className="w-full max-w-md rounded-2xl bg-white shadow-xl border border-gray-100 p-8 text-center">
+    
+    {/* success dot */}
+    <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-green-100">
+      <span className="text-2xl">🎉</span>
+    </div>
 
-                  <h2 className="text-3xl font-bold bg-gradient-to-r from-green-500 to-emerald-600 bg-clip-text text-transparent">
-                    Thank You!
-                  </h2>
+    <h2 className="text-2xl font-bold text-gray-900">
+      Thank You!
+    </h2>
 
-                  <p className="text-gray-600 text-md mt-3 max-w-sm leading-relaxed">
-                    Your enquiry has been submitted successfully. Our team will
-                    get back to you shortly.
-                  </p>
+    <p className="mt-3 text-gray-600 leading-relaxed">
+      Your submission has been received successfully.  
+      Our team will contact you shortly.
+    </p>
 
-                  <div className="mt-6 w-24 h-1 rounded-full bg-gradient-to-r from-green-400 to-emerald-500"></div>
-                </div>
-              </div>
+    <div className="mt-6">
+      <div className="h-1 w-24 mx-auto rounded-full bg-gradient-to-r from-green-400 to-emerald-500"></div>
+    </div>
+  </div>
+</div>
             ) : (
               <>
-                <h2 className="text-2xl font-bold text-center mb-6 text-gray-800 flex justify-center items-center flex-col">
+                <h2 className="text-2xl font-bold text-center mb-6 text-gray-800">
                   {config.title}
-                  <div className="w-15 h-1 bg-gray-800 text-center rounded-lg mt-1"></div>
                 </h2>
 
                 <form onSubmit={handleSubmit} className="flex flex-col gap-5">
@@ -159,7 +224,7 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
                             name={field.name}
                             placeholder={field.placeholder}
                             required={field.required}
-                            className="w-full border border-gray-300 p-2 pl-10 rounded-md text-black focus:outline-none focus:ring-1 focus:ring-gray-400"
+                            className="w-full border border-gray-300 p-2 pl-10 rounded-md text-black"
                           />
                         ) : (
                           <input
@@ -167,19 +232,34 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
                             name={field.name}
                             placeholder={field.placeholder}
                             required={field.required}
-                            className="w-full border border-gray-300 p-2 pl-10 rounded-md text-black focus:outline-none focus:ring-1 focus:ring-gray-400"
+                            className="w-full border border-gray-300 p-2 pl-10 rounded-md text-black"
                           />
                         )}
                       </div>
                     );
                   })}
 
+                  {/* OTP FIELD */}
+                  {otpSent && (
+                    <input
+                      type="text"
+                      value={otp}
+                      onChange={(e) => setOtp(e.target.value)}
+                      placeholder="Enter OTP"
+                      className="w-full border border-gray-300 p-2 pl-10 rounded-md text-black"
+                    />
+                  )}
+
                   <button
                     type="submit"
                     disabled={loading}
-                    className="bg-gray-800 text-white py-3 rounded-md hover:bg-black transition"
+                    className="bg-gray-800 text-white py-3 rounded-md"
                   >
-                    {loading ? "Submitting..." : "Submit Inquiry"}
+                    {loading
+                      ? "Processing..."
+                      : !otpSent
+                      ? "Send OTP"
+                      : "Verify & Submit"}
                   </button>
                 </form>
               </>
