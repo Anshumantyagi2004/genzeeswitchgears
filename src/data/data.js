@@ -2034,12 +2034,12 @@ export const products = [
 
     "metaDescription": "Buy Main Switch Fuse Unit (White, Double Pole) from Genzee Switchgear. Durable and reliable electrical switch box designed for safe power isolation, fuse protection, and efficient electrical control applications.",
 
-    "image": "/new-prod/Main Switch Fuse Unit (White, Double Pole).webp",
+    "image": "/new-prod/Main-Switch-Fuse-Unit.webp",
 
     "pdf": "",
 
     "images": [
-        "/new-prod/Main Switch Fuse Unit (White, Double Pole).webp",
+        "/new-prod/Main-Switch-Fuse-Unit.webp",
     ],
 
     "Product Overview": [
