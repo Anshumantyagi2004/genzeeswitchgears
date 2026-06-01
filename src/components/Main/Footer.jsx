@@ -24,10 +24,13 @@ export default function Footer() {
                         Welcome to Genzee Switchgears, Private Limited is a trusted name in the electrical industry, recognized as a leading Industrial Switchgear Manufacturer.
                     </p>
 
-                    <div className="mt-3 text-base flex items-center gap-2">
-                        <BiPhoneCall size={18} />
-                        <span>+91 8865979034</span>
-                    </div>
+                    <a
+  href="tel:+918865979034"
+  className="mt-3 text-base flex items-center gap-2 hover:underline"
+>
+  <BiPhoneCall size={18} />
+  <span>+91 8865979034</span>
+</a>
 
                     <div className="text-base flex items-start gap-2 mt-2">
                         <FaLocationDot size={18} className="" />

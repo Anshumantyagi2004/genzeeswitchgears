@@ -11,8 +11,8 @@ import { toast } from "react-hot-toast";
 import { User, Mail, Phone, MessageSquare, CheckCircle } from "lucide-react";
 import Link from "next/link";
 
-import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
-import { auth } from "@/utils/firebase";
+// import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
+// import { auth } from "@/utils/firebase";
 
 const fields = [
   { name: "contactPerson", type: "text", placeholder: "Your Name", icon: User },
@@ -25,61 +25,61 @@ export default function Hero() {
   const [loading, setLoading] = useState(false);
 
   // OTP STATES
-  const [otp, setOtp] = useState("");
-  const [otpSent, setOtpSent] = useState(false);
-  const [verified, setVerified] = useState(false);
-  const [confirmationResult, setConfirmationResult] = useState(null);
+  // const [otp, setOtp] = useState("");
+  // const [otpSent, setOtpSent] = useState(false);
+  // const [verified, setVerified] = useState(false);
+  // const [confirmationResult, setConfirmationResult] = useState(null);
 
   // Recaptcha init
-  useEffect(() => {
-    if (typeof window === "undefined") return;
+  // useEffect(() => {
+  //   if (typeof window === "undefined") return;
 
-    if (!window.recaptchaVerifier) {
-      window.recaptchaVerifier = new RecaptchaVerifier(
-        auth,
-        "recaptcha-container",
-        { size: "invisible" }
-      );
+  //   if (!window.recaptchaVerifier) {
+  //     window.recaptchaVerifier = new RecaptchaVerifier(
+  //       auth,
+  //       "recaptcha-container",
+  //       { size: "invisible" }
+  //     );
 
-      window.recaptchaVerifier.render();
-    }
-  }, []);
+  //     window.recaptchaVerifier.render();
+  //   }
+  // }, []);
 
   // SEND OTP
-  const sendOTP = async (phone) => {
-    try {
-      const appVerifier = window.recaptchaVerifier;
+  // const sendOTP = async (phone) => {
+  //   try {
+  //     const appVerifier = window.recaptchaVerifier;
 
-      const result = await signInWithPhoneNumber(
-        auth,
-        "+91" + phone,
-        appVerifier
-      );
+  //     const result = await signInWithPhoneNumber(
+  //       auth,
+  //       "+91" + phone,
+  //       appVerifier
+  //     );
 
-      setConfirmationResult(result);
-      setOtpSent(true);
+  //     setConfirmationResult(result);
+  //     setOtpSent(true);
 
-      toast.success("OTP sent successfully");
-    } catch (err) {
-      console.log(err);
-      toast.error("Failed to send OTP");
-    }
-  };
+  //     toast.success("OTP sent successfully");
+  //   } catch (err) {
+  //     console.log(err);
+  //     toast.error("Failed to send OTP");
+  //   }
+  // };
 
   // VERIFY OTP
-  const verifyOTP = async () => {
-    try {
-      await confirmationResult.confirm(otp);
-      setVerified(true);
-      toast.success("OTP Verified");
-      setTimeout(() => {
-      document.querySelector("form")?.requestSubmit();
-    }, 100);
-    } catch (err) {
-      console.log(err);
-      toast.error("Invalid OTP");
-    }
-  };
+  // const verifyOTP = async () => {
+  //   try {
+  //     await confirmationResult.confirm(otp);
+  //     setVerified(true);
+  //     toast.success("OTP Verified");
+  //     setTimeout(() => {
+  //     document.querySelector("form")?.requestSubmit();
+  //   }, 100);
+  //   } catch (err) {
+  //     console.log(err);
+  //     toast.error("Invalid OTP");
+  //   }
+  // };
 
   // MAIN SUBMIT
   const handleSubmit = async (e) => {
@@ -105,16 +105,16 @@ export default function Hero() {
     }
 
     // STEP 1 → SEND OTP
-    if (!otpSent) {
-      await sendOTP(data.phone);
-      return;
-    }
+    // if (!otpSent) {
+    //   await sendOTP(data.phone);
+    //   return;
+    // }
 
     // STEP 2 → VERIFY OTP
-    if (!verified) {
-      await verifyOTP();
-      return;
-    }
+    // if (!verified) {
+    //   await verifyOTP();
+    //   return;
+    // }
 
     // STEP 3 → SUBMIT AFTER OTP VERIFIED
     try {
@@ -131,10 +131,10 @@ export default function Hero() {
         e.target.reset();
 
         // reset OTP state
-        setOtp("");
-        setOtpSent(false);
-        setVerified(false);
-        setConfirmationResult(null);
+        // setOtp("");
+        // setOtpSent(false);
+        // setVerified(false);
+        // setConfirmationResult(null);
       } else {
         toast.error("Submission failed");
       }
@@ -160,7 +160,7 @@ export default function Hero() {
           />
         </div>
 
-        <div id="recaptcha-container"></div>
+        {/* <div id="recaptcha-container"></div> */}
 
         <div className="relative z-20 max-w-7xl mx-auto px-6 h-full flex items-center">
           <div className="grid lg:grid-cols-3 items-center">
@@ -172,7 +172,7 @@ export default function Hero() {
               animate={{ opacity: 1, x: 0 }}
               className="flex justify-end w-full ml-2 mt-2"
             >
-              <div className="w-full max-w-3xl bg-[#012148]/95 border border-white/10 rounded-[32px] p-6 shadow-2xl">
+              <div className="w-full max-w-3xl bg-[#012148]/95 border border-white/10 rounded-[32px] p-6 text-gray-400 shadow-2xl">
 
                 <h2 className="text-3xl font-bold text-white text-center">
                   Get a Quote
@@ -189,7 +189,7 @@ export default function Hero() {
 
                     return (
                       <div key={i} className="relative">
-                        <Icon size={18} className="absolute left-4 top-4 text-gray-400" />
+                        <Icon size={18} className="absolute left-4 top-4 " />
 
                         {field.type === "textarea" ? (
                           <textarea
@@ -197,7 +197,7 @@ export default function Hero() {
                             name={field.name}
                             placeholder={field.placeholder}
                             required
-                            className="w-full bg-white/10 border border-white/10 text-white rounded-2xl pl-12 pr-4 py-3"
+                            className="w-full bg-white/10 border  border-white/10 text-white  rounded-2xl pl-12 pr-4 py-3"
                           />
                         ) : (
                           <input
@@ -213,7 +213,7 @@ export default function Hero() {
                   })}
 
                   {/* OTP INPUT (NO CSS CHANGED) */}
-                  {otpSent && !verified && (
+                  {/* {otpSent && !verified && (
                     <input
                       type="text"
                       value={otp}
@@ -221,8 +221,8 @@ export default function Hero() {
                       placeholder="Enter OTP"
                       className="w-full bg-white/10 border border-white/10 text-white rounded-2xl pl-4 pr-4 py-3"
                     />
-                  )}
-
+                  )} */}
+{/* 
                   <button
                     type="submit"
                     disabled={loading}
@@ -235,6 +235,13 @@ export default function Hero() {
                       : !verified
                       ? "Verify OTP"
                       : "Submit Inquiry"}
+                  </button> */}
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="bg-gradient-to-r from-orange-500 to-amber-500 text-white py-3 rounded-2xl font-semibold"
+                  >
+                    {loading ? "Submitting..." : "Submit Inquiry"}
                   </button>
                 </form>
               </div>
@@ -265,8 +272,8 @@ export default function Hero() {
           />
         </div>
 
-        <div className="px-4 -mt-6">
-          <div className="bg-white rounded-[28px] p-5 shadow-2xl">
+        <div className="px-4 mt-6">
+          <div className="bg-white rounded-[28px] border-2 border-orange-400 p-5 shadow-2xl">
 
             <h2 className="text-3xl font-bold text-[#012148] text-center">
               GET INSTANT QUOTE
@@ -279,7 +286,7 @@ export default function Hero() {
 
                 return (
                   <div key={i} className="relative">
-                    <Icon size={18} className="absolute left-4 top-4 text-gray-400" />
+                    <Icon size={18} className="absolute left-4 top-4 text-black" />
 
                     {field.type === "textarea" ? (
                       <textarea
@@ -287,7 +294,7 @@ export default function Hero() {
                         name={field.name}
                         placeholder={field.placeholder}
                         required
-                        className="w-full border rounded-2xl pl-12 py-3"
+                        className="w-full placeholder:text-black border  text-black rounded-2xl pl-12 py-3"
                       />
                     ) : (
                       <input
@@ -295,7 +302,7 @@ export default function Hero() {
                         name={field.name}
                         placeholder={field.placeholder}
                         required
-                        className="w-full border rounded-2xl pl-12 py-3"
+                        className="w-full placeholder:text-black border text-black border-black rounded-2xl pl-12 py-3"
                       />
                     )}
                   </div>
@@ -303,7 +310,7 @@ export default function Hero() {
               })}
 
               {/* OTP INPUT */}
-              {otpSent && !verified && (
+              {/* {otpSent && !verified && (
                 <input
                   type="text"
                   value={otp}
@@ -311,9 +318,9 @@ export default function Hero() {
                   placeholder="Enter OTP"
                   className="w-full border rounded-2xl py-3 px-4"
                 />
-              )}
+              )} */}
 
-              <button
+              {/* <button
                 type="submit"
                 disabled={loading}
                 className="bg-gradient-to-r from-orange-500 to-amber-500 text-white py-4 rounded-2xl font-bold"
@@ -325,6 +332,13 @@ export default function Hero() {
                   : !verified
                   ? "Verify OTP"
                   : "REQUEST QUOTE"}
+              </button> */}
+              <button
+                type="submit"
+                disabled={loading}
+                className="bg-gradient-to-r from-orange-500 to-amber-500 text-white py-4 rounded-2xl font-bold"
+              >
+                {loading ? "Submitting..." : "Submit Inquiry"}
               </button>
             </form>
           </div>

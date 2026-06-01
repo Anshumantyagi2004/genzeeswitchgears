@@ -32,57 +32,57 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const [otpSent, setOtpSent] = useState(false);
-  const [otp, setOtp] = useState("");
-  const [confirmation, setConfirmation] = useState(null);
+  // const [otpSent, setOtpSent] = useState(false);
+  // const [otp, setOtp] = useState("");
+  // const [confirmation, setConfirmation] = useState(null);
 
   const config = formConfigs[formType];
 
   // INIT RECAPTCHA
-  const setupRecaptcha = () => {
-    if (!window.recaptchaVerifier) {
-      window.recaptchaVerifier = new RecaptchaVerifier(
-        auth,
-        "recaptcha-container",
-        { size: "invisible" }
-      );
-    }
-  };
+  // const setupRecaptcha = () => {
+  //   if (!window.recaptchaVerifier) {
+  //     window.recaptchaVerifier = new RecaptchaVerifier(
+  //       auth,
+  //       "recaptcha-container",
+  //       { size: "invisible" }
+  //     );
+  //   }
+  // };
 
   // SEND OTP
-  const sendOtp = async (phone) => {
-    try {
-      setupRecaptcha();
+  // const sendOtp = async (phone) => {
+  //   try {
+  //     setupRecaptcha();
 
-      const appVerifier = window.recaptchaVerifier;
+  //     const appVerifier = window.recaptchaVerifier;
 
-      const result = await signInWithPhoneNumber(
-        auth,
-        "+91" + phone,
-        appVerifier
-      );
+  //     const result = await signInWithPhoneNumber(
+  //       auth,
+  //       "+91" + phone,
+  //       appVerifier
+  //     );
 
-      setConfirmation(result);
-      setOtpSent(true);
+  //     setConfirmation(result);
+  //     setOtpSent(true);
 
-      toast.success("OTP sent successfully");
-    } catch (err) {
-      console.log(err);
-      toast.error("Failed to send OTP");
-    }
-  };
+  //     toast.success("OTP sent successfully");
+  //   } catch (err) {
+  //     console.log(err);
+  //     toast.error("Failed to send OTP");
+  //   }
+  // };
 
   // VERIFY OTP
-  const verifyOtp = async () => {
-    try {
-      await confirmation.confirm(otp);
-      toast.success("OTP verified successfully");
-      return true;
-    } catch (err) {
-      toast.error("Invalid OTP");
-      return false;
-    }
-  };
+  // const verifyOtp = async () => {
+  //   try {
+  //     await confirmation.confirm(otp);
+  //     toast.success("OTP verified successfully");
+  //     return true;
+  //   } catch (err) {
+  //     toast.error("Invalid OTP");
+  //     return false;
+  //   }
+  // };
 
   // SUBMIT FORM
   const handleSubmit = async (e) => {
@@ -110,18 +110,18 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
       setLoading(true);
 
       // STEP 1 → SEND OTP
-      if (!otpSent) {
-        await sendOtp(data.phone);
-        setLoading(false);
-        return;
-      }
+      // if (!otpSent) {
+      //   await sendOtp(data.phone);
+      //   setLoading(false);
+      //   return;
+      // }
 
       // STEP 2 → VERIFY OTP
-      const isVerified = await verifyOtp();
-      if (!isVerified) {
-        setLoading(false);
-        return;
-      }
+      // const isVerified = await verifyOtp();
+      // if (!isVerified) {
+      //   setLoading(false);
+      //   return;
+      // }
 
       // STEP 3 → FINAL SUBMIT
       const res = await axios.post(
@@ -139,9 +139,9 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
           setIsOpen(false);
         }, 2000);
 
-        setOtpSent(false);
-        setOtp("");
-        setConfirmation(null);
+        // setOtpSent(false);
+        // setOtp("");
+        // setConfirmation(null);
       } else {
         toast.error("Submission failed");
       }
@@ -240,7 +240,7 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
                   })}
 
                   {/* OTP FIELD */}
-                  {otpSent && (
+                  {/* {otpSent && (
                     <input
                       type="text"
                       value={otp}
@@ -248,9 +248,9 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
                       placeholder="Enter OTP"
                       className="w-full border border-gray-300 p-2 pl-10 rounded-md text-black"
                     />
-                  )}
+                  )} */}
 
-                  <button
+                  {/* <button
                     type="submit"
                     disabled={loading}
                     className="bg-gray-800 text-white py-3 rounded-md"
@@ -260,6 +260,13 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
                       : !otpSent
                       ? "Send OTP"
                       : "Verify & Submit"}
+                  </button> */}
+                  <button
+                    type="submit"
+                    disabled={loading}
+                    className="bg-gray-800 text-white py-3 rounded-md"
+                  >
+                    {loading ? "Submitting..." : "Submit Inquiry"}
                   </button>
                 </form>
               </>
