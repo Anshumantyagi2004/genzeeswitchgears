@@ -129,7 +129,14 @@ export default function Footer() {
             {/* Bottom Bar */}
             <div className="border-t flex justify-around border-gray-700 text-center py-4 text-base text-gray-300">
                 <p>© 2026 Genzee Switchgears, All Rights Reserved.</p>
-                <p>Website Designed By <a target="blank" className='hover:underline' href="https://promozionebranding.com/">Promozione Branding Pvt Ltd.</a></p>
+                <p>Website Designed By   Inquiry Bazaar Pvt. Ltd.  {" "}
+        <a
+          target="_blank"
+          href="https://inquirybazaar.com/"
+          className="text-[#FAAC18] hover:underline"
+        >
+           B2B Marketplace
+        </a></p>
             </div>
         </footer>
     );
