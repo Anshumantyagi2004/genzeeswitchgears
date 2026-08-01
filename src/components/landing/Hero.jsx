@@ -251,7 +251,7 @@ export default function Hero() {
 
         <div className="absolute bottom-8 left-10">
           <Link
-            href="https://wa.me/918865979034"
+            href="https://wa.me/919136508089"
             className="bg-[#ff7200] text-white flex items-center gap-2 rounded-xl px-3 py-2"
           >
             <FaWhatsapp />

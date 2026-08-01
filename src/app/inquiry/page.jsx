@@ -16,7 +16,7 @@ export default function page  () {
 
         {/* Call */}
         <Link
-          href="tel:+918865979034"
+          href="tel:+919136508089"
           className="flex flex-col items-center justify-center py-3 border-r border-white/10"
         >
           <Phone size={20} />
@@ -34,7 +34,7 @@ export default function page  () {
 
         {/* WhatsApp */}
         <Link
-            href="https://wa.me/918865979034?text=Hello%2C%20I%20need%20a%20quotation%20for%20your%20switchgear%20products."
+            href="https://wa.me/919136508089?text=Hello%2C%20I%20need%20a%20quotation%20for%20your%20switchgear%20products."
 
           target="_blank"
           className="flex flex-col items-center justify-center py-3"

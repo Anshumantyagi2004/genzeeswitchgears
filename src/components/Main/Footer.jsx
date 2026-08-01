@@ -25,11 +25,11 @@ export default function Footer() {
                     </p>
 
                     <a
-  href="tel:+918865979034"
+  href="tel:+919136508089"
   className="mt-3 text-base flex items-center gap-2 hover:underline"
 >
   <BiPhoneCall size={18} />
-  <span>+91 8865979034</span>
+  <span>+91 9136508089</span>
 </a>
 
                     <div className="text-base flex items-start gap-2 mt-2">
