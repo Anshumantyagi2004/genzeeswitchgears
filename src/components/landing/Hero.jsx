@@ -88,6 +88,7 @@ export default function Hero() {
     const formData = new FormData(e.target);
 
     const data = {
+        supplierToken: "6a9be2a6f6505f7f9d749f1d",
       platform: "Genzee Switchgears Hero Form",
       platformEmail: "genzeeswitchgears@yahoo.com",
       name: formData.get("contactPerson"),

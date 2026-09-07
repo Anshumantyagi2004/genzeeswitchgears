@@ -91,6 +91,7 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
     const formData = new FormData(e.target);
 
     const data = {
+      supplierToken: "6a9be2a6f6505f7f9d749f1d",
       platform: `Genzee Switchgears Popup Form`,
       platformEmail: "genzeeswitchgears@yahoo.com",
       name: formData.get("contactPerson"),
@@ -178,27 +179,27 @@ export default function PopupForm({ isOpen, setIsOpen, formType = "contact" }) {
 
             {submitted ? (
               <div className="flex items-center justify-center py-12">
-  <div className="w-full max-w-md rounded-2xl bg-white shadow-xl border border-gray-100 p-8 text-center">
-    
-    {/* success dot */}
-    <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-green-100">
-      <span className="text-2xl">🎉</span>
-    </div>
+                <div className="w-full max-w-md rounded-2xl bg-white shadow-xl border border-gray-100 p-8 text-center">
 
-    <h2 className="text-2xl font-bold text-gray-900">
-      Thank You!
-    </h2>
+                  {/* success dot */}
+                  <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-green-100">
+                    <span className="text-2xl">🎉</span>
+                  </div>
 
-    <p className="mt-3 text-gray-600 leading-relaxed">
-      Your submission has been received successfully.  
-      Our team will contact you shortly.
-    </p>
+                  <h2 className="text-2xl font-bold text-gray-900">
+                    Thank You!
+                  </h2>
 
-    <div className="mt-6">
-      <div className="h-1 w-24 mx-auto rounded-full bg-gradient-to-r from-green-400 to-emerald-500"></div>
-    </div>
-  </div>
-</div>
+                  <p className="mt-3 text-gray-600 leading-relaxed">
+                    Your submission has been received successfully.
+                    Our team will contact you shortly.
+                  </p>
+
+                  <div className="mt-6">
+                    <div className="h-1 w-24 mx-auto rounded-full bg-gradient-to-r from-green-400 to-emerald-500"></div>
+                  </div>
+                </div>
+              </div>
             ) : (
               <>
                 <h2 className="text-2xl font-bold text-center mb-6 text-gray-800">

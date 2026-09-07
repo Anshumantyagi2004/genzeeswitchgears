@@ -96,6 +96,7 @@ export default function FormSection() {
       setLoading(true);
 
       const data = {
+        supplierToken: "6a9be2a6f6505f7f9d749f1d",
         platform: "Genzee Switchgears Contact Form",
         platformEmail: "genzeeswitchgears@yahoo.com",
         name: formData.contactPerson,
@@ -159,22 +160,22 @@ export default function FormSection() {
   };
 
 
-    return (
-        <div className="bg-gray-200">
-        <section className="w-full px-4 py-10 max-w-7xl mx-auto md:px-15 bg-gray-200">
-            <div className="flex flex-col md:flex-row items-center gap-10">
-                <div className="w-full md:w-1/2 h-[500px]">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.467909409358!2d77.3285437!3d28.6756466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb6ed6d385c3%3A0xb80d646b45848d57!2sGenzee%20Switchgears%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1776943980194!5m2!1sen!2sin"
-                        className="w-full h-full rounded-xl shadow-lg"
-                        style={{ border: 0 }}
-                        allowFullScreen
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
-                </div>
+  return (
+    <div className="bg-gray-200">
+      <section className="w-full px-4 py-10 max-w-7xl mx-auto md:px-15 bg-gray-200">
+        <div className="flex flex-col md:flex-row items-center gap-10">
+          <div className="w-full md:w-1/2 h-[500px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.467909409358!2d77.3285437!3d28.6756466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb6ed6d385c3%3A0xb80d646b45848d57!2sGenzee%20Switchgears%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1776943980194!5m2!1sen!2sin"
+              className="w-full h-full rounded-xl shadow-lg"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
 
-                          <div className="w-full md:w-1/2 bg-white p-8 rounded-xl shadow-lg">
+          <div className="w-full md:w-1/2 bg-white p-8 rounded-xl shadow-lg">
             {submitted ? (
               <div className="text-center py-10">
                 <h2 className="text-2xl font-bold text-amber-600">
@@ -219,7 +220,7 @@ export default function FormSection() {
                     className="border border-gray-200 p-2 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-400"
                   />
 
-                  
+
 
                   <textarea
                     rows={4}
@@ -250,16 +251,16 @@ export default function FormSection() {
                     {loading
                       ? "Processing..."
                       : !showOtp
-                      ? "Send OTP"
-                      : "Verify OTP"}
+                        ? "Send OTP"
+                        : "Verify OTP"}
                   </button>
                 </form>
               </>
             )}
           </div>
 
-            </div>
-        </section>
         </div>
-    )
+      </section>
+    </div>
+  )
 }
