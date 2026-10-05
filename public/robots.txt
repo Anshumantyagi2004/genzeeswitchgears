@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://switchgearsmanufacturer.com/sitemap.xml
+
+# Allow important AI agents
+User-agent: OAI-SearchBot
+Allow: /S
+User-agent: ChatGPT-User
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Gemini
+Allow: /
+User-agent: DeepSeekBot
+Allow: /
+User-agent: xAI-Grok
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: GoogleBot
+Allow: /
+User-agent: Bingbot
+Allow: /
