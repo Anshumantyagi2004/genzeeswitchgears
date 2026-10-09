@@ -1,12 +1,12 @@
 export const category = [
   {
     id: "mcb-box",
-    name: "MCB Box",
+    name: "MCB Box Manufacturer",
     image: "/Full-Frame-MCB-Box.webp",
     metaTitle:
-      "MCB Box Manufacturer | High-Quality Electrical MCB Boxes | Genzee Switchgear",
+      "MCB Box Manufacturer | Durable & Reliable MCB Boxes in India",
     metaDescription:
-      "MCB Box Manufacturer in India offering premium electrical MCB boxes for industrial and commercial use. Genzee Switchgear delivers safe, reliable, and high-performance switchgear solutions.",
+      "MCB Box Manufacturer in India offering durable MCB distribution boxes in multiple designs, sizes and configurations for residential and industrial applications.",
   },
   {
     id: "busbar-chamber",

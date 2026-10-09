@@ -5,6 +5,7 @@ import { useParams } from "next/navigation";
 import React from "react";
 import { motion } from "framer-motion";
 import { FaArrowRight, FaTag } from "react-icons/fa";
+import CTA2 from "@/components/CTA2";
 
 export default function CategoryPage() {
   const { id } = useParams();
@@ -86,6 +87,8 @@ export default function CategoryPage() {
           )}
         </div>
       </section>
+
+      <CTA2/>
     </>
   );
 }
