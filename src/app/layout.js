@@ -60,6 +60,7 @@ export default function RootLayout({ children }) {
             })(window,document,'script','dataLayer','GTM-W3PCJK6V');
           `}
         </Script>
+        
       </head>
       <body className="min-h-full flex flex-col">
             {/* Google Tag Manager (noscript) */}

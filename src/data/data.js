@@ -189,129 +189,129 @@ export const products = [
     },
   },
   {
-    "id": "single-door-mild-steel-mcb-box",
-    "name": "Single Door Mild Steel MCB Box",
+    id: "single-door-mild-steel-mcb-box",
+    name: "Single Door Mild Steel MCB Box",
 
-    "catId": "mcb-box",
-    "catName": "MCB Box",
+    catId: "mcb-box",
+    catName: "MCB Box",
 
-    "metaTitle": "Single Door Mild Steel MCB Box | Durable Electrical Distribution Box | Genzee Switchgear",
+    metaTitle:
+      "Single Door Mild Steel MCB Box | Durable Electrical Distribution Box | Genzee Switchgear",
 
-    "metaDescription": "Buy Single Door Mild Steel MCB Box from Genzee Switchgear. Durable and reliable MCB enclosure designed for safe electrical distribution and circuit protection in residential, commercial, and industrial applications.",
+    metaDescription:
+      "Buy Single Door Mild Steel MCB Box from Genzee Switchgear. Durable and reliable MCB enclosure designed for safe electrical distribution and circuit protection in residential, commercial, and industrial applications.",
 
-    "image": "/new-prod/Single Door Mild Steel MCB Box.webp",
+    image: "/new-prod/Single Door Mild Steel MCB Box.webp",
 
-    "pdf": "",
+    pdf: "",
 
-    "images": [
-       "/new-prod/Single Door Mild Steel MCB Box.webp",
-    ],
+    images: ["/new-prod/Single Door Mild Steel MCB Box.webp"],
 
     "Product Overview": [
-        "The Single Door Mild Steel MCB Box by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide secure and efficient housing for Miniature Circuit Breakers in residential, commercial, and industrial electrical systems",
-        "Engineered for safe electrical distribution and circuit protection, this MCB box helps organize wiring systems while protecting electrical circuits from overloads and short circuits",
-        "Manufactured using premium-quality Mild Steel (MS), the enclosure ensures superior durability, mechanical strength, and long-lasting performance under continuous operating conditions",
-        "Designed for single-phase electrical systems operating at 50 Hz frequency, the MCB box ensures reliable compatibility with standard power distribution applications",
-        "Developed with precision engineering by a reputed Switchgear Manufacturer, this product ensures safety, operational reliability, and efficient power management for modern electrical installations"
+      "The Single Door Mild Steel MCB Box by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide secure and efficient housing for Miniature Circuit Breakers in residential, commercial, and industrial electrical systems",
+      "Engineered for safe electrical distribution and circuit protection, this MCB box helps organize wiring systems while protecting electrical circuits from overloads and short circuits",
+      "Manufactured using premium-quality Mild Steel (MS), the enclosure ensures superior durability, mechanical strength, and long-lasting performance under continuous operating conditions",
+      "Designed for single-phase electrical systems operating at 50 Hz frequency, the MCB box ensures reliable compatibility with standard power distribution applications",
+      "Developed with precision engineering by a reputed Switchgear Manufacturer, this product ensures safety, operational reliability, and efficient power management for modern electrical installations",
     ],
 
     "Key Features": [
-        "High-quality Mild Steel (MS) construction provides excellent structural stability, impact resistance, and protection against external damage",
-        "2-way connection type allows efficient and organized distribution of electrical circuits within a compact enclosure design",
-        "Single-door structure provides secure protection for internal electrical components while ensuring easy accessibility during maintenance and inspection",
-        "White and grey powder-coated finish enhances corrosion resistance, improves durability, and provides a clean professional appearance",
-        "Compact and wall-mount-friendly design ensures space-saving installation and easy integration into electrical distribution systems"
+      "High-quality Mild Steel (MS) construction provides excellent structural stability, impact resistance, and protection against external damage",
+      "2-way connection type allows efficient and organized distribution of electrical circuits within a compact enclosure design",
+      "Single-door structure provides secure protection for internal electrical components while ensuring easy accessibility during maintenance and inspection",
+      "White and grey powder-coated finish enhances corrosion resistance, improves durability, and provides a clean professional appearance",
+      "Compact and wall-mount-friendly design ensures space-saving installation and easy integration into electrical distribution systems",
     ],
 
-    "Applications": [
-        "Residential electrical systems requiring safe and organized MCB installation and circuit protection",
-        "Commercial buildings and office spaces needing reliable electrical distribution enclosures",
-        "Industrial workshops and manufacturing units requiring durable MCB housing solutions",
-        "Electrical control panels and switchboards for structured power management systems",
-        "Infrastructure and utility projects requiring dependable single-phase electrical distribution products"
+    Applications: [
+      "Residential electrical systems requiring safe and organized MCB installation and circuit protection",
+      "Commercial buildings and office spaces needing reliable electrical distribution enclosures",
+      "Industrial workshops and manufacturing units requiring durable MCB housing solutions",
+      "Electrical control panels and switchboards for structured power management systems",
+      "Infrastructure and utility projects requiring dependable single-phase electrical distribution products",
     ],
 
     "Why Choose Genzee Switchgears Private Limited": [
-        "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-quality, durable, and safety-oriented electrical products",
-        "The company follows advanced manufacturing practices and strict quality control procedures to ensure reliable and consistent product performance",
-        "As a trusted Switchgear Manufacturer, it provides innovative electrical distribution solutions designed for efficiency, safety, and long-term durability",
-        "Every product undergoes rigorous quality testing to ensure compliance with industrial standards and dependable real-world performance",
-        "Strong customer support, timely delivery, and continuous innovation make the company a preferred choice for switchgear and MCB box solutions"
+      "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-quality, durable, and safety-oriented electrical products",
+      "The company follows advanced manufacturing practices and strict quality control procedures to ensure reliable and consistent product performance",
+      "As a trusted Switchgear Manufacturer, it provides innovative electrical distribution solutions designed for efficiency, safety, and long-term durability",
+      "Every product undergoes rigorous quality testing to ensure compliance with industrial standards and dependable real-world performance",
+      "Strong customer support, timely delivery, and continuous innovation make the company a preferred choice for switchgear and MCB box solutions",
     ],
 
-    "specs": [
-        { "Material": "Mild Steel (MS)" },
-        { "Door Type": "Single Door" },
-        { "Connection Type": "2 Way" },
-        { "Phase": "Single Phase" },
-        { "Frequency": "50 Hz" },
-        { "Color": "White & Grey" },
-        { "Mounting Type": "Wall Mount" },
-        { "Application": "Residential, Commercial & Industrial" }
-    ]
-},
-{
-    "id": "6-way-tpn-double-door-mcb-distribution-board",
-    "name": "6 Way TPN Double Door MCB Distribution Board",
-
-    "catId": "mcb-box",
-    "catName": "MCB Box",
-
-    "metaTitle": "6 Way TPN Double Door MCB Distribution Board | Industrial Power Distribution Board | Genzee Switchgear",
-
-    "metaDescription": "Buy 6 Way TPN Double Door MCB Distribution Board from Genzee Switchgear. Durable and reliable three-phase distribution board designed for safe industrial and commercial power distribution applications.",
-
-    "image": "/new-prod/Single Door Mild Steel TPN MCB BOX.webp",
-
-    "pdf": "",
-
-    "images": [
-        "/new-prod/Single Door Mild Steel TPN MCB BOX.webp",
+    specs: [
+      { Material: "Mild Steel (MS)" },
+      { "Door Type": "Single Door" },
+      { "Connection Type": "2 Way" },
+      { Phase: "Single Phase" },
+      { Frequency: "50 Hz" },
+      { Color: "White & Grey" },
+      { "Mounting Type": "Wall Mount" },
+      { Application: "Residential, Commercial & Industrial" },
     ],
+  },
+  {
+    id: "6-way-tpn-double-door-mcb-distribution-board",
+    name: "6 Way TPN Double Door MCB Distribution Board",
+
+    catId: "mcb-box",
+    catName: "MCB Box",
+
+    metaTitle:
+      "6 Way TPN Double Door MCB Distribution Board | Industrial Power Distribution Board | Genzee Switchgear",
+
+    metaDescription:
+      "Buy 6 Way TPN Double Door MCB Distribution Board from Genzee Switchgear. Durable and reliable three-phase distribution board designed for safe industrial and commercial power distribution applications.",
+
+    image: "/new-prod/Single Door Mild Steel TPN MCB BOX.webp",
+
+    pdf: "",
+
+    images: ["/new-prod/Single Door Mild Steel TPN MCB BOX.webp"],
 
     "Product Overview": [
-        "The 6 Way TPN Double Door MCB Distribution Board by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe, efficient, and organized electrical power distribution in industrial, commercial, and infrastructure applications",
-        "Engineered for three-phase electrical systems, this distribution board ensures balanced load management, reliable circuit protection, and smooth power distribution across multiple connected circuits",
-        "Manufactured using premium-quality CRCA metal and Mild Steel enclosure material, the board offers exceptional mechanical strength, durability, and resistance to corrosion and environmental stress",
-        "Designed for 415V rated voltage and 50 Hz frequency systems, it delivers stable electrical performance and dependable operation under continuous industrial usage conditions",
-        "Developed with precision engineering by a reputed Switchgear Manufacturer, this distribution board ensures enhanced safety, long operational life, and reliable performance in demanding electrical environments"
+      "The 6 Way TPN Double Door MCB Distribution Board by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe, efficient, and organized electrical power distribution in industrial, commercial, and infrastructure applications",
+      "Engineered for three-phase electrical systems, this distribution board ensures balanced load management, reliable circuit protection, and smooth power distribution across multiple connected circuits",
+      "Manufactured using premium-quality CRCA metal and Mild Steel enclosure material, the board offers exceptional mechanical strength, durability, and resistance to corrosion and environmental stress",
+      "Designed for 415V rated voltage and 50 Hz frequency systems, it delivers stable electrical performance and dependable operation under continuous industrial usage conditions",
+      "Developed with precision engineering by a reputed Switchgear Manufacturer, this distribution board ensures enhanced safety, long operational life, and reliable performance in demanding electrical environments",
     ],
 
     "Key Features": [
-        "6-way TPN configuration allows organized distribution of electrical power across multiple outgoing circuits while maintaining safe load balancing",
-        "Double-door design enhances safety and provides better protection for internal components, while allowing convenient access for inspection and maintenance",
-        "IP20 protection rating ensures protection against solid objects and accidental contact, making it suitable for indoor industrial installations",
-        "Powder-coated white finish improves corrosion resistance, enhances durability, and provides a clean professional appearance",
-        "Wall-mounted installation design allows efficient space utilization and easy integration into electrical control systems and distribution setups"
+      "6-way TPN configuration allows organized distribution of electrical power across multiple outgoing circuits while maintaining safe load balancing",
+      "Double-door design enhances safety and provides better protection for internal components, while allowing convenient access for inspection and maintenance",
+      "IP20 protection rating ensures protection against solid objects and accidental contact, making it suitable for indoor industrial installations",
+      "Powder-coated white finish improves corrosion resistance, enhances durability, and provides a clean professional appearance",
+      "Wall-mounted installation design allows efficient space utilization and easy integration into electrical control systems and distribution setups",
     ],
 
-    "Applications": [
-        "Industrial manufacturing units requiring safe and efficient three-phase power distribution systems",
-        "Commercial buildings and complexes needing organized electrical load management and circuit protection",
-        "Infrastructure and utility projects requiring reliable MCB distribution boards for power control",
-        "Electrical control panels and switchboard installations used in factories and workshops",
-        "Heavy-duty electrical systems where secure, durable, and high-capacity distribution solutions are essential"
+    Applications: [
+      "Industrial manufacturing units requiring safe and efficient three-phase power distribution systems",
+      "Commercial buildings and complexes needing organized electrical load management and circuit protection",
+      "Infrastructure and utility projects requiring reliable MCB distribution boards for power control",
+      "Electrical control panels and switchboard installations used in factories and workshops",
+      "Heavy-duty electrical systems where secure, durable, and high-capacity distribution solutions are essential",
     ],
 
     "Why Choose Genzee Switchgears Private Limited": [
-        "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-performance, durable, and safety-focused electrical products",
-        "The company follows advanced manufacturing processes and strict quality standards to ensure consistent product reliability and long-term performance",
-        "As a trusted Switchgear Manufacturer, it provides innovative electrical distribution solutions designed for industrial and commercial requirements",
-        "Every product undergoes rigorous quality testing to ensure compliance with industry safety standards and dependable real-world operation",
-        "Strong customer support, timely product delivery, and continuous innovation make the company a preferred choice for electrical distribution and switchgear solutions"
+      "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering high-performance, durable, and safety-focused electrical products",
+      "The company follows advanced manufacturing processes and strict quality standards to ensure consistent product reliability and long-term performance",
+      "As a trusted Switchgear Manufacturer, it provides innovative electrical distribution solutions designed for industrial and commercial requirements",
+      "Every product undergoes rigorous quality testing to ensure compliance with industry safety standards and dependable real-world operation",
+      "Strong customer support, timely product delivery, and continuous innovation make the company a preferred choice for electrical distribution and switchgear solutions",
     ],
 
-    "specs": [
-        { "Configuration": "6 Way TPN" },
-        { "Voltage": "415V" },
-        { "Frequency": "50 Hz" },
-        { "Protection Rating": "IP20" },
-        { "Door Type": "Double Door" },
-        { "Material": "CRCA Metal & Mild Steel" },
-        { "Mounting Type": "Wall Mount" },
-        { "Color": "White Powder Coated" }
-    ]
-},
+    specs: [
+      { Configuration: "6 Way TPN" },
+      { Voltage: "415V" },
+      { Frequency: "50 Hz" },
+      { "Protection Rating": "IP20" },
+      { "Door Type": "Double Door" },
+      { Material: "CRCA Metal & Mild Steel" },
+      { "Mounting Type": "Wall Mount" },
+      { Color: "White Powder Coated" },
+    ],
+  },
   // {
   //     "id": "h-type-pvc-channel-spl-mcb-distribution-box",
   //     "name": "H Type PVC Channel SPL MCB Distribution Box",
@@ -1596,67 +1596,67 @@ export const products = [
     ],
   },
   {
-    "id": "4-pole-electric-manual-changeover-switch",
-    "name": "4-Pole Electric Manual Changeover Switch",
+    id: "4-pole-electric-manual-changeover-switch",
+    name: "4-Pole Electric Manual Changeover Switch",
 
-    "catId": "changeover-switch",
-    "catName": "Changeover Switch",
+    catId: "changeover-switch",
+    catName: "Changeover Switch",
 
-    "metaTitle": "4-Pole Electric Manual Changeover Switch | 63A Industrial Changeover Switch | Genzee Switchgear",
+    metaTitle:
+      "4-Pole Electric Manual Changeover Switch | 63A Industrial Changeover Switch | Genzee Switchgear",
 
-    "metaDescription": "Buy 4-Pole Electric Manual Changeover Switch from Genzee Switchgear. Durable and reliable 63A manual changeover switch for safe industrial and commercial power transfer applications.",
+    metaDescription:
+      "Buy 4-Pole Electric Manual Changeover Switch from Genzee Switchgear. Durable and reliable 63A manual changeover switch for safe industrial and commercial power transfer applications.",
 
-    "image": "/new-prod/4-Pole Electric Manual Changeover Switch.webp",
+    image: "/new-prod/4-Pole Electric Manual Changeover Switch.webp",
 
-    "pdf": "",
+    pdf: "",
 
-    "images": [
-        "/new-prod/4-Pole Electric Manual Changeover Switch.webp",
-    ],
+    images: ["/new-prod/4-Pole Electric Manual Changeover Switch.webp"],
 
     "Product Overview": [
-        "The 4-Pole Electric Manual Changeover Switch by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide safe and reliable manual switching between power sources in industrial, commercial, and utility electrical systems",
-        "Engineered as a knife-type changeover switch, this product ensures smooth transfer of electrical supply between main power and backup systems, minimizing operational interruptions and ensuring continuous power availability",
-        "Designed for 63 Amp and 415 Volt applications, the switch is suitable for medium-duty industrial electrical systems requiring dependable load transfer and controlled switching operations",
-        "Manufactured using high-quality copper components and durable construction materials, the switch offers excellent electrical conductivity, low power loss, and long-lasting operational performance",
-        "Developed with precision engineering by Genzee Switchgears Private Limited, a trusted Switchgear Manufacturer, the product ensures enhanced safety, durability, and reliable performance in demanding electrical environments"
+      "The 4-Pole Electric Manual Changeover Switch by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide safe and reliable manual switching between power sources in industrial, commercial, and utility electrical systems",
+      "Engineered as a knife-type changeover switch, this product ensures smooth transfer of electrical supply between main power and backup systems, minimizing operational interruptions and ensuring continuous power availability",
+      "Designed for 63 Amp and 415 Volt applications, the switch is suitable for medium-duty industrial electrical systems requiring dependable load transfer and controlled switching operations",
+      "Manufactured using high-quality copper components and durable construction materials, the switch offers excellent electrical conductivity, low power loss, and long-lasting operational performance",
+      "Developed with precision engineering by Genzee Switchgears Private Limited, a trusted Switchgear Manufacturer, the product ensures enhanced safety, durability, and reliable performance in demanding electrical environments",
     ],
 
     "Key Features": [
-        "4-pole knife-type mechanism ensures safe and efficient manual transfer of electrical power between different power sources",
-        "Designed for 63 Amp current capacity and 415 Volt operation, making it suitable for industrial and commercial electrical applications",
-        "High-quality copper components provide superior electrical conductivity, reduced heat generation, and improved operational efficiency",
-        "Strong and durable construction ensures long mechanical life, reliable switching performance, and resistance to wear during continuous operation",
-        "White and grey finish provides a clean, professional appearance while enhancing resistance against environmental exposure and corrosion"
+      "4-pole knife-type mechanism ensures safe and efficient manual transfer of electrical power between different power sources",
+      "Designed for 63 Amp current capacity and 415 Volt operation, making it suitable for industrial and commercial electrical applications",
+      "High-quality copper components provide superior electrical conductivity, reduced heat generation, and improved operational efficiency",
+      "Strong and durable construction ensures long mechanical life, reliable switching performance, and resistance to wear during continuous operation",
+      "White and grey finish provides a clean, professional appearance while enhancing resistance against environmental exposure and corrosion",
     ],
 
-    "Applications": [
-        "Industrial power systems requiring reliable manual changeover between main and backup power supplies",
-        "Commercial buildings and offices needing uninterrupted power switching during electrical outages",
-        "Generator and backup power installations requiring safe and controlled load transfer operations",
-        "Manufacturing units and workshops using medium-capacity electrical systems and machinery",
-        "Electrical distribution panels and control systems requiring durable four-pole changeover switches"
+    Applications: [
+      "Industrial power systems requiring reliable manual changeover between main and backup power supplies",
+      "Commercial buildings and offices needing uninterrupted power switching during electrical outages",
+      "Generator and backup power installations requiring safe and controlled load transfer operations",
+      "Manufacturing units and workshops using medium-capacity electrical systems and machinery",
+      "Electrical distribution panels and control systems requiring durable four-pole changeover switches",
     ],
 
     "Why Choose Genzee Switchgears Private Limited": [
-        "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering durable, high-performance, and safety-focused electrical switching solutions",
-        "The company follows advanced manufacturing techniques and strict quality control standards to ensure reliable and consistent product performance",
-        "As a trusted Switchgear Manufacturer, it offers innovative power control and distribution products designed for long operational life and efficient performance",
-        "Every product undergoes rigorous testing to ensure compliance with industrial safety standards and dependable operation under real-world conditions",
-        "Strong customer support, timely delivery, and continuous product innovation make the company a preferred choice for industrial electrical solutions"
+      "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering durable, high-performance, and safety-focused electrical switching solutions",
+      "The company follows advanced manufacturing techniques and strict quality control standards to ensure reliable and consistent product performance",
+      "As a trusted Switchgear Manufacturer, it offers innovative power control and distribution products designed for long operational life and efficient performance",
+      "Every product undergoes rigorous testing to ensure compliance with industrial safety standards and dependable operation under real-world conditions",
+      "Strong customer support, timely delivery, and continuous product innovation make the company a preferred choice for industrial electrical solutions",
     ],
 
-    "specs": [
-        { "Current Rating": "63 Amp" },
-        { "Voltage": "415 Volt" },
-        { "Poles": "4 Pole" },
-        { "Switch Type": "Knife Type Manual Changeover Switch" },
-        { "Material": "Copper Components & Durable Metal Construction" },
-        { "Color": "White & Grey" },
-        { "Application": "Industrial & Commercial" },
-        { "Operation": "Manual" }
-    ]
-},
+    specs: [
+      { "Current Rating": "63 Amp" },
+      { Voltage: "415 Volt" },
+      { Poles: "4 Pole" },
+      { "Switch Type": "Knife Type Manual Changeover Switch" },
+      { Material: "Copper Components & Durable Metal Construction" },
+      { Color: "White & Grey" },
+      { Application: "Industrial & Commercial" },
+      { Operation: "Manual" },
+    ],
+  },
   {
     id: "manual-63a-four-pole-gear-changeover-switch",
     name: "Manual 63A Four-Pole Gear Changeover Switch",
@@ -1673,9 +1673,7 @@ export const products = [
 
     pdf: "",
 
-    images: [
-      "/new-prod/Manual 63A Four-Pole Gear Changeover Switch.webp",
-    ],
+    images: ["/new-prod/Manual 63A Four-Pole Gear Changeover Switch.webp"],
 
     "Product Overview": [
       "The Manual 63A Four-Pole Gear Changeover Switch by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide safe and reliable manual switching between primary and backup power sources in industrial and commercial electrical systems",
@@ -2024,67 +2022,67 @@ export const products = [
     ],
   },
   {
-    "id": "main-switch-fuse-unit-double-pole-100a",
-    "name": "Main Switch Fuse Unit (White, Double Pole)",
+    id: "main-switch-fuse-unit-double-pole-100a",
+    name: "Main Switch Fuse Unit (White, Double Pole)",
 
-    "catId": "electrical-main-switch-box",
-    "catName": "Electrical Switch Box",
+    catId: "electrical-main-switch-box",
+    catName: "Electrical Switch Box",
 
-    "metaTitle": "Main Switch Fuse Unit (White, Double Pole) | 100A Electrical Switch Box | Genzee Switchgear",
+    metaTitle:
+      "Main Switch Fuse Unit (White, Double Pole) | 100A Electrical Switch Box | Genzee Switchgear",
 
-    "metaDescription": "Buy Main Switch Fuse Unit (White, Double Pole) from Genzee Switchgear. Durable and reliable electrical switch box designed for safe power isolation, fuse protection, and efficient electrical control applications.",
+    metaDescription:
+      "Buy Main Switch Fuse Unit (White, Double Pole) from Genzee Switchgear. Durable and reliable electrical switch box designed for safe power isolation, fuse protection, and efficient electrical control applications.",
 
-    "image": "/new-prod/Main-Switch-Fuse-Unit.webp",
+    image: "/new-prod/Main-Switch-Fuse-Unit.webp",
 
-    "pdf": "",
+    pdf: "",
 
-    "images": [
-        "/new-prod/Main-Switch-Fuse-Unit.webp",
-    ],
+    images: ["/new-prod/Main-Switch-Fuse-Unit.webp"],
 
     "Product Overview": [
-        "The Main Switch Fuse Unit (White, Double Pole) by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe and efficient electrical switching, isolation, and fuse protection for residential, commercial, and industrial applications",
-        "Engineered for reliable power control, this double pole fuse unit ensures secure disconnection of electrical supply during maintenance, overload conditions, or emergency operations, improving overall electrical safety",
-        "Designed for 100 Amp and 240 Volt applications, the switch fuse unit is suitable for medium-load electrical systems requiring dependable power isolation and protection",
-        "Manufactured using high-quality iron construction, the unit offers excellent mechanical strength, durability, and long operational life even under continuous electrical usage conditions",
-        "Developed with precision engineering by Genzee Switchgears Private Limited, a reliable Switchgear Manufacturer, this product ensures stable performance, enhanced safety, and efficient electrical control in modern installations"
+      "The Main Switch Fuse Unit (White, Double Pole) by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe and efficient electrical switching, isolation, and fuse protection for residential, commercial, and industrial applications",
+      "Engineered for reliable power control, this double pole fuse unit ensures secure disconnection of electrical supply during maintenance, overload conditions, or emergency operations, improving overall electrical safety",
+      "Designed for 100 Amp and 240 Volt applications, the switch fuse unit is suitable for medium-load electrical systems requiring dependable power isolation and protection",
+      "Manufactured using high-quality iron construction, the unit offers excellent mechanical strength, durability, and long operational life even under continuous electrical usage conditions",
+      "Developed with precision engineering by Genzee Switchgears Private Limited, a reliable Switchgear Manufacturer, this product ensures stable performance, enhanced safety, and efficient electrical control in modern installations",
     ],
 
     "Key Features": [
-        "The double-pole switching mechanism provides simultaneous disconnection of phase and neutral lines, ensuring improved safety during operation and maintenance",
-        "Designed for 100 Amp current handling capacity and 240 Volt operation, making it suitable for residential, commercial, and light industrial applications",
-        "Strong iron body construction ensures durability, structural stability, and protection against mechanical damage and environmental wear",
-        "White finish enhances corrosion resistance while providing a clean and professional appearance for electrical panel installations",
-        "Compact and user-friendly design allows easy installation, operation, and maintenance in distribution boards and electrical control systems"
+      "The double-pole switching mechanism provides simultaneous disconnection of phase and neutral lines, ensuring improved safety during operation and maintenance",
+      "Designed for 100 Amp current handling capacity and 240 Volt operation, making it suitable for residential, commercial, and light industrial applications",
+      "Strong iron body construction ensures durability, structural stability, and protection against mechanical damage and environmental wear",
+      "White finish enhances corrosion resistance while providing a clean and professional appearance for electrical panel installations",
+      "Compact and user-friendly design allows easy installation, operation, and maintenance in distribution boards and electrical control systems",
     ],
 
-    "Applications": [
-        "Residential electrical systems requiring reliable main switch isolation and fuse protection",
-        "Commercial establishments needing safe and efficient power control solutions",
-        "Electrical distribution boards and control panels requiring double pole switching mechanisms",
-        "Light industrial installations using medium-load electrical systems and equipment",
-        "Generator backup systems and utility applications requiring controlled electrical isolation and protection"
+    Applications: [
+      "Residential electrical systems requiring reliable main switch isolation and fuse protection",
+      "Commercial establishments needing safe and efficient power control solutions",
+      "Electrical distribution boards and control panels requiring double pole switching mechanisms",
+      "Light industrial installations using medium-load electrical systems and equipment",
+      "Generator backup systems and utility applications requiring controlled electrical isolation and protection",
     ],
 
     "Why Choose Genzee Switchgears Private Limited": [
-        "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering reliable, durable, and safety-focused electrical products",
-        "The company follows advanced manufacturing standards and strict quality control processes to ensure consistent product performance and operational reliability",
-        "As a trusted Switchgear Manufacturer, it provides innovative electrical control and protection solutions designed for long-term industrial usage",
-        "Every product undergoes rigorous testing to ensure compliance with industrial safety standards and dependable real-world performance",
-        "Strong customer support, timely product delivery, and continuous innovation make the company a preferred choice for electrical switchgear solutions"
+      "Genzee Switchgears Private Limited is a reputed Industrial Switchgear Manufacturer known for delivering reliable, durable, and safety-focused electrical products",
+      "The company follows advanced manufacturing standards and strict quality control processes to ensure consistent product performance and operational reliability",
+      "As a trusted Switchgear Manufacturer, it provides innovative electrical control and protection solutions designed for long-term industrial usage",
+      "Every product undergoes rigorous testing to ensure compliance with industrial safety standards and dependable real-world performance",
+      "Strong customer support, timely product delivery, and continuous innovation make the company a preferred choice for electrical switchgear solutions",
     ],
 
-    "specs": [
-        { "Current Rating": "100 Amp" },
-        { "Voltage": "240 Volt" },
-        { "Poles": "Double Pole" },
-        { "Material": "Iron" },
-        { "Color": "White" },
-        { "Application": "Residential, Commercial & Industrial" },
-        { "Switch Type": "Main Switch Fuse Unit" },
-        { "Installation": "Distribution Boards & Control Panels" }
-    ]
-},
+    specs: [
+      { "Current Rating": "100 Amp" },
+      { Voltage: "240 Volt" },
+      { Poles: "Double Pole" },
+      { Material: "Iron" },
+      { Color: "White" },
+      { Application: "Residential, Commercial & Industrial" },
+      { "Switch Type": "Main Switch Fuse Unit" },
+      { Installation: "Distribution Boards & Control Panels" },
+    ],
+  },
   {
     id: "electric-main-switch-box-three-phase-32a",
     name: "Electric Main Switch Box – Three Phase Main Switches",
@@ -2358,7 +2356,7 @@ export const products = [
     catId: "distribution-box",
     catName: "Distribution Box",
     metaTitle:
-      "TTPN Distribution Board Manufacturer | Three Phase Power Distribution Board | Genzee Switchgear",
+      "TPN Distribution Board Manufacturer | Three Phase Power Distribution Board | Genzee Switchgear",
     metaDescription:
       "Buy TPN Distribution Board from Genzee Switchgear. Reliable and heavy-duty three-phase electrical distribution solutions for safe and efficient power management. Leading Distribution Board Manufacturer in India.",
     image: "/Mild Steel TPN MCB BOX2.webp",
