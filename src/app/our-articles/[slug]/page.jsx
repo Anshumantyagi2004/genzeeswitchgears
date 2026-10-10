@@ -122,7 +122,7 @@ export default async function BlogPage({ params }) {
                                         <p className="text-lg text-gray-600 mt-2 line-clamp-3">
                                             {related.metaDescription}
                                         </p>
-                                        <Link href={`/blogs/${related.permalink}`} className="mt-3 inline-block text-blue-600 font-medium hover:underline">
+                                        <Link href={`/our-articles/${related.permalink}`} className="mt-3 inline-block text-blue-600 font-medium hover:underline">
                                             Read More →
                                         </Link>
                                     </div>
