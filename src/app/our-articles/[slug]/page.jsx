@@ -103,7 +103,7 @@ export default async function BlogPage({ params }) {
                             {relatedBlogs.map((related) => (
                                 <Link
                                     key={related._id}
-                                    href={`/blogs/${related.permalink}`}
+                                    href={`/our-articles/${related.permalink}`}
                                     className="group block rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border bg-white"
                                 >
                                     {related.image && (
