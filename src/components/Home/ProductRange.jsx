@@ -20,7 +20,7 @@ const products = [
   { catName: "Distribution Box", name: "Electrical Power Distribution Box", image: "/3.jpeg", id: "/products/electrical-power-distribution-box" },
   { catName: "Distribution Box", name: "Single Phase Power Distribution Box", image: "/4.jpeg", id: "/products/single-phase-power-distribution-box" },
   { catName: "Switchgear", name: "HRC Type Switchgear", image: "/4.jpeg", id: "/products/hrc-type-switchgear" },
-  { catName: "Switchgear", name: "Industrial Electrical Switch Gear", image: "/4.jpeg", id: "/products/industrial-electrical-switch-gear" },
+  { catName: "Switchgear", name: "Industrial Electrical Switchgear", image: "/4.jpeg", id: "/products/industrial-electrical-switch-gear" },
 ];
 
 export default function ProductRange() {

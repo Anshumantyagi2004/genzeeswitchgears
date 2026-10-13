@@ -31,9 +31,9 @@ export default function IndustrialSection() {
           viewport={{ once: false }}
           className="space-y-4"
         >
-          <h1 className="text-3xl lg:text-5xl font-bold text-gray-950">
+          <h2 className="text-3xl lg:text-5xl font-bold text-gray-950">
             Industrial Switchgear Manufacturer
-          </h1>
+          </h2>
 
           <p className="text-gray-800 leading-relaxed">
             Genzee Switchgears Private Limited is a trusted name in the
@@ -42,7 +42,7 @@ export default function IndustrialSection() {
             delivering reliable and high-performance power distribution
             solutions. We specialize in manufacturing advanced systems including{" "}
             <strong>
-              Single Phase Switchgear, Three Phase Switch Gear, and 440v
+              Single Phase Switchgear, Three Phase Switchgear, and 440v
               Industrial Switchgear,
             </strong>
             designed to meet the diverse requirements of industrial and

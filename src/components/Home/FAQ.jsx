@@ -7,14 +7,14 @@ import { FaQuestionCircle, FaChevronDown } from "react-icons/fa";
 const faqs = [
     {
         q: "What does Genzee Switchgears Private Limited manufacture?",
-        a: "We manufacture Industrial Switchgear, Single Phase Switchgear, Three Phase Switch Gear, 440v Industrial Switchgear, MCB Boxes, and Distribution Boards for industrial and commercial use.",
+        a: "We manufacture Industrial Switchgear, Single Phase Switchgear, Three Phase Switchgear, 440v Industrial Switchgear, MCB Boxes, and Distribution Boards for industrial and commercial use.",
     },
     {
         q: "Are you an experienced Industrial Switchgear Manufacturer?",
         a: "Yes, we are a trusted Industrial Switchgear Manufacturer with 10+ years of experience in delivering reliable and high-performance electrical solutions.",
     },
     {
-        q: "What is the purpose of a Three Phase Switch Gear?",
+        q: "What is the purpose of a Three Phase Switchgear?",
         a: "It controls, protects, and isolates electrical equipment in high-load systems, ensuring safe power distribution in industrial environments.",
     },
     {

@@ -20,7 +20,7 @@ const data = [
         title: "Who We Are",
         icon: <FaIndustry />,
         content: "Genzee Switchgears Private Limited is a trusted and fast-growing name in the electrical industry, recognized as a leading Industrial Switchgear Manufacturer in India. With over 10+ years of experience, we specialize in designing and manufacturing high-quality electrical distribution solutions that ensure safety, reliability, and efficient power management for industrial, commercial, and infrastructure applications.",
-        content1: "We offer a comprehensive range of products including Single Phase Switchgear, Three Phase Switch Gear, 440v Industrial Switchgear, MCB Boxes, MCB Distribution Boards, TPN Distribution Boards, and Three Phase Power Distribution Boxes. Each product is engineered using premium-grade raw materials and advanced manufacturing technology to deliver long-lasting performance even in demanding environments.",
+        content1: "We offer a comprehensive range of products including Single Phase Switchgear, Three Phase Switchgear, 440v Industrial Switchgear, MCB Boxes, MCB Distribution Boards, TPN Distribution Boards, and Three Phase Power Distribution Boxes. Each product is engineered using premium-grade raw materials and advanced manufacturing technology to deliver long-lasting performance even in demanding environments.",
     },
     {
         title: "Our Infrastructure & Expertise",
@@ -31,7 +31,7 @@ const data = [
     {
         title: "Our Mission",
         icon: <FaBullseye />,
-        content: "At Genzee Switchgears Private Limited, our mission is to design and manufacture safe, reliable, and high-performance electrical solutions that meet the evolving needs of industrial and commercial sectors. As a trusted Industrial Switchgear Manufacturer, we are committed to delivering quality-driven products such as Single Phase Switchgear, Three Phase Switch Gear, 440v Industrial Switchgear, and advanced distribution systems that ensure efficient power management and long-term performance. We aim to provide solutions that enhance operational safety, improve efficiency, and add value to every project we serve.",
+        content: "At Genzee Switchgears Private Limited, our mission is to design and manufacture safe, reliable, and high-performance electrical solutions that meet the evolving needs of industrial and commercial sectors. As a trusted Industrial Switchgear Manufacturer, we are committed to delivering quality-driven products such as Single Phase Switchgear, Three Phase Switchgear, 440v Industrial Switchgear, and advanced distribution systems that ensure efficient power management and long-term performance. We aim to provide solutions that enhance operational safety, improve efficiency, and add value to every project we serve.",
     },
     {
         title: "Our Vision",
@@ -72,7 +72,7 @@ const features = [
     {
         icon: <FaLayerGroup className="text-3xl text-blue-600" />,
         title: "Wide Product Range",
-        desc: "We offer Single Phase Switchgear, Three Phase Switch Gear, 440V Industrial Switchgear, and distribution systems.",
+        desc: "We offer Single Phase Switchgear, Three Phase Switchgear, 440V Industrial Switchgear, and distribution systems.",
     },
     {
         icon: <FaBolt className="text-3xl text-blue-600" />,

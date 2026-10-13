@@ -18,9 +18,9 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title:
-    "Switchgear Manufacturer | Industrial Switchgear & MCB Box Manufacturer | Genzee Switchgear",
+    "Switchgear Manufacturer Company in India | Genzee Switchgears",
   description:
-    "Leading Switchgear Manufacturer offering Industrial Switchgear and MCB Boxes. Genzee Switchgear delivers safe, durable, and high-performance electrical solutions.",
+    "Switchgear Manufacturer Company in India: Genzee Switchgears offers MCB boxes, busbar chambers, changeover switches, distribution boards, and electrical main switch boxes. Contact us for a quote!",
   icons: {
     icon: "/logo.webp",
   },

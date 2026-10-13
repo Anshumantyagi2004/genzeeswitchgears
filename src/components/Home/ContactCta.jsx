@@ -41,7 +41,7 @@ export default function CTA() {
         >
           Looking for a trusted Industrial Switchgear Manufacturer? Genzee
           Switchgears Private Limited delivers high-quality solutions including
-          Single Phase Switchgear, Three Phase Switch Gear, 440v Industrial
+          Single Phase Switchgear, Three Phase Switchgear, 440v Industrial
           Switchgear, and complete power distribution systems designed for
           industrial and commercial needs.
         </motion.p>

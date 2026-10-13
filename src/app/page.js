@@ -12,6 +12,12 @@ import CTA from "@/components/Home/ContactCta";
 import TestimonialSection from "@/components/Home/Testimonials";
 import CitesKeyword from "@/components/Home/CityKeyword";
 
+export const metadata = {
+  alternates: {
+    canonical: "https://switchgearsmanufacturer.com/",
+  },
+};
+
 export default function Home() {
   return (
     <div className="flex flex-col flex-1">

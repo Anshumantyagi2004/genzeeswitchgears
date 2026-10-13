@@ -2856,7 +2856,7 @@ export const products = [
   },
   {
     id: "switch-gear-porcelain-rewirable-type",
-    name: "Switch Gear with Porcelain Rewirable Type",
+    name: "Switchgear with Porcelain Rewirable Type",
     catId: "switchgear",
     catName: "Switchgear",
     metaTitle:
@@ -3042,13 +3042,13 @@ export const products = [
   },
   {
     id: "industrial-electrical-switch-gear",
-    name: "Industrial Electrical Switch Gear",
+    name: "Industrial Electrical Switchgear",
     catId: "switchgear",
     catName: "Switchgear",
     metaTitle:
-      "Industrial Electrical Switch Gear Manufacturer | Power Distribution Solutions | Genzee Switchgear",
+      "Industrial Electrical Switchgear Manufacturer | Power Distribution Solutions | Genzee Switchgear",
     metaDescription:
-      "Buy Industrial Electrical Switch Gear from Genzee Switchgear. High-quality and reliable switchgear solutions for safe power control, distribution, and protection in industrial applications. Leading Switchgear Manufacturer in India.",
+      "Buy Industrial Electrical Switchgear from Genzee Switchgear. High-quality and reliable switchgear solutions for safe power control, distribution, and protection in industrial applications. Leading Switchgear Manufacturer in India.",
     image: "",
     pdf: "",
     images: [],

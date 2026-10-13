@@ -57,14 +57,14 @@ export default function CategoryRange({ popup }) {
       className="w-full pt-10 bg-gray-200 px-4"
     >
       {/* Heading Animation */}
-      <motion.h2
+      <motion.h1
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="text-gray-800 text-center text-3xl md:text-5xl font-semibold"
       >
         PRODUCT RANGE
-      </motion.h2>
+      </motion.h1>
 
       <Swiper
         modules={[Navigation, Autoplay]}

@@ -48,7 +48,7 @@ export default function Intro() {
               quality, safety, and innovation, we manufacture a wide range of
               products including{" "}
               <strong>
-                Single Phase Switchgear, Three Phase Switch Gear, and 440v
+                Single Phase Switchgear, Three Phase Switchgear, and 440v
                 Industrial Switchgear
               </strong>
               . Our solutions are designed to ensure efficient power management,
