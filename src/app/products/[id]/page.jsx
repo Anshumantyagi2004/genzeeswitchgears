@@ -8,8 +8,8 @@ export async function generateMetadata({ params }) {
     const product = products.find((p) => p.id === id);
     if (!product) {
         return {
-            title: "Genzee switchgears",
-            description: "Genzee switchgears",
+            title: "11KV Single Phase Electrical Switchgear | Genzee Switchgears",
+            description: "11KV Single Phase Electrical Switchgear from Genzee Switchgear for reliable power distribution and protection. Contact us for details.",
         };
     }
 

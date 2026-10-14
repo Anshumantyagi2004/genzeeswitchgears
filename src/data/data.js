@@ -1604,10 +1604,8 @@ export const products = [
 
     metaTitle:
       "4-Pole Electric Manual Changeover Switch | 63A Industrial Changeover Switch | Genzee Switchgear",
-
     metaDescription:
       "Buy 4-Pole Electric Manual Changeover Switch from Genzee Switchgear. Durable and reliable 63A manual changeover switch for safe industrial and commercial power transfer applications.",
-
     image: "/new-prod/4-Pole Electric Manual Changeover Switch.webp",
 
     pdf: "",
@@ -2999,9 +2997,9 @@ export const products = [
     catId: "switchgear",
     catName: "Switchgear",
     metaTitle:
-      "Industrial Switchgear Manufacturer | Electrical Switchgear Solutions | Genzee Switchgear",
+      "Industrial Switchgear Manufacturer",
     metaDescription:
-      "Trusted Industrial Switchgear Manufacturer in India – Genzee Switchgear delivers reliable electrical switchgear, MCB boxes, distribution boards, and power control solutions for industrial use.",
+      "Industrial Switchgear Manufacturer – Genzee Switchgears offers reliable industrial electrical switchgear solutions. Contact us today for a quote!",
     image: "",
     pdf: "",
     images: [],
@@ -3141,7 +3139,7 @@ export const products = [
   },
   {
     id: "single-phase-electrical-switchgear-11kv",
-    name: "Single Phase Electrical Switchgear",
+    name: "11 KV Single Phase Electrical Switchgear",
     catId: "switchgear",
     catName: "Switchgear",
     metaTitle:
@@ -3150,7 +3148,7 @@ export const products = [
       "Buy Single Phase Electrical Switchgear from Genzee Switchgear. Durable and efficient electrical switchgear solutions for safe power distribution and protection. Leading Switchgear Manufacturer in India.",
     image: "",
     pdf: "",
-    images: [],
+    images: ["/inquiry/Switchgear.webp"],
 
     "Product Overview": [
       "The Single Phase Electrical Switchgear by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide reliable control, protection, and distribution of electrical power in specialized single-phase high-voltage applications",
@@ -3187,7 +3185,7 @@ export const products = [
     ],
   },
   {
-    id: "industrial-switchgear",
+    id: "industrial-mccb-switchgear",
     name: "Industrial Switchgear",
     catId: "switchgear",
     catName: "Switchgear",

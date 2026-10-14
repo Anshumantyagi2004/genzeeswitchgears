@@ -20,6 +20,8 @@ import "swiper/css/effect-fade";
 import { BsEye } from "react-icons/bs";
 import { RxCross2 } from "react-icons/rx";
 
+
+
 export default function ProductPage() {
   const { id } = useParams();
   const product = products.find((p) => p.id === id);
@@ -69,7 +71,7 @@ export default function ProductPage() {
         ]
       : []),
   ];
-
+const activeTabData = tabs.find((t) => t.id === activeTab);
   return (
     <div className="bg-gray-200">
       <div className="px-4 md:px-15 py-4 text-base text-gray-600">
@@ -206,6 +208,9 @@ export default function ProductPage() {
               transition={{ duration: 0.3 }}
               className="bg-white p-6 rounded-xl shadow"
             >
+                <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
+    {activeTabData?.label}
+  </h2>
               {activeTab === "specs" ? (
                 product.specs ? (
                   // 🔹 Normal Specs View
