@@ -321,9 +321,9 @@ const activeTabData = tabs.find((t) => t.id === activeTab);
                     </div>
 
                     <div className="px-5 py-2 flex flex-col gap-2">
-                      <h2 className="text-lg font-semibold text-gray-800 group-hover:text-black transition">
+                      <h3 className="text-lg font-semibold text-gray-800 group-hover:text-black transition">
                         {i.name}
-                      </h2>
+                      </h3>
 
                       <div className="flex justify-between">
                         <div className="flex items-center text-sm text-gray-800 gap-2">
