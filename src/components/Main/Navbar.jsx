@@ -40,19 +40,19 @@ export default function Navbar() {
                 </div>
 
                 <div className="flex gap-4 items-center text-black text-lg ml-auto">
-                    <a href="tel:+919136508089" target="_blank" rel="noopener noreferrer">
+                    <a aria-label="Call us" href="tel:+919136508089" target="_blank" rel="noopener noreferrer">
                         <FaPhoneAlt className="cursor-pointer hover:text-red-400" size={18} />
                     </a>
-                    <a href="https://wa.me/+919136508089?text=Hello%2C%20I%20need%20a%20quotation%20for%20your%20switchgear%20products." target="_blank" rel="noopener noreferrer">
+                    <a aria-label="Chat on WhatsApp" href="https://wa.me/+919136508089?text=Hello%2C%20I%20need%20a%20quotation%20for%20your%20switchgear%20products." target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp className="cursor-pointer hover:text-green-500" size={20} />
                     </a>
-                    <a href="https://www.facebook.com/people/Genzee-Switchgears/61588682865617/" target="_blank" rel="noopener noreferrer">
+                    <a aria-label="Genzee Switchgears on Facebook" href="https://www.facebook.com/people/Genzee-Switchgears/61588682865617/" target="_blank" rel="noopener noreferrer">
                         <FaFacebookF className="cursor-pointer hover:text-blue-500" size={18} />
                     </a>
-                    <a href="https://www.instagram.com/genzee.prince/" target="_blank" rel="noopener noreferrer">
+                    <a aria-label="Genzee Switchgears on Instagram" href="https://www.instagram.com/genzee.prince/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className="cursor-pointer hover:text-pink-500" size={18} />
                     </a>
-                    <a href="https://www.youtube.com/channel/UCf_yUu-rds0bQQKWX7tCD5A" target="_blank" rel="noopener noreferrer">
+                    <a aria-label="Genzee Switchgears on YouTube" href="https://www.youtube.com/channel/UCf_yUu-rds0bQQKWX7tCD5A" target="_blank" rel="noopener noreferrer">
                         <FaYoutube className="cursor-pointer hover:text-red-500" size={18} />
                     </a>
                 </div>
@@ -88,16 +88,20 @@ export default function Navbar() {
 
                         <div className="overflow-y-auto scrollbar-hide border border-gray-400 absolute left-0 top-full mt-3 h-[330px] w-[570px] bg-white shadow-xl rounded-xl p-4 overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                             <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 h-full content-start">
-                                {category.map((cat ,index) => (
+                                {category.map((cat, index) => (
                                     <Link key={index}
                                         href={`/categories/${cat.id}`}
                                         className="group/card"
                                     >
                                         <div className="border border-gray-300 rounded-lg overflow-hidden hover:shadow-md transition">
                                             <div className="h-30 overflow-hidden">
+                                                {/* CHANGED: loading="lazy" so these hidden dropdown images
+                                                    are not all downloaded on every page load */}
                                                 <img
                                                     src={cat.image}
                                                     alt={cat.name}
+                                                    loading="lazy"
+                                                    decoding="async"
                                                     className="w-full h-full object-contain group-hover/card:scale-105 transition duration-300"
                                                 />
                                             </div>
@@ -125,13 +129,17 @@ export default function Navbar() {
                 </div>
 
                 {/* Mobile Menu Button */}
-                <div className="lg:hidden text-2xl cursor-pointer bg-gray-800 text-white px-3 py-2 rounded-md">
-                    {menuOpen ? (
-                        <FiX onClick={() => setMenuOpen(false)} />
-                    ) : (
-                        <FiMenu onClick={() => setMenuOpen(true)} />
-                    )}
-                </div>
+                {/* CHANGED: a real <button> (keyboard-focusable, announced by screen readers)
+                    instead of a div with onClick on the icons */}
+                <button
+                    type="button"
+                    aria-label={menuOpen ? "Close menu" : "Open menu"}
+                    aria-expanded={menuOpen}
+                    onClick={() => setMenuOpen((open) => !open)}
+                    className="lg:hidden text-2xl cursor-pointer bg-gray-800 text-white px-3 py-2 rounded-md"
+                >
+                    {menuOpen ? <FiX /> : <FiMenu />}
+                </button>
             </div>
 
             {menuOpen && (
