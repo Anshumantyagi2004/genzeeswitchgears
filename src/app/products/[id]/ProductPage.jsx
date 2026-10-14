@@ -169,12 +169,13 @@ const activeTabData = tabs.find((t) => t.id === activeTab);
               Inquiry Now
               <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-bottom"></span>
             </a>
-
+{product && product.pdf ? (
             <button className="relative border border-gray-300 flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-md overflow-hidden group">
               <FaFilePdf size={20} />
               Brochure
               <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-bottom"></span>
             </button>
+) : null }
           </div>
         </motion.div>
       </div>

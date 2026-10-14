@@ -2764,9 +2764,9 @@ export const products = [
       "HRC Type Switchgear | High Rupturing Capacity Electrical Switchgear | Genzee Switchgear",
     metaDescription:
       "Buy HRC Type Switchgear from Genzee Switchgear. High Rupturing Capacity electrical switchgear designed for superior protection, safety, and reliable power distribution. Leading Switchgear Manufacturer in India.",
-    // "image": "/hrcSwitchgear.png",
+    image: "/inquiry/Switchgear.webp",
     pdf: "",
-    images: ["/hrcSwitchgear.png"],
+    images: ["/inquiry/Switchgear.webp"],
 
     variants: [
       {
@@ -2861,9 +2861,9 @@ export const products = [
       "Porcelain Rewirable Type Switchgear | Electrical Fuse Switchgear | Genzee Switchgear",
     metaDescription:
       "Buy Porcelain Rewirable Type Switchgear from Genzee Switchgear. High-quality and durable electrical fuse switchgear for safe circuit protection and power distribution. Leading Switchgear Manufacturer in India.",
-    // "image": "/switchGearPorcelainRewirable.png",
+    image: "/inquiry/Switchgear.webp",
     pdf: "",
-    images: ["/switchGearPorcelainRewirable.png"],
+    images: ["/inquiry/Switchgear.webp"],
 
     variants: [
       {
@@ -3000,9 +3000,9 @@ export const products = [
       "Industrial Switchgear Manufacturer",
     metaDescription:
       "Industrial Switchgear Manufacturer – Genzee Switchgears offers reliable industrial electrical switchgear solutions. Contact us today for a quote!",
-    image: "",
+    image: "/inquiry/Switchgear.webp",
     pdf: "",
-    images: [],
+    images: ["/inquiry/Switchgear.webp"],
 
     "Product Overview": [
       "The MCCB Type Switchgear by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide advanced circuit protection and efficient power control in industrial and commercial electrical systems",
@@ -3047,9 +3047,9 @@ export const products = [
       "Industrial Electrical Switchgear Manufacturer | Power Distribution Solutions | Genzee Switchgear",
     metaDescription:
       "Buy Industrial Electrical Switchgear from Genzee Switchgear. High-quality and reliable switchgear solutions for safe power control, distribution, and protection in industrial applications. Leading Switchgear Manufacturer in India.",
-    image: "",
+    image: "/inquiry/Switchgear.webp",
     pdf: "",
-    images: [],
+    images: ["/inquiry/Switchgear.webp"],
 
     "Product Overview": [
       "The Industrial Electrical Switchgear (Magnetic Contactor Type) by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide efficient control and switching of electrical circuits in industrial applications",
@@ -3100,9 +3100,9 @@ export const products = [
       "Three Phase 440V Switchgear Panel | High Voltage Electrical Panel | Genzee Switchgear",
     metaDescription:
       "Buy Three Phase 440V Switchgear Panel from Genzee Switchgear. Heavy-duty high voltage electrical panel designed for safe power distribution, control, and protection. Leading Industrial Switchgear Manufacturer in India.",
-    image: "",
+    image: "/inquiry/Switchgear.webp",
     pdf: "",
-    images: [],
+    images: ["/inquiry/Switchgear.webp"],
 
     "Product Overview": [
       "The Three Phase High Voltage 440V Switchgear Panel by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide efficient power distribution, control, and protection for industrial and commercial electrical systems",
@@ -3146,7 +3146,7 @@ export const products = [
       "Single Phase Electrical Switchgear Manufacturer | Power Control Solutions | Genzee Switchgear",
     metaDescription:
       "Buy Single Phase Electrical Switchgear from Genzee Switchgear. Durable and efficient electrical switchgear solutions for safe power distribution and protection. Leading Switchgear Manufacturer in India.",
-    image: "",
+    image: "/inquiry/Switchgear.webp",
     pdf: "",
     images: ["/inquiry/Switchgear.webp"],
 
@@ -3193,9 +3193,9 @@ export const products = [
       "Industrial Switchgear Manufacturer | Electrical Power Control & Protection | Genzee Switchgear",
     metaDescription:
       "Buy Industrial Switchgear from Genzee Switchgear. High-performance electrical switchgear solutions for safe, efficient, and reliable industrial power distribution and control systems.",
-    image: "",
+    image: "/inquiry/Switchgear.webp",
     pdf: "",
-    images: [],
+    images: ["/inquiry/Switchgear.webp"],
 
     "Product Overview": [
       "The Industrial Switchgear (MCCB Type) by Genzee Switchgears Private Limited, a trusted Industrial Switchgear Manufacturer, is designed to provide safe, reliable, and efficient control and protection of electrical circuits in industrial and commercial applications",
