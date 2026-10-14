@@ -86,9 +86,9 @@ export default function TestimonialSection() {
 
                                     {/* Author */}
                                     <div className="mt-auto">
-                                        <h4 className="font-semibold text-lg text-gray-800">
+                                        <h3 className="font-semibold text-lg text-gray-800">
                                             {item.author}
-                                        </h4>
+                                        </h3>
                                         {item.company && (
                                             <p className="text-sm text-gray-500">
                                                 {item.company}

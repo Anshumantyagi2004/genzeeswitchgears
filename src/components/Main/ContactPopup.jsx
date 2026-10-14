@@ -5,8 +5,8 @@ import { RxCross2 } from "react-icons/rx";
 import { toast } from "react-hot-toast";
 import { useState } from "react";
 import { User, Mail, Phone, MessageSquare } from "lucide-react";
-import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
-import { auth } from "@/utils/firebase";
+// import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
+// import { auth } from "@/utils/firebase";
 
 const formConfigs = {
   contact: {

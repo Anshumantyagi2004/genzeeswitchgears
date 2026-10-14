@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import PopupForm from "../Main/ContactPopup";
 import { useState } from "react";
 
@@ -21,50 +22,14 @@ const products = [
   { name: "Distribution Box", image: "/Prime Model MCB Box (2).webp", id: "distribution-box" },
 ];
 
-// Animation variants
-const containerVariant = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.15,
-    },
-  },
-};
-
-const cardVariant = {
-  hidden: { opacity: 0, y: 40, scale: 0.95 },
-  show: {
-    opacity: 1,
-    y: 0,
-    scale: 1,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut",
-    },
-  },
-};
-
 export default function CategoryRange({ popup }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <motion.div
-      variants={containerVariant}
-      initial="hidden"
-      whileInView="show"
-      //   viewport={{ once: true }}
-      className="w-full pt-10 bg-gray-200 px-4"
-    >
-      {/* Heading Animation */}
-      <motion.h1
-        initial={{ opacity: 0, y: -30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="text-gray-800 text-center text-3xl md:text-5xl font-semibold"
-      >
+    <div className="w-full pt-10 bg-gray-200 px-4">
+      <h1 className="text-gray-800 text-center text-3xl md:text-5xl font-semibold">
         PRODUCT RANGE
-      </motion.h1>
+      </h1>
 
       <Swiper
         modules={[Navigation, Autoplay]}
@@ -85,7 +50,6 @@ export default function CategoryRange({ popup }) {
           <SwiperSlide key={index}>
             <Link href={`${popup ? "" : `categories/${item.id}`}`}>
               <motion.div
-                variants={cardVariant}
                 whileHover={{
                   scale: 1.05,
                   y: -5,
@@ -95,36 +59,41 @@ export default function CategoryRange({ popup }) {
               >
                 {/* Image zoom effect */}
                 <div className="overflow-hidden bg-[#c8bbb5] rounded-lg w-full">
-                  <motion.img
-                    src={item.image}
-                    alt={item.name}
-                    className="h-70 md:h-70 w-full object-contain"
+                  <motion.div
+                    className="relative h-70 w-full"
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.4 }}
-                  />
+                  >
+                    <Image
+                      src={item.image}
+                      alt={item.name}
+                      fill
+                      sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                      className="object-contain"
+                      {...(index === 0 ? { loading: "eager", fetchPriority: "high" } : {})}
+                    />
+                  </motion.div>
                 </div>
 
                 <p className="text-gray-800 text-lg font-bold text-center mt-2">
                   {item.name}
                 </p>
 
-                {popup &&
-                  <button onClick={() => !popup ? "" : setIsOpen(true)} className="bg-gray-800 hover:bg-gray-950 text-white py-2 w-full rounded-md mt-2">
+                {popup && (
+                  <button
+                    onClick={() => setIsOpen(true)}
+                    className="bg-gray-800 hover:bg-gray-950 text-white py-2 w-full rounded-md mt-2"
+                  >
                     Inquiry Now
-                  </button>}
+                  </button>
+                )}
               </motion.div>
             </Link>
           </SwiperSlide>
-          
         ))}
-        
       </Swiper>
-      <PopupForm
-        isOpen={isOpen}
-        setIsOpen={setIsOpen}
-        formType="contact"
-      />
-    
-    </motion.div>
+
+      <PopupForm isOpen={isOpen} setIsOpen={setIsOpen} formType="contact" />
+    </div>
   );
 }

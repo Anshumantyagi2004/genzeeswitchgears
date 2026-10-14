@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { FaLocationDot, } from "react-icons/fa6";
 import { BiPhoneCall } from "react-icons/bi";
 import { X } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
     const [open, setOpen] = useState(false);
@@ -19,7 +20,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* Company Info */}
                 <div>
-                    <img src="/logo.webp" alt="logo" className="h-20 mb-3 bg-white px-2 py-1 rounded-md w-40" />
+                    <Image src="/logo.webp" alt="Genzee Switchgears logo" width={612} height={331} className="h-20 w-auto mb-3 bg-white px-2 py-1 rounded-md" />
                     <p className="text-base">
                         Welcome to Genzee Switchgears, Private Limited is a trusted name in the electrical industry, recognized as a leading Industrial Switchgear Manufacturer.
                     </p>
@@ -133,7 +134,7 @@ export default function Footer() {
         <a
           target="_blank"
           href="https://inquirybazaar.com/"
-          className="text-[#FAAC18] hover:underline"
+          className="text-[#FAAC18] underline hover:no-underline"
         >
            B2B Marketplace
         </a></p>

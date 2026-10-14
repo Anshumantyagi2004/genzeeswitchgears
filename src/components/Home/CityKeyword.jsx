@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import { serviceLocations } from "@/data/data";
-import { div } from "framer-motion/m";
 
 const CitesKeyword = () => {
     return (

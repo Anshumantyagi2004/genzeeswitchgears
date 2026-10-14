@@ -76,8 +76,8 @@ export default function RootLayout({ children }) {
           />
         </noscript>
         <Navbar />
-        {children}
-        <Toaster position="top-center" />
+<main className="flex flex-col flex-1">{children}</main>
+<Toaster position="top-center" />
         <StickyButton    />
         <Footer />
       </body>
