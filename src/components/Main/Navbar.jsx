@@ -67,7 +67,6 @@ export default function Navbar() {
                         height={60}
                         className="w-auto h-12"
                     />
-
                     <span className="text-gray-800 py-2 px-4 text-2xl font-bold rounded-md">Genzee Switchgears</span>
                 </div>
 

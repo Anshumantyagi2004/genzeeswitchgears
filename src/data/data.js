@@ -2997,9 +2997,9 @@ export const products = [
     catId: "switchgear",
     catName: "Switchgear",
     metaTitle:
-      "Industrial Switchgear Manufacturer",
+      "Industrial Switchgear Manufacturer - Factory Direct Price",
     metaDescription:
-      "Industrial Switchgear Manufacturer – Genzee Switchgears offers reliable industrial electrical switchgear solutions. Contact us today for a quote!",
+      "Industrial Switchgear Manufacturer offering reliable electrical switchgear solutions for industrial applications. Explore our products and contact us for a quote!",
     image: "/inquiry/Switchgear.webp",
     pdf: "",
     images: ["/inquiry/Switchgear.webp"],
@@ -3040,17 +3040,16 @@ export const products = [
   },
   {
     id: "industrial-electrical-switch-gear",
-    name: "Industrial Electrical Switchgear",
+    name: "Industrial Electrical Switchgear Manufacturer",
     catId: "switchgear",
     catName: "Switchgear",
     metaTitle:
-      "Industrial Electrical Switchgear Manufacturer | Power Distribution Solutions | Genzee Switchgear",
+      "Industrial Electrical Switchgear Manufacturer | Genzee Switchgear",
     metaDescription:
-      "Buy Industrial Electrical Switchgear from Genzee Switchgear. High-quality and reliable switchgear solutions for safe power control, distribution, and protection in industrial applications. Leading Switchgear Manufacturer in India.",
+      "Industrial Electrical Switchgear Manufacturer offering reliable switchgear solutions for industrial applications. Explore our products and request a quote today!",
     image: "/inquiry/Switchgear.webp",
     pdf: "",
     images: ["/inquiry/Switchgear.webp"],
-
     "Product Overview": [
       "The Industrial Electrical Switchgear (Magnetic Contactor Type) by Genzee Switchgears Private Limited, a leading Industrial Switchgear Manufacturer, is designed to provide efficient control and switching of electrical circuits in industrial applications",
       "Engineered with advanced magnetic contactor technology, this switchgear ensures reliable operation for starting, stopping, and controlling motors and heavy electrical loads",
