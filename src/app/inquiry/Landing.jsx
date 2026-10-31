@@ -11,14 +11,14 @@ import React from 'react'
 const Landing = () => {
   return (
     <>
-    <Hero/>
-    <CategoryRangeL popup={true}/>
-    <Whychoose/>
-    <CTASection/>
-    <ProductRangeL />
-    <Industries/>
-    <Example/>
-    <TestimonialSection/>
+      <Hero />
+      <CategoryRangeL popup={true} />
+      <Whychoose />
+      <CTASection />
+      <ProductRangeL />
+      <Industries />
+      <Example />
+      <TestimonialSection />
     </>
   )
 }

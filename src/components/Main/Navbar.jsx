@@ -18,6 +18,7 @@ import { usePathname } from "next/navigation";
 import { AiOutlineProduct } from "react-icons/ai";
 import { category } from "@/data/data";
 import SearchBar from "./SearchBar";
+import { handleCallClick, handleWhatsappClick } from "@/utils/track";
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -40,10 +41,10 @@ export default function Navbar() {
                 </div>
 
                 <div className="flex gap-4 items-center text-black text-lg ml-auto">
-                    <a aria-label="Call us" href="tel:+919136508089" target="_blank" rel="noopener noreferrer">
+                    <a onClick={() => handleCallClick({ source: "Website home page", obj: "N/A" })} aria-label="Call us" href="tel:+919136508089" target="_blank" rel="noopener noreferrer">
                         <FaPhoneAlt className="cursor-pointer hover:text-red-400" size={18} />
                     </a>
-                    <a aria-label="Chat on WhatsApp" href="https://wa.me/+919136508089?text=Hello%2C%20I%20need%20a%20quotation%20for%20your%20switchgear%20products." target="_blank" rel="noopener noreferrer">
+                    <a onClick={() => handleWhatsappClick({ source: "Website home page", obj: "N/A" })} aria-label="Chat on WhatsApp" href="https://wa.me/+919136508089?text=Hello%2C%20I%20need%20a%20quotation%20for%20your%20switchgear%20products." target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp className="cursor-pointer hover:text-green-500" size={20} />
                     </a>
                     <a aria-label="Genzee Switchgears on Facebook" href="https://www.facebook.com/people/Genzee-Switchgears/61588682865617/" target="_blank" rel="noopener noreferrer">

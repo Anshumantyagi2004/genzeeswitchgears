@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import PopupForm from "./ContactPopup";
 import { useState } from "react";
+import { handleCallClick } from "@/utils/track";
 
 export default function CTASection() {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,8 +57,8 @@ export default function CTASection() {
           </motion.button>
 
           {/* Call Button */}
-          <motion.a
-            href="tel:+919136508089" 
+          <motion.a onClick={() => handleCallClick({ source: "Website home page", obj: "N/A" })}
+            href="tel:+919136508089"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-white text-gray-900 px-6 py-3 rounded-md font-medium hover:bg-gray-200 transition"

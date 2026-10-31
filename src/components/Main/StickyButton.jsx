@@ -3,14 +3,15 @@ import React from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa6'
 import { usePathname } from "next/navigation";
+import { handleCallClick, handleWhatsappClick } from '@/utils/track';
 
 export default function StickyButton() {
     const pathname = usePathname();
 
-  // Hide on inquiry page
-  if (pathname === "/inquiry") return null;
+    // Hide on inquiry page
+    if (pathname === "/inquiry") return null;
     return (<>
-        <a href="https://wa.me/+919136508089"
+        <a onClick={() => handleWhatsappClick({ source: "Website home page", obj: "N/A" })} href="https://wa.me/+919136508089"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Chat on WhatsApp "
@@ -20,7 +21,7 @@ export default function StickyButton() {
         </a>
 
 
-        <a href="tel:+919136508089"
+        <a onClick={() => handleCallClick({ source: "Website home page", obj: "N/A" })} href="tel:+919136508089"
             aria-label="Call Us"
             className="fixed bottom-21 right-4 z-50 bg-red-500 text-white p-3 rounded-full shadow-lg hover:bg-red-600 transition animate-bounce"
         >

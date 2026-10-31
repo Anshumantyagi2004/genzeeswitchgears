@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FaPhoneAlt, FaFileAlt, FaEnvelope } from "react-icons/fa";
 import PopupForm from "../Main/ContactPopup";
 import { useState } from "react";
+import { handleCallClick } from "@/utils/track";
 
 export default function CTA() {
   const [isOpen, setIsOpen] = useState(false);
@@ -73,7 +74,7 @@ export default function CTA() {
           </Link>
 
           {/* Call */}
-          <Link
+          <Link onClick={() => handleCallClick({ source: "Website home page", obj: "N/A" })}
             href="tel:+919136508089"
             className="flex items-center justify-center gap-2 px-6 py-3 bg-cyan-500 hover:bg-cyan-600 transition rounded-xl font-semibold shadow-lg"
           >

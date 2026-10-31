@@ -19,6 +19,7 @@ import "swiper/css/thumbs";
 import "swiper/css/effect-fade";
 import { BsEye } from "react-icons/bs";
 import { RxCross2 } from "react-icons/rx";
+import { handleCallClick, handleWhatsappClick } from "@/utils/track";
 
 
 
@@ -53,25 +54,25 @@ export default function ProductPage() {
 
     ...(product.SPN
       ? [
-          {
-            id: "spn",
-            label: "SPN Distribution Board",
-            data: product.SPN,
-          },
-        ]
+        {
+          id: "spn",
+          label: "SPN Distribution Board",
+          data: product.SPN,
+        },
+      ]
       : []),
 
     ...(product.TPN
       ? [
-          {
-            id: "tpn",
-            label: "TPN Distribution Board",
-            data: product.TPN,
-          },
-        ]
+        {
+          id: "tpn",
+          label: "TPN Distribution Board",
+          data: product.TPN,
+        },
+      ]
       : []),
   ];
-const activeTabData = tabs.find((t) => t.id === activeTab);
+  const activeTabData = tabs.find((t) => t.id === activeTab);
   return (
     <div className="bg-gray-200">
       <div className="px-4 md:px-15 py-4 text-base text-gray-600">
@@ -150,7 +151,7 @@ const activeTabData = tabs.find((t) => t.id === activeTab);
           </p>
 
           <div className="flex flex-wrap gap-4 mt-6">
-            <a
+            <a onClick={() => handleWhatsappClick({ source: "Website product page", obj: product.name || "N/A" })}
               href="https://wa.me/+919136508089"
               target="_blank"
               className="relative border border-gray-300 flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-md overflow-hidden group"
@@ -160,7 +161,7 @@ const activeTabData = tabs.find((t) => t.id === activeTab);
               <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-bottom"></span>
             </a>
 
-            <a
+            <a onClick={() => handleCallClick({ source: "Website product page", obj: product.name || "N/A" })}
               href="tel:+919136508089"
               target="_blank"
               className="relative border border-gray-300 flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-md overflow-hidden group"
@@ -169,13 +170,13 @@ const activeTabData = tabs.find((t) => t.id === activeTab);
               Inquiry Now
               <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-bottom"></span>
             </a>
-{product && product.pdf ? (
-            <button className="relative border border-gray-300 flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-md overflow-hidden group">
-              <FaFilePdf size={20} />
-              Brochure
-              <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-bottom"></span>
-            </button>
-) : null }
+            {product && product.pdf ? (
+              <button className="relative border border-gray-300 flex items-center gap-2 bg-gray-200 text-black px-6 py-2 rounded-md overflow-hidden group">
+                <FaFilePdf size={20} />
+                Brochure
+                <span className="absolute left-0 bottom-0 w-full h-[2px] bg-gray-800 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-bottom"></span>
+              </button>
+            ) : null}
           </div>
         </motion.div>
       </div>
@@ -209,9 +210,9 @@ const activeTabData = tabs.find((t) => t.id === activeTab);
               transition={{ duration: 0.3 }}
               className="bg-white p-6 rounded-xl shadow"
             >
-                <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-    {activeTabData?.label}
-  </h2>
+              <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
+                {activeTabData?.label}
+              </h2>
               {activeTab === "specs" ? (
                 product.specs ? (
                   // 🔹 Normal Specs View

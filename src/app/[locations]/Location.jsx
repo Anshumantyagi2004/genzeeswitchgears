@@ -20,6 +20,7 @@ import {
 import { motion } from "framer-motion";
 import Industries from '@/components/Main/Industries';
 import CTA from '@/components/Home/ContactCta';
+import { handleCallClick } from '@/utils/track';
 
 export default function Location() {
     const params = useParams();
@@ -173,37 +174,37 @@ export default function Location() {
         <CategoryRange popup={true} />
 
         <section className="max-w-7xl mx-auto bg-gray-50">
-        <section className="w-full py-10 px-4 lg:px-15 bg-gray-50">
-            <div className="grid lg:grid-cols-2 gap-10 items-center">
-                <div>
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                        Powering Reliable Electrical Solutions
-                    </h2>
+            <section className="w-full py-10 px-4 lg:px-15 bg-gray-50">
+                <div className="grid lg:grid-cols-2 gap-10 items-center">
+                    <div>
+                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                            Powering Reliable Electrical Solutions
+                        </h2>
 
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                        Genzee Switchgear is a trusted <strong>Switchgear Manufacturer in {cityName}</strong>,
-                        known for delivering reliable and high-performance electrical
-                        solutions. With a strong focus on quality, safety, and innovation,
-                        we design and manufacture advanced switchgear systems that ensure
-                        efficient power distribution across residential, commercial, and
-                        industrial sectors. Our products are built using modern technology and premium
-                        components, meeting stringent industry standards for durability and performance.
-                    </p>
+                        <p className="text-gray-700 mb-4 leading-relaxed">
+                            Genzee Switchgear is a trusted <strong>Switchgear Manufacturer in {cityName}</strong>,
+                            known for delivering reliable and high-performance electrical
+                            solutions. With a strong focus on quality, safety, and innovation,
+                            we design and manufacture advanced switchgear systems that ensure
+                            efficient power distribution across residential, commercial, and
+                            industrial sectors. Our products are built using modern technology and premium
+                            components, meeting stringent industry standards for durability and performance.
+                        </p>
 
-                    <p className="text-gray-700 leading-relaxed">
-                        Driven by a customer-centric approach, our team of experienced engineers works closely with clients to provide customized solutions tailored to their specific requirements. At Genzee Switchgear, we are committed to powering infrastructure with dependable systems while continuously evolving through innovation and excellence. Our goal is to remain a preferred <strong>Switchgear Manufacturer in {cityName},</strong> delivering solutions that combine efficiency, safety, and long-term value.
-                    </p>
+                        <p className="text-gray-700 leading-relaxed">
+                            Driven by a customer-centric approach, our team of experienced engineers works closely with clients to provide customized solutions tailored to their specific requirements. At Genzee Switchgear, we are committed to powering infrastructure with dependable systems while continuously evolving through innovation and excellence. Our goal is to remain a preferred <strong>Switchgear Manufacturer in {cityName},</strong> delivering solutions that combine efficiency, safety, and long-term value.
+                        </p>
+                    </div>
+
+                    <div className="w-full">
+                        <img
+                            src="/2.jpeg" // replace with your image path
+                            alt="Switchgear System"
+                            className="w-full h-[350px] md:h-[450px] object-cover rounded-2xl shadow-lg"
+                        />
+                    </div>
                 </div>
-
-                <div className="w-full">
-                    <img
-                        src="/2.jpeg" // replace with your image path
-                        alt="Switchgear System"
-                        className="w-full h-[350px] md:h-[450px] object-cover rounded-2xl shadow-lg"
-                    />
-                </div>
-            </div>
-        </section>
+            </section>
         </section>
 
         <StatsSection />
@@ -225,85 +226,23 @@ export default function Location() {
 
             {/* Grid */}
             <div className='max-w-7xl mx-auto'>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                {features.map((item, index) => {
-                    const Icon = item.icon;
-                    return (
-                        <div
-                            key={index}
-                            className="bg-gray-100 rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300 group"
-                        >
-                            {/* Icon */}
-                            <div
-                                className={`w-14 h-14 flex items-center justify-center rounded-xl bg-gradient-to-r ${item.color} text-white mb-5 group-hover:scale-110 transition`}
-                            >
-                                <Icon size={28} />
-                            </div>
-
-                            {/* Content */}
-                            <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                                {item.title}
-                            </h3>
-                            <p className="text-gray-600 text-sm leading-relaxed">
-                                {item.desc}
-                            </p>
-                        </div>
-                    );
-                })}
-            </div>
-            </div>
-        </section>
-
-        <section className="max-w-7xl mx-auto bg-gray-200">
-        <section className="w-full py-10 px-4 lg:px-15 bg-gray-200">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-                {/* Heading */}
-                <div className="">
-                    <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-                        Leading Switchgear Manufacturer in {cityName}
-                    </h1>
-
-                    <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                        Genzee Switchgear has established itself as a reliable Switchgear Manufacturer in {cityName},
-                        catering to the growing demand for safe and efficient power distribution solutions.
-                        With a strong understanding of local infrastructure requirements and industry standards,
-                        we deliver systems built for performance, durability, and long-term reliability.
-                    </p>
-                    {/* Bottom Paragraph */}
-                    <p className="text-gray-700 leading-relaxed text-lg mb-6">
-                        As a trusted Switchgear Manufacturer in {cityName}, Genzee Switchgear continues
-                        to deliver high-quality, customized electrical solutions that support the
-                        city’s growing infrastructure and energy needs.
-                    </p>
-
-                    {/* Call Button */}
-                    <motion.a
-                        href="tel:+919136508089" // 👉 replace number
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="bg-gray-800 text-white px-6 py-3 rounded-md font-medium hover:bg-gray-900 transition"
-                    >
-                        Request a Callback
-                    </motion.a>
-                </div>
-
-                {/* Grid Cards */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    {features2.map((item, index) => {
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {features.map((item, index) => {
                         const Icon = item.icon;
                         return (
                             <div
                                 key={index}
-                                className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 group"
+                                className="bg-gray-100 rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300 group"
                             >
                                 {/* Icon */}
                                 <div
-                                    className={`w-12 h-12 flex items-center justify-center rounded-lg bg-gradient-to-r ${item.color} text-white mb-4 group-hover:scale-110 transition`}
+                                    className={`w-14 h-14 flex items-center justify-center rounded-xl bg-gradient-to-r ${item.color} text-white mb-5 group-hover:scale-110 transition`}
                                 >
-                                    <Icon size={24} />
+                                    <Icon size={28} />
                                 </div>
 
-                                <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                                {/* Content */}
+                                <h3 className="text-xl font-semibold text-gray-800 mb-3">
                                     {item.title}
                                 </h3>
                                 <p className="text-gray-600 text-sm leading-relaxed">
@@ -315,6 +254,68 @@ export default function Location() {
                 </div>
             </div>
         </section>
+
+        <section className="max-w-7xl mx-auto bg-gray-200">
+            <section className="w-full py-10 px-4 lg:px-15 bg-gray-200">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    {/* Heading */}
+                    <div className="">
+                        <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
+                            Leading Switchgear Manufacturer in {cityName}
+                        </h1>
+
+                        <p className="text-gray-700 leading-relaxed text-lg mb-4">
+                            Genzee Switchgear has established itself as a reliable Switchgear Manufacturer in {cityName},
+                            catering to the growing demand for safe and efficient power distribution solutions.
+                            With a strong understanding of local infrastructure requirements and industry standards,
+                            we deliver systems built for performance, durability, and long-term reliability.
+                        </p>
+                        {/* Bottom Paragraph */}
+                        <p className="text-gray-700 leading-relaxed text-lg mb-6">
+                            As a trusted Switchgear Manufacturer in {cityName}, Genzee Switchgear continues
+                            to deliver high-quality, customized electrical solutions that support the
+                            city’s growing infrastructure and energy needs.
+                        </p>
+
+                        {/* Call Button */}
+                        <motion.a onClick={() => handleCallClick({ source: "Website city page", obj: "N/A" })}
+                            href="tel:+919136508089" // 👉 replace number
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            className="bg-gray-800 text-white px-6 py-3 rounded-md font-medium hover:bg-gray-900 transition"
+                        >
+                            Request a Callback
+                        </motion.a>
+                    </div>
+
+                    {/* Grid Cards */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        {features2.map((item, index) => {
+                            const Icon = item.icon;
+                            return (
+                                <div
+                                    key={index}
+                                    className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 group"
+                                >
+                                    {/* Icon */}
+                                    <div
+                                        className={`w-12 h-12 flex items-center justify-center rounded-lg bg-gradient-to-r ${item.color} text-white mb-4 group-hover:scale-110 transition`}
+                                    >
+                                        <Icon size={24} />
+                                    </div>
+
+                                    <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                                        {item.title}
+                                    </h3>
+                                    <p className="text-gray-600 text-sm leading-relaxed">
+                                        {item.desc}
+                                    </p>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </div>
+            </section>
         </section>
 
         <Industries />
