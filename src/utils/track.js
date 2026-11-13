@@ -4,11 +4,13 @@ const TRACKING_API = "https://brandbnalo.com/api/tracking/create";
 const DEFAULT_SUPPLIER_TOKEN = process.env.NEXT_PUBLIC_SUPPLIER_TOKEN || "6a9be2a6f6505f7f9d749f1d";
 
 export const trackEvent = ({ eventType, obj = null, source = "Website", supplierToken, }) => {
+    const webisteUrl = window.location.hostname + window.location.pathname;
+
     const payload = {
         productId: obj || "N/A",
         supplierToken: supplierToken || obj?.supplierToken || DEFAULT_SUPPLIER_TOKEN,
         eventType,
-        source,
+        source: webisteUrl || source,
     };
 
     if (!payload.supplierToken) {
@@ -30,7 +32,7 @@ export const trackEvent = ({ eventType, obj = null, source = "Website", supplier
 };
 
 // Call tracking
-export const handleCallClick = ({ obj = null, source = "Website", supplierToken, }) => {
+export const handleCallClick = ({ obj = null, source = "Website", supplierToken, } = {}) => {
     trackEvent({
         eventType: "call_click",
         obj,
@@ -40,7 +42,7 @@ export const handleCallClick = ({ obj = null, source = "Website", supplierToken,
 };
 
 // WhatsApp tracking
-export const handleWhatsappClick = ({ obj = null, source = "Website", supplierToken, }) => {
+export const handleWhatsappClick = ({ obj = null, source = "Website", supplierToken, } = {}) => {
     trackEvent({
         eventType: "whatsapp_click",
         obj,
