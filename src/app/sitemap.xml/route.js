@@ -85,7 +85,7 @@ export async function GET() {
         .filter((blog) => blog?.permalink)
         .map((blog) => `
     <url>
-      <loc>${escapeXml(`${baseUrl}/articles/${blog.permalink}`)}</loc>
+      <loc>${escapeXml(`${baseUrl}/our-articles/${blog.permalink}`)}</loc>
       <lastmod>${blog.date ? new Date(blog.date).toISOString() : now
             }</lastmod>
       <changefreq>monthly</changefreq>
